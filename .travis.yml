@@ -1,0 +1,18 @@
+language: node_js
+sudo: false
+branches:
+  only:
+  - master
+before_install:
+- openssl aes-256-cbc -K $encrypted_ed639e6aae75_key -iv $encrypted_ed639e6aae75_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- eval $(ssh-agent)
+- ssh-add ~/.ssh/id_rsa
+- cp .travis/ssh_config ~/.ssh/config
+- git config --global user.name 'huanz'
+- git config --global user.email 'yhz1219@gmail.com'
+script:
+- git clone git@git.coding.net:bukas/surge.git
+- cp ChinaUnicom.conf ChinaNet.conf CMCC.conf hosts surge
+- cd surge && git add -u
+- git push
