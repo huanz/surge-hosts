@@ -21,7 +21,7 @@ exports.update = function (params, cb) {
     // }
     var query = new AV.Query('Token');
     query.first().then(function(res) {
-        var GHTOKEN = res.token;
+        var GHTOKEN = res.get('token');
         var cmds = [];
         try {
             var stat = fs.statSync('AppleDNS');
