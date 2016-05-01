@@ -1,13 +1,14 @@
 var exec = require('child_process').exec;
 
 exports.exec = function (cmd, cb) {
+    console.log(cmd);
     var p = exec(cmd);
-    p.stdout.on('data', function (data) {
-        console.log(data);
-    });
-    p.stderr.on('data', function (data) {
-        console.log(data);
-    });
+    // p.stdout.on('data', function (data) {
+    //     console.log(data);
+    // });
+    // p.stderr.on('data', function (data) {
+    //     console.log(data);
+    // });
     p.on('close', function (code) {
         var err = null;
         if (code) {

@@ -79,7 +79,7 @@ exports.update = function (params, cb) {
                     shell.series([
                         'cp hosts/hosts surge-hosts',
                         'cd surge-hosts && git add -u',
-                        'cd surge-hosts && git git commit -m "hosts updated at $(date -u +\'%Y-%m-%d %H:%M:%S\')"',
+                        'cd surge-hosts && git commit -m "hosts updated at $(date -u +\'%Y-%m-%d %H:%M:%S\')"',
                         'cd surge-hosts && git branch -m master',
                         'cd surge-hosts && git push -q ' + GHTOKEN + ' HEAD:master'
                     ], function (err) {
