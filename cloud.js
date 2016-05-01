@@ -17,6 +17,7 @@ var confPrefix = [
 ];
 
 AV.Cloud.define('surge', function (req, res) {
+    console.log(GHTOKEN);
     var time = req.params.time;
     if (Date.now() - time < 60 * 60 * 1000) {
         res.error('更新频率过高');
