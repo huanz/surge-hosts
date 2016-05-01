@@ -15,4 +15,4 @@ before_install:
 script:
 - git clone git@git.coding.net:bukas/surge.git
 - cp ChinaUnicom.conf ChinaNet.conf CMCC.conf surge
-- cd surge && git add -u && git commit -m 'update by travis at $(date -u +"%Y-%m-%d %H:%M:%S")' && git push
+- cd surge && git add -u && git commit -m "updated by travis at $(date -u +'%Y-%m-%d %H:%M:%S')" && git push
