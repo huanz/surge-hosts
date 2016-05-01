@@ -1,5 +1,7 @@
 # surge-hosts
 
+[![surge-hosts](https://travis-ci.org/huanz/surge-hosts.svg)](https://travis-ci.org/huanz/surge-hosts)
+
 ## hosts
 
 [hosts](https://raw.githubusercontent.com/huanz/surge-hosts/master/hosts)
