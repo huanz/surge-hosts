@@ -23,13 +23,23 @@ exports.update = function (params, cb) {
     query.first().then(function(res) {
         var GHTOKEN = res.token;
         var cmds = [];
-        if (fs.statSync('AppleDNS').isDirectory()) {
-            cmds = [
-                'cd hosts && git pull',
-                'cd surge-hosts && git pull',
-                'cd AppleDNS && git pull'
-            ];
-        } else {
+        try {
+            var stat = fs.statSync('AppleDNS');
+            if (stat.isDirectory()) {
+                cmds = [
+                    'cd hosts && git pull',
+                    'cd surge-hosts && git pull',
+                    'cd AppleDNS && git pull'
+                ];
+            } else {
+                cmds = [
+                    'rm -rf hosts surge-hosts AppleDNS',
+                    'git clone --depth 1 --branch master --single-branch https://github.com/racaljk/hosts.git',
+                    'git clone --depth 1 --branch master --single-branch ' + GHTOKEN,
+                    'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git'
+                ];
+            }
+        } catch (e) {
             cmds = [
                 'git clone --depth 1 --branch master --single-branch https://github.com/racaljk/hosts.git',
                 'git clone --depth 1 --branch master --single-branch ' + GHTOKEN,
