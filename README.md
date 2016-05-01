@@ -1,8 +1,8 @@
 # surge-hosts
 
-## pc-hosts
+## hosts
 
-[pc-hosts](https://raw.githubusercontent.com/huanz/surge-hosts/master/pc-hosts)
+[hosts](https://raw.githubusercontent.com/huanz/surge-hosts/master/hosts)
 
 for pc, just copy from [racaljk/hosts](https://github.com/racaljk/hosts)
 
