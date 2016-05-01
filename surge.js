@@ -81,7 +81,7 @@ exports.update = function (params, cb) {
                         'cd surge-hosts && git add -u',
                         'cd surge-hosts && git git commit -m "hosts updated at $(date -u +\'%Y-%m-%d %H:%M:%S\')"',
                         'cd surge-hosts && git branch -m master',
-                        'git push -q ' + GHTOKEN + ' HEAD:master'
+                        'cd surge-hosts && git push -q ' + GHTOKEN + ' HEAD:master'
                     ], function (err) {
                         cb(err);
                     });
