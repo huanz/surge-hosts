@@ -9,7 +9,7 @@ exports.exec = function (cmd, cb) {
     p.stderr.on('data', function (data) {
         console.log(data);
     });
-    p.on('close', function (code) {
+    p.on('exit', function (code) {
         console.log(cmd + '------>end');
         var err = null;
         if (code) {
