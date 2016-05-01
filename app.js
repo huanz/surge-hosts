@@ -4,7 +4,7 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 var AV = require('leanengine');
-var cloud = require('./cloud');
+var surge = require('./surge');
 
 var status = {
     status: 0,
@@ -20,11 +20,11 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 // 加载云代码方法
-app.use(cloud);
+// app.use(cloud);
 
 // 使用 LeanEngine 中间件
 // （如果没有加载云代码方法请使用此方法，否则会导致部署失败，详细请阅读 LeanEngine 文档。）
-// app.use(AV.Cloud);
+app.use(AV.Cloud);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -55,12 +55,13 @@ app.get('/', function (req, res) {
 }).post('/', function (req, res) {
     if (!status.status) {
         status.status = 1;
-        AV.Cloud.run('surge', {
+        surge.update({
             time: Date.now()
-        }).then(function () {
-            status.time = Date.now();
-        }).finally(function () {
+        }, function (err) {
             status.status = 0;
+            if (!err) {
+                status.time = Date.now();
+            }
         });
     }
     res.render('index', status);
