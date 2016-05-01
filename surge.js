@@ -17,9 +17,9 @@ var confPrefix = [
 
 
 exports.update = function (params, cb) {
-    if (Date.now() - params.time < 60 * 60 * 1000) {
-        return cb('更新频率过高');
-    }
+    // if (Date.now() - params.time < 60 * 60 * 1000) {
+    //     return cb('更新频率过高');
+    // }
     AV.Cloud.run('GHTOKEN', {}).then(function (GHTOKEN) {
         var cmds = [];
         if (fs.statSync('AppleDNS').isDirectory()) {
