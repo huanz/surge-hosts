@@ -15,12 +15,13 @@ var confPrefix = [
     '[Host]'
 ];
 
-
 exports.update = function (params, cb) {
     // if (Date.now() - params.time < 60 * 60 * 1000) {
     //     return cb('更新频率过高');
     // }
-    AV.Cloud.run('GHTOKEN', {}).then(function (GHTOKEN) {
+    var query = new AV.Query('Token');
+    query.first().then(function(res) {
+        var GHTOKEN = res.token;
         var cmds = [];
         if (fs.statSync('AppleDNS').isDirectory()) {
             cmds = [
