@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>surge</title>
+    <style>
+        :disabled {
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>surge</h1>
+    <p>surge hosts update</p>
+    <form action="/" method="POST">
+        <input type="hidden" value="1" name="surge">
+        <button type="submit" <%= status ? 'disabled' : '' %>><%= status ? '正在更新hosts...' : '更新hosts' %></button>
+    </form>
+</body>
+</html>
