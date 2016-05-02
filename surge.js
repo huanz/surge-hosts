@@ -84,10 +84,14 @@ exports.update = function (params, cb) {
                         'cd surge-hosts && git push -q ' + GHTOKEN + ' HEAD:master'
                     ], function (err) {
                         cb(err);
+                        if (err) {
+                            console.log('update surge hosts error: ' + err);
+                            shell.exec('rm -rf surge-hosts');
+                        }
                     });
                 });
                 lr.on('error', function (err) {
-                    console.log('executed apple dns error: ' + err);
+                    console.log('read hosts error: ' + err);
                     cb(err);
                 });
             } else {
