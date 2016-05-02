@@ -16,9 +16,9 @@ var confPrefix = [
 ];
 
 exports.update = function (params, cb) {
-    // if (Date.now() - params.time < 60 * 60 * 1000) {
-    //     return cb('更新频率过高');
-    // }
+    if (Date.now() - params.time < 60 * 60 * 1000) {
+        return cb('更新频率过高');
+    }
     var query = new AV.Query('Token');
     query.first().then(function(res) {
         var GHTOKEN = res.get('token');
