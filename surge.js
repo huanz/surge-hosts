@@ -24,7 +24,7 @@ exports.update = function (params, cb) {
         var GHTOKEN = res.get('token');
         var cmds = [];
         try {
-            var stat = fs.statSync('AppleDNS');
+            var stat = fs.statSync('surge-hosts');
             if (stat.isDirectory()) {
                 cmds = [
                     'cd hosts && git pull',
