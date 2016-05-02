@@ -35,15 +35,15 @@ exports.update = function (params, cb) {
                 cmds = [
                     'rm -rf hosts surge-hosts AppleDNS',
                     'git clone --depth 1 --branch master --single-branch https://github.com/racaljk/hosts.git',
-                    'git clone --depth 1 --branch master --single-branch ' + GHTOKEN,
-                    'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git'
+                    'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git',
+                    'git clone --depth 1 --branch master --single-branch ' + GHTOKEN
                 ];
             }
         } catch (e) {
             cmds = [
                 'git clone --depth 1 --branch master --single-branch https://github.com/racaljk/hosts.git',
-                'git clone --depth 1 --branch master --single-branch ' + GHTOKEN,
-                'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git'
+                'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git',
+                'git clone --depth 1 --branch master --single-branch ' + GHTOKEN
             ];
         }
         shell.series(cmds.concat([
