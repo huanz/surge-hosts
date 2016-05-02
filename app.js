@@ -62,6 +62,8 @@ app.get('/', function (req, res) {
             if (!err) {
                 console.log('更新hosts成功');
                 status.time = Date.now();
+            } else {
+                console.log(err);
             }
         });
     }
