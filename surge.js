@@ -5,7 +5,7 @@ var shell = require('./shell');
 var ip = /^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])(\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])){3}/;
 
 exports.update = function (params, cb) {
-    if (Date.now() - params.time < 60 * 60 * 1000) {
+    if ((Date.now() - params.time) < 60 * 60 * 1000) {
         return cb('更新频率过高');
     }
     var query = new AV.Query('Token');
