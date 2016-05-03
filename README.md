@@ -8,6 +8,10 @@
 
 for pc, just copy from [racaljk/hosts](https://github.com/racaljk/hosts)
 
+## 运营商类型查看
+
+[ip138](http://1212.ip138.com/ic.asp)
+
 ## CMCC.conf
 
  中国移动用户surge conf：[http://surge.w3cboy.com/CMCC.conf](http://surge.w3cboy.com/CMCC.conf)
