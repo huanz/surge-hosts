@@ -53,7 +53,7 @@ app.get('/', function (req, res) {
     if (!status.status) {
         status.status = 1;
         surge.update({
-            time: Date.now()
+            time: status.time
         }, function (err) {
             status.status = 0;
             if (!err) {
