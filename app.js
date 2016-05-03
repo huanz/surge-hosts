@@ -1,16 +1,13 @@
 'use strict';
+var fs = require('fs');
 var domain = require('domain');
 var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 var AV = require('leanengine');
-var surge = require('./surge');
 
-var status = {
-    status: 0,
-    time: Date.now(),
-    msg: ''
-}
+var surge = require('./surge');
+var status = require('./status');
 
 var app = express();
 
@@ -62,6 +59,7 @@ app.get('/', function (req, res) {
             if (!err) {
                 console.log('更新hosts成功');
                 status.time = Date.now();
+                fs.writeFileSync('status.json', JSON.stringify(status));
             } else {
                 console.log(err);
             }

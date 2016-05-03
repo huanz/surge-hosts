@@ -3,17 +3,6 @@ var LineByLineReader = require('line-by-line');
 var AV = require('leanengine');
 var shell = require('./shell');
 var ip = /^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])(\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])){3}/;
-var confPrefix = [
-    '[General]',
-    'skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local',
-    'bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12',
-    'loglevel = notify',
-    '',
-    '[Rule]',
-    'FINAL,DIRECT',
-    '',
-    '[Host]'
-];
 
 exports.update = function (params, cb) {
     if (Date.now() - params.time < 60 * 60 * 1000) {
@@ -67,11 +56,10 @@ exports.update = function (params, cb) {
                     }
                 });
                 lr.on('end', function () {
-                    var all = confPrefix.concat(hostsArr);
                     var ChinaUnicom = fs.readFileSync('AppleDNS/ChinaUnicom.conf').toString().replace(/#[ \S]+\n/g, '');
                     var ChinaNet = fs.readFileSync('AppleDNS/ChinaNet.conf').toString().replace(/#[ \S]+\n/g, '');
                     var CMCC = fs.readFileSync('AppleDNS/CMCC.conf').toString().replace(/#[ \S]+\n/g, '');
-                    var final = all.join('\n') + '\n';
+                    var final = fs.readFileSync('surge.conf').toString() + hostsArr.join('\n') + '\n';
 
                     fs.writeFileSync('surge-hosts/ChinaUnicom.conf', final + ChinaUnicom);
                     fs.writeFileSync('surge-hosts/ChinaNet.conf', final + ChinaNet);
