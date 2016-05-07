@@ -1,13 +1,15 @@
 sudo: false
 language: node_js
 node_js:
-  - 4
+- 4
 branches:
   only:
   - source
 before_install:
-- openssl aes-256-cbc -K $encrypted_97126c56ec70_key -iv $encrypted_97126c56ec70_iv -in .avoscloud/apps.json.enc -out .avoscloud/apps.json -d
-- openssl aes-256-cbc -K $encrypted_97126c56ec70_key -iv $encrypted_97126c56ec70_iv -in .leancloud/app_keys.enc -out .leancloud/app_keys -d
+- openssl aes-256-cbc -K $encrypted_97126c56ec70_key -iv $encrypted_97126c56ec70_iv
+  -in .avoscloud/apps.json.enc -out .avoscloud/apps.json -d
+- openssl aes-256-cbc -K $encrypted_97126c56ec70_key -iv $encrypted_97126c56ec70_iv
+  -in .leancloud/app_keys.enc -out .leancloud/app_keys -d
 - cp -r .leancloud ~
 install:
 - npm install -g avoscloud-code
