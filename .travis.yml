@@ -11,3 +11,4 @@ install:
 - npm install -g avoscloud-code
 script:
 - lean deploy -g -r 'source' -o 'deploy by travis'
+- curl --request POST 'http://surge.leanapp.cn/'
