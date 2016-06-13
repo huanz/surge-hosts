@@ -48,7 +48,7 @@ exports.update = function (params, cb) {
                 var lr = new LineByLineReader('hosts/hosts');
                 lr.on('line', function (line) {
                     line = line.trim();
-                    if (!line.startsWith('#')) {
+                    if (line && !line.startsWith('#')) {
                         var tmp = line.split(/\s+/);
                         if (tmp[0] && tmp[1] && tmp[1] !== 'localhost' && tmp[1] !== 'broadcasthost') {
                             hostsArr.push(tmp[1] + ' = ' + tmp[0]);
