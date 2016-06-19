@@ -50,7 +50,7 @@ exports.update = function (params, cb) {
                     line = line.trim();
                     if (line && !line.startsWith('#')) {
                         var tmp = line.split(/\s+/);
-                        if (tmp[0] && tmp[1] && tmp[1] !== 'localhost' && tmp[1] !== 'broadcasthost') {
+                        if (tmp[0] && tmp[1] && tmp[1] !== 'localhost' && tmp[1] !== 'broadcasthost' && tmp[1] !== 'm.youtube.com') {
                             hostsArr.push(tmp[1] + ' = ' + tmp[0]);
                         }
                     }
