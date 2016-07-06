@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-07-03
+# Last updated: 2016-07-05
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3497,10 +3497,11 @@ fe80::1%lo0	localhost
 # MEGA End
 
 # OneDrive Start
-65.54.187.24	account.live.com
-23.44.152.70	auth.gfx.ms
+65.55.163.79	account.live.com
+204.79.197.217	mail.live.com
+23.59.136.70	auth.gfx.ms
 131.253.61.66	login.live.com
-134.170.108.154	onedrive.live.com
+204.79.197.217	onedrive.live.com
 23.212.129.202	p.sfx.ms
 134.170.30.15	people.live.com
 134.170.30.15	profile.live.com
