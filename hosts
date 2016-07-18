@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-07-13
+# Last updated: 2016-07-18
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -564,6 +564,8 @@ fe80::1%lo0	localhost
 220.255.2.153	officialandroid.blogspot.com
 220.255.2.153	android-developers.blogspot.com
 220.255.2.153	android-developers.blogspot.hk
+220.255.2.135	program-think.blogspot.com
+220.255.2.153	developers.googleblog.com
 220.255.2.153	books.google.com
 220.255.2.153	books.google.com.hk
 220.255.2.153	bks0.books.google.com
@@ -994,13 +996,16 @@ fe80::1%lo0	localhost
 220.255.2.153	mts3.googleapis.com
 220.255.2.153	ct.googleapis.com
 220.255.2.153	commondatastorage.googleapis.com
-# 216.58.221.48	storage.googleapis.com
-# 216.58.221.48	bucket.commondatastorage.googleapis.com
-# 216.58.221.48	chromium-browser-symbols.commondatastorage.googleapis.com
-# 216.58.221.48	c.commondatastorage.googleapis.com
-# 216.58.221.48	doc-0a9v4-0agdq-s.googleusercontent.commondatastorage.googleapis.com
-# 216.58.221.48	gweb-letour.storage.googleapis.com
-# Googleaps End
+220.255.2.153	securetoken.googleapis.com
+220.255.2.153	firebasestorage.googleapis.com
+64.233.188.121	code.getmdl.io
+#216.58.221.48	storage.googleapis.com
+#216.58.221.48	bucket.commondatastorage.googleapis.com
+#216.58.221.48	chromium-browser-symbols.commondatastorage.googleapis.com
+#216.58.221.48	c.commondatastorage.googleapis.com
+#216.58.221.48	doc-0a9v4-0agdq-s.googleusercontent.commondatastorage.googleapis.com
+#216.58.221.48	gweb-letour.storage.googleapis.com
+#Googleaps End
 
 220.255.2.153	www.googlehosted.com
 220.255.2.153	base.googlehosted.com
@@ -2996,6 +3001,11 @@ fe80::1%lo0	localhost
 64.233.171.192	supl.google.com
 # Google:A-GPS End
 
+# Google:Made the code for girls
+216.239.38.21	madewithcode.com
+216.239.38.21	www.madewithcode.com
+# Google:Made the code for girls End
+
 # Google CN Start
 # 203.208.41.144	0.gvt0.cn
 # 203.208.41.144	1.gvt0.cn
@@ -3710,7 +3720,7 @@ fe80::1%lo0	localhost
 # Travis CI fastly CDN End
 
 # Github start
-192.30.252.141	gist.github.com
+192.30.253.119	gist.github.com
 # Github end
 
 #TensorFlow start
