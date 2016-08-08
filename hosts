@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-08-02
+# Last updated: 2016-08-07
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -79,6 +79,8 @@ fe80::1%lo0	localhost
 23.235.33.134	blog.disqus.com
 50.18.249.249	help.disqus.com
 23.235.33.134	content.disqus.com
+23.235.37.134	referrer.disqus.com
+23.235.37.134	apkpure.disqus.com
 # Disqus End
 
 #Dropbox Start
@@ -430,6 +432,7 @@ fe80::1%lo0	localhost
 220.255.2.153	goto.google.com
 220.255.2.153	gxc.google.com
 220.255.2.153	history.google.com
+220.255.2.153	myactivity.google.com
 220.255.2.153	investor.google.com
 220.255.2.153	jmt0.google.com
 220.255.2.153	keep.google.com
@@ -1047,6 +1050,8 @@ fe80::1%lo0	localhost
 220.255.2.153	bigcache.googleapis.com
 220.255.2.153	chart.googleapis.com
 220.255.2.153	content.googleapis.com
+220.255.2.153	khms0.googleapis.com
+220.255.2.153	khms1.googleapis.com
 220.255.2.153	maps.googleapis.com
 220.255.2.153	origin-commondatastorage.googleapis.com
 216.58.221.144	commondatastorage.googleapis.com
@@ -1074,7 +1079,7 @@ fe80::1%lo0	localhost
 #216.58.221.48	c.commondatastorage.googleapis.com
 #216.58.221.48	doc-0a9v4-0agdq-s.googleusercontent.commondatastorage.googleapis.com
 #216.58.221.48	gweb-letour.storage.googleapis.com
-#Googleaps End
+# Googleapis End
 
 220.255.2.153	www.googlehosted.com
 220.255.2.153	base.googlehosted.com
@@ -1280,6 +1285,15 @@ fe80::1%lo0	localhost
 220.255.2.153	play.google.com
 220.255.2.153	payments.google.com
 220.255.2.153	android.clients.google.com
+220.255.2.153	withgoogle.com
+220.255.2.153	www.withgoogle.com
+220.255.2.153	edutrainingcenter.withgoogle.com
+220.255.2.153	earthview.withgoogle.com
+220.255.2.153	lightsaber.withgoogle.com
+220.255.2.153	britishmuseum.withgoogle.com
+220.255.2.153	beyondthemap.withgoogle.com
+220.255.2.153	analyticsacademy.withgoogle.com
+220.255.2.153	spellup.withgoogle.com
 
 # Googleusercontent Start
 220.255.2.153	www.googleusercontent.com
@@ -3799,7 +3813,7 @@ fe80::1%lo0	localhost
 #TensorFlow end
 
 # W3schools Start
-68.232.44.251	w3schools.com
+66.29.212.110	w3schools.com
 68.232.44.251	www.w3schools.com
 # W3schools End
 
