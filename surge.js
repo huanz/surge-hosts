@@ -3,6 +3,27 @@ var LineByLineReader = require('line-by-line');
 var AV = require('leanengine');
 var shell = require('./shell');
 var ip = /^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])(\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])){3}/;
+var formatNow = function (fmt) {
+    var now = new Date();
+    var o = {
+        'M+': now.getMonth() + 1, //月份 
+        'd+': now.getDate(), //日 
+        'h+': now.getHours(), //小时 
+        'm+': now.getMinutes(), //分 
+        's+': now.getSeconds(), //秒 
+        'q+': Math.floor((now.getMonth() + 3) / 3), //季度 
+        'S': now.getMilliseconds() //毫秒 
+    };
+    if (/(y+)/.test(fmt)) {
+        fmt = fmt.replace(RegExp.$1, (now.getFullYear() + '').substr(4 - RegExp.$1.length));
+    }
+    for (var k in o) {
+        if (new RegExp('(' + k + ')').test(fmt)) {
+            fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (('' + o[k]).substr(('' + o[k]).length)));
+        }
+    }
+    return fmt;
+};
 
 exports.update = function (params, cb) {
     if ((Date.now() - params.time) < 60 * 60 * 1000) {
@@ -69,7 +90,7 @@ exports.update = function (params, cb) {
                         'git config --global user.name "huanz"',
                         'git config --global user.email "yhz1219@gmail.com"',
                         'cd surge-hosts && git add -u',
-                        'cd surge-hosts && git commit -m "hosts updated at $(date -u +\'%Y-%m-%d %H:%M:%S\')"',
+                        'cd surge-hosts && git commit -m "hosts updated at ' + formatNow('yyyy-MM-dd HH:mm:ss') + '"',
                         'cd surge-hosts && git branch -m master',
                         'cd surge-hosts && git push -q ' + GHTOKEN + ' HEAD:master'
                     ], function (err) {
