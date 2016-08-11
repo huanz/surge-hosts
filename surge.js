@@ -19,7 +19,7 @@ var formatNow = function (fmt) {
     }
     for (var k in o) {
         if (new RegExp('(' + k + ')').test(fmt)) {
-            fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (('' + o[k]).substr(('' + o[k]).length)));
+            fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (('00' + o[k]).substr(('' + o[k]).length)));
         }
     }
     return fmt;
@@ -90,7 +90,7 @@ exports.update = function (params, cb) {
                         'git config --global user.name "huanz"',
                         'git config --global user.email "yhz1219@gmail.com"',
                         'cd surge-hosts && git add -u',
-                        'cd surge-hosts && git commit -m "hosts updated at ' + formatNow('yyyy-MM-dd HH:mm:ss') + '"',
+                        'cd surge-hosts && git commit -m "hosts updated at ' + formatNow('yyyy-MM-dd hh:mm:ss') + '"',
                         'cd surge-hosts && git branch -m master',
                         'cd surge-hosts && git push -q ' + GHTOKEN + ' HEAD:master'
                     ], function (err) {
