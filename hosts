@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-08-17
+# Last updated: 2016-08-18
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -424,6 +424,8 @@ fe80::1%lo0	localhost
 220.255.2.153	contributor.google.com
 220.255.2.153	desktop.google.com
 220.255.2.153	desktop2.google.com
+220.255.2.153	dl.google.com
+220.255.2.153	dl.l.google.com
 220.255.2.153	encrypted.google.com
 220.255.2.153	encrypted-tbn0.google.com
 220.255.2.153	encrypted-tbn1.google.com
@@ -1283,6 +1285,7 @@ fe80::1%lo0	localhost
 220.255.2.153	connectivitycheck.android.com
 220.255.2.153	developer.android.com
 220.255.2.153	dev.android.com
+220.255.2.153	d.android.com
 64.233.188.121	b.android.com
 64.233.188.121	tools.android.com
 220.255.2.153	source.android.com
@@ -3105,8 +3108,6 @@ fe80::1%lo0	localhost
 # 203.208.41.144	blogsearch.google.cn
 # 203.208.41.144	books.google.cn
 # 203.208.41.144	ditu.google.cn
-# 203.208.41.144	dl.google.com
-# 203.208.41.144	dl.l.google.com
 # 203.208.41.144	fonts.googleapis.com
 # 203.208.41.144	g.cn
 # 203.208.41.144	gg.google.cn
