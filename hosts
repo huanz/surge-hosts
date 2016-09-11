@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-09-10
+# Last updated: 2016-09-11
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -154,6 +154,8 @@ fe80::1%lo0	localhost
 31.13.95.17	secure.facebook.com
 31.13.95.17	zh-cn.facebook.com
 31.13.95.17	login.facebook.com
+31.13.95.17	i.facebook.com
+31.13.95.17	im.facebook.com
 #50.63.202.88	message-facebook.com
 31.13.95.17	attachments.facebook.com
 31.13.95.17	touch.facebook.com
@@ -3091,6 +3093,7 @@ fe80::1%lo0	localhost
 64.233.188.121	www.thegobridgeoglepuzzle.com
 64.233.188.121	www.googlezeitgeist.com
 64.233.188.121	news.dartlang.org
+64.233.188.121	dartpad.dartlang.org
 # Google:ghs End
 
 # Google:gcm Start
