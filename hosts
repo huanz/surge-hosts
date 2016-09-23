@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-09-21
+# Last updated: 2016-09-23
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3790,6 +3790,9 @@ fe80::1%lo0	localhost
 69.147.76.173	flickr.com
 106.10.137.175	geo.query.yahoo.com
 217.12.13.41	geo.yahoo.com
+203.84.197.27	finance.yahoo.com
+121.101.144.112	hk.finance.yahoo.com
+27.123.201.252	tw.finance.yahoo.com
 119.160.254.215	h.yimg.com
 106.10.199.10	hk.news.yahoo.com
 106.10.138.240	hk.yahoo.com
