@@ -413,8 +413,10 @@ fe80::1%lo0	localhost
 220.255.2.153	com.google
 220.255.2.153	admin.google.com
 220.255.2.153	accounts.google.com
+220.255.2.153	accounts.google.cn
 220.255.2.153	aboutme.google.com
 220.255.2.153	passwords.google.com
+220.255.2.153	privacy.google.com
 220.255.2.153	takeout.google.com
 220.255.2.153	bpui0.google.com
 220.255.2.153	cse.google.com
@@ -580,6 +582,7 @@ fe80::1%lo0	localhost
 220.255.2.153	uploads.stage.gdata.youtube.com
 220.255.2.153	answers.google.com
 220.255.2.153	wenda.google.com.hk
+220.255.2.153	analytics.googleblog.com
 220.255.2.153	android.googleblog.com
 220.255.2.153	research.googleblog.com
 220.255.2.153	security.googleblog.com
@@ -667,8 +670,10 @@ fe80::1%lo0	localhost
 220.255.2.153	calendar.google.com
 220.255.2.153	checkout.google.com
 220.255.2.153	wallet.google.com
+220.255.2.153	chrome.com
 220.255.2.153	www.chrome.com
 220.255.2.153	developer.chrome.com
+220.255.2.153	www.chromestatus.com
 220.255.2.153	chrome.google.com
 220.255.2.153	browsersync.google.com
 220.255.2.153	toolbarqueries.google.com
@@ -676,6 +681,7 @@ fe80::1%lo0	localhost
 220.255.2.153	toolbarqueries.clients.google.com
 220.255.2.153	chromium.org
 220.255.2.153	www.chromium.org
+220.255.2.153	cs.chromium.org
 220.255.2.153	dev.chromium.org
 220.255.2.153	blog.chromium.org
 64.233.188.121	bugs.chromium.org
@@ -685,6 +691,9 @@ fe80::1%lo0	localhost
 # 220.255.2.153	codereview.chromium.org
 #220.255.2.153	dl.google.com
 #220.255.2.153	dl.l.google.com
+220.255.2.153	www.appspot.com
+220.255.2.153	appspot.com
+220.255.2.153	apis-explorer.appspot.com
 220.255.2.153	betaspike.appspot.com
 220.255.2.153	hstspreload.appspot.com
 220.255.2.153	chrome-devtools-frontend.appspot.com
@@ -926,6 +935,7 @@ fe80::1%lo0	localhost
 220.255.2.153	sb.google.com
 220.255.2.153	sb-ssl.google.com
 220.255.2.153	safebrowsing.google.com
+220.255.2.153	search.google.com
 220.255.2.153	alt1-safebrowsing.google.com
 220.255.2.153	safebrowsing.clients.google.com
 220.255.2.153	safebrowsing-cache.google.com
@@ -980,6 +990,7 @@ fe80::1%lo0	localhost
 220.255.2.153	www.registry.google
 220.255.2.153	www.domains.google
 220.255.2.153	registry.google
+220.255.2.153	apikeys.clients6.google.com
 220.255.2.153	servicemanagement.clients6.google.com
 220.255.2.153	cloudconsole-pa.clients6.google.com
 220.255.2.153	iam.clients6.google.com
@@ -1065,7 +1076,7 @@ fe80::1%lo0	localhost
 220.255.2.153	chart.apis.google.com
 220.255.2.153	googleapis.com
 220.255.2.153	www.googleapis.com
-220.255.2.153	ajax.googleapis.com
+64.233.188.214	ajax.googleapis.com
 220.255.2.153	android.googleapis.com
 220.255.2.153	bigcache.googleapis.com
 220.255.2.153	chart.googleapis.com
@@ -1080,6 +1091,7 @@ fe80::1%lo0	localhost
 220.255.2.153	redirector-bigcache.googleapis.com
 220.255.2.153	translate.googleapis.com
 220.255.2.153	youtube.googleapis.com
+220.255.2.153	youtubei.googleapis.com
 220.255.2.153	mt0.googleapis.com
 220.255.2.153	mt1.googleapis.com
 220.255.2.153	mt2.googleapis.com
@@ -1091,6 +1103,8 @@ fe80::1%lo0	localhost
 220.255.2.153	ct.googleapis.com
 220.255.2.153	securetoken.googleapis.com
 220.255.2.153	firebasestorage.googleapis.com
+220.255.2.153	www--google--com.safenup.googleusercontent.com
+220.255.2.153	www--google--com--hk.safenup.googleusercontent.com
 64.233.188.121	code.getmdl.io
 64.233.189.128	storage.googleapis.com
 #216.58.221.48	bucket.commondatastorage.googleapis.com
@@ -1228,7 +1242,6 @@ fe80::1%lo0	localhost
 220.255.2.153	spreadsheets.l.google.com
 220.255.2.153	spreadsheets-china.l.google.com
 220.255.2.153	sslvideo-upload.l.google.com
-220.255.2.153	ssl-google-analytics.l.google.com
 220.255.2.153	static.cache.l.google.com
 220.255.2.153	suggestqueries.l.google.com
 220.255.2.153	tbn.l.google.com
@@ -1304,6 +1317,7 @@ fe80::1%lo0	localhost
 220.255.2.153	source.android.com
 220.255.2.153	a.android.com
 220.255.2.153	market.android.com
+220.255.2.153	mcs.android.com
 220.255.2.153	play.google.com
 220.255.2.153	payments.google.com
 220.255.2.153	android.clients.google.com
@@ -1326,6 +1340,7 @@ fe80::1%lo0	localhost
 220.255.2.153	googlehosted.l.googleusercontent.com
 220.255.2.153	googlecode.l.googleusercontent.com
 220.255.2.153	googlegroups.l.googleusercontent.com
+220.255.2.153	markuphelper.googleusercontent.com
 220.255.2.153	orkut-opensocial.l.googleusercontent.com
 220.255.2.153	photos-ugc.l.googleusercontent.com
 220.255.2.153	storage.l.googleusercontent.com
@@ -3154,8 +3169,9 @@ fe80::1%lo0	localhost
 # 203.208.41.144	pagead2.googlesyndication.com
 # 203.208.41.144	www.googletagservices.com
 # 203.208.41.144	www.google-analytics.com
-# 203.208.41.144	googleads.g.doubleclick.net
 # 203.208.41.144	ssl.google-analytics.com
+# 203.208.41.144	ssl-google-analytics.l.google.com
+# 203.208.41.144	googleads.g.doubleclick.net
 # 203.208.41.144	googletagmanager.com
 # 203.208.41.144	www.googletagmanager.com
 # 203.208.41.144	fonts.gstatic.com
@@ -3626,17 +3642,13 @@ fe80::1%lo0	localhost
 # MEGA End
 
 # OneDrive Start
-#65.55.163.79	account.live.com
-#204.79.197.217	mail.live.com
-#23.59.136.70	auth.gfx.ms
-#131.253.61.66	login.live.com
-#204.79.197.217	onedrive.live.com
-#23.212.129.202	p.sfx.ms
-#134.170.30.15	people.live.com
-#134.170.30.15	profile.live.com
-#134.170.111.96	skyapi.onedrive.live.com
-#134.170.104.168	storage.live.com
-#204.79.197.213	nhuhga.dm2301.livefilestore.com
+204.79.197.217	onedrive.live.com
+134.170.107.72	storage.live.com
+134.170.30.15	people.live.com
+134.170.30.15	profile.live.com
+134.170.104.24	skyapi.onedrive.live.com
+23.41.136.70	auth.gfx.ms
+23.53.65.164	p.sfx.ms
 # OneDrive End
 
 # SoundCloud Start
@@ -3700,7 +3712,7 @@ fe80::1%lo0	localhost
 # Wikipedia Start
 198.35.26.96	zh.wikipedia.org
 198.35.26.96	zh.m.wikipedia.org
-91.198.174.192	en.wikipedia.org
+# 91.198.174.192	en.wikipedia.org
 # Wikipedia End
 
 # WordPress Start
@@ -3806,7 +3818,6 @@ fe80::1%lo0	localhost
 216.115.100.102	s.yimg.com
 119.160.254.215	s1.yimg.com
 106.10.193.20	sa.edit.yahoo.com
-124.108.120.124	sa.edit.yahoo.com
 208.71.44.31	secure.flickr.com
 106.10.193.30	sp.analytics.yahoo.com
 106.10.137.23	static.flickr.com
@@ -3943,9 +3954,5 @@ fe80::1%lo0	localhost
 149.154.167.99	core.telegram.org
 149.154.167.99	macos.telegram.org
 # telegram end
-
-# iTunes Start
-23.214.233.166	s.mzstatic.com
-# iTunes End
 
 # Modified hosts end
