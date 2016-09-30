@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-09-27
+# Last updated: 2016-09-29
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -14,28 +14,28 @@ fe80::1%lo0	localhost
 # Modified hosts start
 
 # Amazon AWS Start
-# 54.239.96.90	ap-northeast-1.console.aws.amazon.com
-# 54.240.226.19	ap-southeast-1.console.aws.amazon.com
-# 54.240.195.197	ap-southeast-2.console.aws.amazon.com
-# 176.32.100.36	aws.amazon.com
-# 72.21.194.168	console.aws.amazon.com
-# 54.239.54.107	eu-central-1.console.aws.amazon.com
-# 178.236.4.251	eu-west-1.console.aws.amazon.com
-# 54.231.66.16	s3.amazonaws.com
-# 54.231.229.10	s3-ap-northeast-1.amazonaws.com
-# 54.231.242.150	s3-ap-southeast-1.amazonaws.com
-# 54.231.249.17	s3-ap-southeast-2.amazonaws.com
-# 54.239.31.128	s3-console-us-standard.console.aws.amazon.com
-# 54.231.192.41	s3-eu-central-1.amazonaws.com
-# 52.218.16.36	s3-eu-west-1.amazonaws.com
-# 52.92.74.6	s3-sa-east-1.amazonaws.com
-# 54.231.237.85	s3-us-west-1.amazonaws.com
-# 54.231.168.216	s3-us-west-2.amazonaws.com
-# 177.72.244.68	sa-east-1.console.aws.amazon.com
-# 204.246.162.198	us-west-1.console.aws.amazon.com
-# 54.240.250.61	us-west-2.console.aws.amazon.com
-# 54.231.34.41	github-cloud.s3.amazonaws.com
-# 54.231.48.40	github-com.s3.amazonaws.com
+54.239.31.69	aws.amazon.com
+54.239.30.25	console.aws.amazon.com
+54.239.96.90	ap-northeast-1.console.aws.amazon.com
+54.240.226.81	ap-southeast-1.console.aws.amazon.com
+54.240.193.125	ap-southeast-2.console.aws.amazon.com
+54.239.38.102	eu-west-1.console.aws.amazon.com
+54.239.54.102	eu-central-1.console.aws.amazon.com
+54.231.49.3	s3.amazonaws.com
+54.239.31.128	s3-console-us-standard.console.aws.amazon.com
+52.219.0.4	s3-ap-northeast-1.amazonaws.com
+54.231.242.170	s3-ap-southeast-1.amazonaws.com
+54.231.251.21	s3-ap-southeast-2.amazonaws.com
+52.218.16.140	s3-eu-west-1.amazonaws.com
+54.231.193.37	s3-eu-central-1.amazonaws.com
+52.92.72.2	s3-sa-east-1.amazonaws.com
+54.231.236.6	s3-us-west-1.amazonaws.com
+54.231.168.160	s3-us-west-2.amazonaws.com
+177.72.244.194	sa-east-1.console.aws.amazon.com
+176.32.114.59	us-west-1.console.aws.amazon.com
+54.240.254.230	us-west-2.console.aws.amazon.com
+52.216.80.48	github-cloud.s3.amazonaws.com
+54.231.48.40	github-com.s3.amazonaws.com
 # Amazon AWS End
 
 # Archive Start
