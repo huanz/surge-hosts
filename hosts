@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-09-29
+# Last updated: 2016-09-30
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3860,15 +3860,15 @@ fe80::1%lo0	localhost
 # Medium end
 
 # Tumblr Start
-66.6.32.151	tumblr.com
+31.13.66.6	tumblr.com
 66.6.32.4	tumblr.co
 66.6.32.4	api.tumblr.com
-66.6.33.25	assets.tumblr.com
-66.6.32.4	www.tumblr.com
+217.12.1.36	assets.tumblr.com
+31.13.72.54	www.tumblr.com
 66.6.32.22	cynicallys.tumblr.com
-66.6.32.4	mx.tumblr.com
+93.184.216.97	mx.tumblr.com
 66.6.32.34	px.srvcs.tumblr.com
-66.6.32.22	media.tumblr.com
+54.230.84.5	media.tumblr.com
 54.192.98.136	30.media.tumblr.com
 54.230.75.191	31.media.tumblr.com
 54.192.98.136	32.media.tumblr.com
@@ -3890,9 +3890,9 @@ fe80::1%lo0	localhost
 209.197.3.20	48.media.tumblr.com
 192.229.237.98	49.media.tumblr.com
 209.197.3.20	50.media.tumblr.com
-209.197.3.20	90.media.tumblr.com
 #192.229.237.98	65.media.tumblr.com
 #192.229.237.98	66.media.tumblr.com
+209.197.3.20	90.media.tumblr.com
 209.197.3.20	91.media.tumblr.com
 192.229.237.98	92.media.tumblr.com
 209.197.3.20	93.media.tumblr.com
@@ -3902,10 +3902,10 @@ fe80::1%lo0	localhost
 192.229.237.98	97.media.tumblr.com
 209.197.3.20	98.media.tumblr.com
 209.197.3.20	99.media.tumblr.com
-66.6.32.25	secure.assets.tumblr.com
-54.230.74.176	secure.static.tumblr.com
-66.6.32.162	ls.srvcs.tumblr.com
-66.6.32.21	vt.tumblr.com
+217.12.1.35	secure.assets.tumblr.com
+52.85.81.16	secure.static.tumblr.com
+31.13.73.2	ls.srvcs.tumblr.com
+52.85.81.119	vt.tumblr.com
 # Tumblr End
 
 # Smartdnsproxy start
