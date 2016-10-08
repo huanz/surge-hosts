@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-10-05
+# Last updated: 2016-10-07
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -227,7 +227,7 @@ fe80::1%lo0	localhost
 77.67.4.10	fbcdn-sphotos-f-a.akamaihd.net
 23.63.99.56	fbcdn-sphotos-g-a.akamaihd.net
 23.63.99.88	fbcdn-sphotos-h-a.akamaihd.net
-2.16.162.11	fbcdn-profile-a.akamaihd.net
+203.211.2.32	fbcdn-profile-a.akamaihd.net
 72.246.188.82	fbcdn-photos-a.akamaihd.net
 72.246.188.19	fbcdn-photos-e-a.akamaihd.net
 23.205.168.10	fbcdn-sphotos-a.akamaihd.net
@@ -245,6 +245,7 @@ fe80::1%lo0	localhost
 31.13.66.9	scontent-a-sin.xx.fbcdn.net
 31.13.66.9	scontent-b-lax.xx.fbcdn.net
 31.13.66.9	scontent-b-sin.xx.fbcdn.net
+31.13.91.35	scontent-dft4-2.xx.fbcdn.net
 184.28.188.240	vthumb.ak.fbcdn.net
 184.28.188.152	photos-a.ak.fbcdn.net
 184.28.188.154	photos-b.ak.fbcdn.net
@@ -440,6 +441,7 @@ fe80::1%lo0	localhost
 220.255.2.153	fonts.google.com
 220.255.2.153	goto.google.com
 220.255.2.153	gxc.google.com
+220.255.2.153	gsuite.google.com
 220.255.2.153	history.google.com
 220.255.2.153	myactivity.google.com
 220.255.2.153	investor.google.com
