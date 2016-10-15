@@ -81,16 +81,20 @@ exports.update = function (params, cb) {
                     var ChinaNet = fs.readFileSync('AppleDNS/ChinaNet.conf').toString().replace(/#[ \S]+\n/g, '');
                     var CMCC = fs.readFileSync('AppleDNS/CMCC.conf').toString().replace(/#[ \S]+\n/g, '');
                     var final = fs.readFileSync('surge.conf').toString() + hostsArr.join('\n') + '\n';
+                    var updateDate = formatNow('yyyy-MM-dd hh:mm:ss');
+                    var ChinaUnicomData = '#UPDATE:' + updateDate + '\n#!MANAGED-CONFIG http://surge.w3cboy.com/ChinaUnicom.conf interval=86400\n' + final + ChinaUnicom;
+                    var ChinaNetData = '#UPDATE:' + updateDate + '\n#!MANAGED-CONFIG http://surge.w3cboy.com/ChinaNet.conf interval=86400\n' + final + ChinaNet;
+                    var CMCCData = '#UPDATE:' + updateDate + '\n#!MANAGED-CONFIG http://surge.w3cboy.com/CMCC.conf interval=86400\n' + final + CMCC;
 
-                    fs.writeFileSync('surge-hosts/ChinaUnicom.conf', final + ChinaUnicom);
-                    fs.writeFileSync('surge-hosts/ChinaNet.conf', final + ChinaNet);
-                    fs.writeFileSync('surge-hosts/CMCC.conf', final + CMCC);
+                    fs.writeFileSync('surge-hosts/ChinaUnicom.conf', ChinaUnicomData);
+                    fs.writeFileSync('surge-hosts/ChinaNet.conf', ChinaNetData);
+                    fs.writeFileSync('surge-hosts/CMCC.conf', CMCCData);
                     shell.series([
                         'cp hosts/hosts surge-hosts',
                         'git config --global user.name "huanz"',
                         'git config --global user.email "yhz1219@gmail.com"',
                         'cd surge-hosts && git add -u',
-                        'cd surge-hosts && git commit -m "hosts updated at ' + formatNow('yyyy-MM-dd hh:mm:ss') + '"',
+                        'cd surge-hosts && git commit -m "hosts updated at ' + updateDate + '"',
                         'cd surge-hosts && git branch -m master',
                         'cd surge-hosts && git push -q ' + GHTOKEN + ' HEAD:master'
                     ], function (err) {
