@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-10-20
+# Last updated: 2016-10-23
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -10,6 +10,14 @@
 ::1	localhost ip6-localhost ip6-loopback
 
 # Modified hosts start
+
+# Armorgames Start
+93.184.220.39	cache.armorgames.com
+93.184.220.39	gamemedia.armorgames.com
+93.184.220.39	quests.armorgames.com
+93.184.220.39	armatars.armorgames.com
+93.184.220.39	agi.armorgames.com
+# Armorgames End
 
 # Amazon AWS Start
 54.239.31.69	aws.amazon.com
@@ -90,7 +98,7 @@
 218.254.1.13	www.v.dropbox.com
 218.254.1.13	dl-debug.dropbox.com
 #######
-162.125.65.1	www.dropbox.com
+162.125.82.1	www.dropbox.com
 52.85.76.60	linux.dropbox.com
 108.160.172.193	d.dropbox.com
 108.160.172.193	d.v.dropbox.com
@@ -504,7 +512,6 @@
 220.255.2.153	www.chromestatus.com
 220.255.2.153	chrome.google.com
 220.255.2.153	browsersync.google.com
-220.255.2.153	toolbarqueries.google.com
 220.255.2.153	toolbarqueries.google.com.hk
 220.255.2.153	toolbarqueries.clients.google.com
 220.255.2.153	chromium.org
@@ -695,10 +702,8 @@
 220.255.2.153	news.google.com.hk
 220.255.2.153	news.google.com.tw
 220.255.2.153	orkut.google.com
-220.255.2.153	www.orkut.com
 220.255.2.153	www.orkut.gmodules.com
 220.255.2.153	pack.google.com
-220.255.2.153	cache.pack.google.com
 220.255.2.153	photos.google.com
 220.255.2.153	picasa.google.com
 220.255.2.153	picasaweb.google.com
@@ -851,7 +856,6 @@
 220.255.2.153	play.googleapis.com
 220.255.2.153	plus.googleapis.com
 220.255.2.153	redirector-bigcache.googleapis.com
-220.255.2.153	translate.googleapis.com
 220.255.2.153	youtube.googleapis.com
 220.255.2.153	youtubei.googleapis.com
 220.255.2.153	mt0.googleapis.com
@@ -879,9 +883,6 @@
 220.255.2.153	base3.googlehosted.com
 220.255.2.153	base4.googlehosted.com
 220.255.2.153	base5.googlehosted.com
-220.255.2.153	s0.2mdn.net
-220.255.2.153	s1.2mdn.net
-220.255.2.153	service.urchin.com
 220.255.2.153	analytics.google.com
 220.255.2.153	www.googleartproject.com
 220.255.2.153	feedburner.google.com
@@ -979,11 +980,9 @@
 220.255.2.153	sslvideo-upload.l.google.com
 220.255.2.153	suggestqueries.l.google.com
 220.255.2.153	tbn.l.google.com
-220.255.2.153	toolbarqueries.l.google.com
 220.255.2.153	tools.l.google.com
 220.255.2.153	video.l.google.com
 220.255.2.153	googlecl.googlecode.com
-220.255.2.153	s0-2mdn-net.l.google.com
 220.255.2.153	video-stats.l.google.com
 220.255.2.153	video-analytics.l.google.com
 220.255.2.153	video-thumbnails.l.google.com
@@ -1000,7 +999,6 @@
 220.255.2.153	admob.com
 220.255.2.153	www.admob.com
 220.255.2.153	apps.admob.com
-220.255.2.153	www.googleadservices.com
 220.255.2.153	adwords.google.com
 220.255.2.153	adwords.google.sk
 220.255.2.153	www.android.com
@@ -2277,10 +2275,10 @@
 220.255.2.153	m.google.com.sg
 220.255.2.153	mobile.google.com
 220.255.2.153	mobile.l.google.com
-216.58.217.12	proxy.googlezip.net
-216.58.217.12	compress.googlezip.net
-216.58.217.12	proxy-dev.googlezip.net
-220.255.2.153	polymer-project.org
+216.58.196.236	proxy.googlezip.net
+216.58.196.236	compress.googlezip.net
+216.58.196.236	proxy-dev.googlezip.net
+216.239.34.21	polymer-project.org
 220.255.2.153	www.polymer-project.org
 220.255.2.153	talkgadget.l.google.com
 220.255.2.153	hangouts.google.com
@@ -3086,12 +3084,7 @@
 
 # OneDrive Start
 204.79.197.217	onedrive.live.com
-134.170.107.72	storage.live.com
-134.170.30.15	people.live.com
-134.170.30.15	profile.live.com
 134.170.104.24	skyapi.onedrive.live.com
-23.41.136.70	auth.gfx.ms
-23.53.65.164	p.sfx.ms
 # OneDrive End
 
 # Smartdnsproxy start
