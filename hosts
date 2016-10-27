@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-10-24
+# Last updated: 2016-10-25
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -793,8 +793,7 @@
 220.255.2.153	datastudio.google.com
 220.255.2.153	studykit.google.com
 220.255.2.153	business.google.com
-220.255.2.153	www.google-analytics.com
-220.255.2.153	ssl.google-analytics.com
+220.255.2.153	google-analytics.com
 
 # gstatic Start
 220.255.2.153	geo0.ggpht.com
