@@ -82,10 +82,9 @@ exports.update = function (params, cb) {
                     var CMCC = fs.readFileSync('AppleDNS/CMCC.conf').toString().replace(/#[ \S]+\n/g, '');
                     var final = fs.readFileSync('surge.conf').toString() + hostsArr.join('\n') + '\n';
                     var updateDate = formatNow('yyyy-MM-dd hh:mm:ss');
-                    var ChinaUnicomData = '#UPDATE:' + updateDate + '\n#!MANAGED-CONFIG http://surge.w3cboy.com/ChinaUnicom.conf interval=86400\n' + final + ChinaUnicom;
-                    var ChinaNetData = '#UPDATE:' + updateDate + '\n#!MANAGED-CONFIG http://surge.w3cboy.com/ChinaNet.conf interval=86400\n' + final + ChinaNet;
-                    var CMCCData = '#UPDATE:' + updateDate + '\n#!MANAGED-CONFIG http://surge.w3cboy.com/CMCC.conf interval=86400\n' + final + CMCC;
-
+                    var ChinaUnicomData = '#!MANAGED-CONFIG http://surge.w3cboy.com/ChinaUnicom.conf interval=86400 strict=true\n#UPDATE:' + updateDate + '\n' + final + ChinaUnicom;
+                    var ChinaNetData = '#!MANAGED-CONFIG http://surge.w3cboy.com/ChinaNet.conf interval=86400 strict=true\n#UPDATE:' + updateDate + '\n' + final + ChinaNet;
+                    var CMCCData = '#!MANAGED-CONFIG http://surge.w3cboy.com/CMCC.conf interval=86400 strict=true\n#UPDATE:' + updateDate + '\n' + final + CMCC;
                     fs.writeFileSync('surge-hosts/ChinaUnicom.conf', ChinaUnicomData);
                     fs.writeFileSync('surge-hosts/ChinaNet.conf', ChinaNetData);
                     fs.writeFileSync('surge-hosts/CMCC.conf', CMCCData);
