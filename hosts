@@ -11,19 +11,6 @@
 
 # Modified hosts start
 
-# WikiLeaks Start
-95.211.113.154	wikileaks.org
-95.211.113.154	www.wikileaks.org
-95.211.113.154	shop.wikileaks.org
-95.211.113.154	wardiaries.wikileaks.org
-95.211.113.154	file.wikileaks.org
-95.211.113.154	wardiary.wikileaks.org
-95.211.113.154	search.wikileaks.org
-95.211.113.154	911.wikileaks.org
-95.211.113.154	collateralmurder.wikileaks.org
-95.211.113.154	cablegate.wikileaks.org
-# WikiLeaks End
-
 # Armorgames Start
 93.184.220.39	cache.armorgames.com
 93.184.220.39	gamemedia.armorgames.com
@@ -329,6 +316,7 @@
 61.91.161.217	gsuite.google.com
 61.91.161.217	history.google.com
 61.91.161.217	myactivity.google.com
+61.91.161.217	isp.google.com
 61.91.161.217	investor.google.com
 61.91.161.217	jmt0.google.com
 61.91.161.217	keep.google.com
@@ -338,6 +326,7 @@
 61.91.161.217	peering.google.com
 61.91.161.217	places.google.com
 61.91.161.217	pki.google.com
+61.91.161.217	patents.google.com
 61.91.161.217	script.google.com
 61.91.161.217	security.google.com
 61.91.161.217	services.google.com
