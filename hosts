@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-11-19
+# Last updated: 2016-11-21
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -317,6 +317,7 @@
 61.91.161.217	fonts.google.com
 61.91.161.217	goto.google.com
 61.91.161.217	gxc.google.com
+61.91.161.217	get.google.com
 61.91.161.217	gsuite.google.com
 61.91.161.217	history.google.com
 61.91.161.217	myactivity.google.com
@@ -3090,8 +3091,8 @@
 # nytimes for mobile End
 
 # OneDrive Start
-204.79.197.217	onedrive.live.com
-134.170.104.24	skyapi.onedrive.live.com
+134.170.108.26	onedrive.live.com
+134.170.108.152	skyapi.onedrive.live.com
 # OneDrive End
 
 # Smartdnsproxy start
