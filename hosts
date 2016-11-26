@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-11-21
+# Last updated: 2016-11-26
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -303,6 +303,8 @@
 61.91.161.217	clients4.google.com
 61.91.161.217	clients5.google.com
 61.91.161.217	clients6.google.com
+61.91.161.217	clouderrorreporting.clients6.google.com
+61.91.161.217	datastore.clients6.google.com
 61.91.161.217	contributor.google.com
 61.91.161.217	dns.google.com
 61.91.161.217	desktop.google.com
@@ -565,6 +567,7 @@
 61.91.161.217	packages.cloud.google.com
 61.91.161.217	console.cloud.google.com
 61.91.161.217	status.cloud.google.com
+61.91.161.217	ssh.cloud.google.com
 61.91.161.217	developers.google.com
 61.91.161.217	cloudssh.developers.google.com
 61.91.161.217	codelabs.developers.google.com
