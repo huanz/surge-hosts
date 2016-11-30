@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-11-26
+# Last updated: 2016-11-29
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -804,6 +804,7 @@
 61.91.161.217	studykit.google.com
 61.91.161.217	business.google.com
 61.91.161.217	google-analytics.com
+61.91.161.217	artsandculture.google.com
 
 # gstatic Start
 61.91.161.217	geo0.ggpht.com
