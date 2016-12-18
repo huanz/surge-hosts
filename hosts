@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-12-14
+# Last updated: 2016-12-17
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3341,49 +3341,11 @@
 # W3schools End
 
 # Wikipedia Start
-91.198.174.192	wuu.wikipedia.org
-91.198.174.192	zh-yue.wikipedia.org
-91.198.174.192	zh.wikipedia.org
-91.198.174.192	zh.m.wikipedia.org
+198.35.26.96	wuu.wikipedia.org
+198.35.26.96	zh-yue.wikipedia.org
+198.35.26.96	zh.wikipedia.org
+198.35.26.96	zh.m.wikipedia.org
 # Wikipedia End
-
-# WordPress Start
-192.0.73.2	www.gravatar.com
-192.0.73.2	0.gravatar.com
-192.0.73.2	1.gravatar.com
-192.0.73.2	2.gravatar.com
-192.0.73.2	lb.gravatar.com
-192.0.73.2	secure.gravatar.com
-192.0.80.241	s.gravatar.com
-192.0.80.239	en.gravatar.com
-#192.0.80.240	en.gravatar.com
-192.0.81.250	botd2.wordpress.com
-192.0.78.13	dashboard.wordpress.com
-192.0.78.13	en.blog.wordpress.com
-192.0.78.13	en.forums.wordpress.com
-192.0.78.13	forums.wordpress.com
-192.0.77.2	i0.wp.com
-192.0.77.2	i1.wp.com
-192.0.77.2	i2.wp.com
-192.0.78.13	lb.wordpress.com
-192.0.78.13	lucifr.wordpress.com
-192.0.81.250	r-login.wordpress.com
-192.229.144.127	s.w.org
-68.232.44.111	s.wordpress.com
-68.232.44.111	s.wordpress.org
-68.232.44.111	s0.wp.com
-68.232.44.111	s1.wordpress.com
-68.232.44.111	s1.wp.com
-68.232.44.111	s2.wordpress.com
-68.232.44.111	s2.wp.com
-68.232.44.111	s3.wordpress.com
-192.0.78.13	stats.wordpress.com
-192.0.78.9	wordpress.com
-192.0.78.13	wpcom.wordpress.com
-192.0.78.13	zh.wordpress.com
-192.0.78.13	zh-cn.wordpress.com
-192.0.78.13	zh-sg.wordpress.com
-# WordPress End
 
 # Yahoo Start
 192.0.79.32	code.flickr.com
