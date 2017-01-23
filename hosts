@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-01-20
+# Last updated: 2017-01-22
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -151,8 +151,8 @@
 46.51.216.186	duckduckgo.com
 46.51.216.186	www.duckduckgo.com
 46.51.216.186	ac.duckduckgo.com
-54.251.178.52	icons.duckduckgo.com
-54.251.178.52	images.duckduckgo.com
+54.229.110.205	icons.duckduckgo.com
+54.229.110.205	images.duckduckgo.com
 96.45.83.209	help.duckduckgo.com
 # DuckDuckGo End
 
@@ -812,7 +812,7 @@
 61.91.161.217	realtimesupport.clients6.google.com
 61.91.161.217	360suite.google.com
 61.91.161.217	optimize.google.com
-216.58.203.85	attribution.google.com
+216.58.206.14	attribution.google.com
 61.91.161.217	audiencecenter.google.com
 61.91.161.217	datastudio.google.com
 61.91.161.217	studykit.google.com
