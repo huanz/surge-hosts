@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-02-03
+# Last updated: 2017-02-06
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -589,6 +589,8 @@
 61.91.161.217	directory.google.com
 61.91.161.217	dir.google.com
 61.91.161.217	events.google.com
+61.91.161.217	savethedate.foo
+61.91.161.217	www.savethedate.foo
 61.91.161.217	googledrive.com
 61.91.161.217	docs.google.com
 61.91.161.217	drive.google.com
