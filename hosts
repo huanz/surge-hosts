@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-02-08
+# Last updated: 2017-02-09
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -159,6 +159,7 @@
 157.240.0.17	m.facebook.com
 157.240.0.17	mqtt.facebook.com
 157.240.0.17	mqtt-mini.facebook.com
+157.240.0.17	mtouch.facebook.com
 157.240.0.17	business.facebook.com
 157.240.0.17	s-static.ak.facebook.com
 23.76.153.42	static.ak.facebook.com
@@ -240,6 +241,7 @@
 199.201.64.67	threatexchange.fb.com
 157.240.7.21	video.xx.fbcdn.net
 184.28.188.10	fbcdn-sphotos-b-a.akamaihd.net
+184.28.188.10	fb-s-d-a.akamaihd.net
 184.28.188.10	vthumb.ak.fbcdn.net
 184.28.188.10	photos-a.ak.fbcdn.net
 184.28.188.10	photos-b.ak.fbcdn.net
@@ -507,6 +509,8 @@
 61.91.161.217	googleforstudents.blogspot.com
 61.91.161.217	students.googleblog.com
 61.91.161.217	chrome.blogspot.com
+61.91.161.217	googleadservices.com
+61.91.161.217	www.googleadservices.com
 61.91.161.217	google-latlong.blogspot.com
 61.91.161.217	insidesearch.blogspot.com
 61.91.161.217	googleadsdeveloper.blogspot.com
@@ -821,6 +825,7 @@
 61.91.161.217	studykit.google.com
 61.91.161.217	business.google.com
 61.91.161.217	google-analytics.com
+61.91.161.217	www.googletagmanager.com
 61.91.161.217	artsandculture.google.com
 
 # gstatic Start
@@ -3448,4 +3453,3 @@
 # Yahoo End
 
 # Modified hosts end
-
