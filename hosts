@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-02-28
+# Last updated: 2017-03-01
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -865,6 +865,7 @@
 61.91.161.217	encrypted-tbn1.gstatic.com
 61.91.161.217	encrypted-tbn2.gstatic.com
 61.91.161.217	encrypted-tbn3.gstatic.com
+203.208.51.55	fonts.gstatic.com
 61.91.161.217	g0.gstatic.com
 61.91.161.217	g1.gstatic.com
 61.91.161.217	g2.gstatic.com
@@ -3128,7 +3129,7 @@
 23.38.96.57	read.kobobooks.com
 23.38.96.57	secure.kobobooks.com
 23.38.96.57	services.kobobooks.com
-23.38.96.57	store.kobobooks.
+23.38.96.57	store.kobobooks.com
 23.38.96.57	tr.kobobooks.com
 23.38.96.57	webstore.kobobooks.com
 23.38.96.57	webstore2.kobobooks.com
