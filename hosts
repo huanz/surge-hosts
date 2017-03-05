@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-03-01
+# Last updated: 2017-03-05
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -914,6 +914,7 @@
 61.91.161.217	ct.googleapis.com
 61.91.161.217	securetoken.googleapis.com
 61.91.161.217	firebasestorage.googleapis.com
+61.91.161.217	www-tactile-opensocial.googleusercontent.com
 61.91.161.217	www--google--com.safenup.googleusercontent.com
 61.91.161.217	www--google--com--hk.safenup.googleusercontent.com
 64.233.188.121	code.getmdl.io
@@ -3284,6 +3285,19 @@
 13.107.42.11	outlook.live.com
 # OneDrive End
 
+# pcbeta Start
+218.93.127.136	pcbeta.com
+218.93.127.136	uc.pcbeta.com
+218.93.127.136	m.pcbeta.com
+218.93.127.136	web.pcbeta.com
+218.93.127.136	i.pcbeta.com
+218.93.127.136	bbs.pcbeta.com
+218.93.127.136	www.pcbeta.com
+218.93.127.136	cdn.pcbeta.attachment.inimc.com
+218.93.127.136	cdn.pcbeta.static.inimc.com
+218.93.127.136	cdn.pcbeta.css.inimc.com
+# pcbeta End
+
 # Psiphon Start
 54.239.168.4	psiphon3.com
 54.239.168.4	www.psiphon3.com
@@ -3528,6 +3542,10 @@
 198.35.26.96	zh.wikipedia.org
 198.35.26.96	zh.m.wikipedia.org
 # Wikipedia End
+
+# Xboxlive Start
+134.170.178.89	achievements.xboxlive.com
+# Xboxlive End
 
 # Yahoo Start
 192.0.79.32	code.flickr.com
