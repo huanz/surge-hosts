@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-03-05
+# Last updated: 2017-03-10
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3305,6 +3305,15 @@
 104.20.39.14	www.psiphon.ca
 # Psiphon End
 
+# pinterest Start
+151.101.64.84	about.pinterest.com
+151.101.64.84	blog.pinterest.com
+151.101.64.84	pinterest.com
+151.101.64.84	www.pinterest.com
+23.212.99.185	s-media-cache-ak0.pinimg.com
+23.212.99.185	s.pinimg.com
+# pinterest End
+
 # Smartdnsproxy start
 103.28.248.96	www.smartdnsproxy.com
 184.72.50.35	support.smartdnsproxy.com
@@ -3532,8 +3541,8 @@
 # Vimeo End
 
 # W3schools Start
-66.29.212.110	w3schools.com
-68.232.44.251	www.w3schools.com
+192.229.173.207	w3schools.com
+192.229.173.207	www.w3schools.com
 # W3schools End
 
 # Wikipedia Start
