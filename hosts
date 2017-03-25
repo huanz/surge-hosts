@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-03-23
+# Last updated: 2017-03-25
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -345,6 +345,7 @@
 61.91.161.217	myactivity.google.com
 61.91.161.217	isp.google.com
 61.91.161.217	investor.google.com
+61.91.161.217	issuetracker.google.com
 61.91.161.217	jmt0.google.com
 61.91.161.217	keep.google.com
 61.91.161.217	linkhelp.clients.google.com
@@ -573,7 +574,6 @@
 61.91.161.217	fuchsia.googlesource.com
 61.91.161.217	googlesource.com
 61.91.161.217	boringssl.googlesource.com
-108.177.97.82	tensorflow.googlesource.com
 61.91.161.217	gerrit.googlesource.com
 61.91.161.217	gerrit-review.googlesource.com
 61.91.161.217	chromium.googlesource.com
@@ -684,6 +684,7 @@
 61.91.161.217	geoauth.google.com
 61.91.161.217	finance.google.com
 61.91.161.217	fusion.google.com
+61.91.161.217	fusiontables.google.com
 61.91.161.217	groups.google.com
 61.91.161.217	groups.google.com.hk
 61.91.161.217	groups-beta.google.com
@@ -872,6 +873,7 @@
 61.91.161.217	encrypted-tbn2.gstatic.com
 61.91.161.217	encrypted-tbn3.gstatic.com
 203.208.51.55	fonts.gstatic.com
+61.91.161.217	play-music.gstatic.com
 61.91.161.217	g0.gstatic.com
 61.91.161.217	g1.gstatic.com
 61.91.161.217	g2.gstatic.com
@@ -928,6 +930,7 @@
 61.91.161.217	www-tactile-opensocial.googleusercontent.com
 61.91.161.217	www--google--com.safenup.googleusercontent.com
 61.91.161.217	www--google--com--hk.safenup.googleusercontent.com
+61.91.161.217	doc-00-24-apps-viewer.googleusercontent.com
 64.233.188.121	code.getmdl.io
 64.233.189.128	storage.googleapis.com
 64.233.189.128	chromedriver.storage.googleapis.com
@@ -2780,7 +2783,7 @@
 61.91.161.217	abc.xyz
 64.233.191.121	www.androidexperiments.com
 64.233.191.121	androidexperiments.com
-64.233.188.121	www.tensorflow.org
+61.91.161.217	www.tensorflow.org
 # Google:others End
 
 # Gmail SMTP/POP/IMAP Start
@@ -3290,16 +3293,50 @@
 151.101.64.84	blog.pinterest.com
 151.101.192.84	api.pinterest.com
 151.101.192.84	nl.pinterest.com
+151.101.192.84	passets-cdn.pinterest.com
+151.101.192.84	post.pinterest.com
+151.101.192.84	trk.pinterest.com
+151.101.64.84	ads.pinterest.com
+151.101.64.84	analytics.pinterest.com
+151.101.64.84	br.pinterest.com
+151.101.64.84	business.pinterest.com
+151.101.64.84	businessblog.pinterest.com
+151.101.64.84	canary.pinterest.com
+151.101.64.84	cz.pinterest.com
+151.101.64.84	de.pinterest.com
+151.101.64.84	dev.pinterest.com
+52.203.245.216	developers.pinterest.com
+151.101.64.84	dk.pinterest.com
+151.101.64.84	es.pinterest.com
+151.101.64.84	fi.pinterest.com
+151.101.64.84	fr.pinterest.com
+151.101.64.84	gb.pinterest.com
+151.101.64.84	gr.pinterest.com
+151.101.64.84	help.pinterest.com
+151.101.64.84	hu.pinterest.com
+151.101.64.84	id.pinterest.com
+151.101.64.84	in.pinterest.com
+151.101.64.84	it.pinterest.com
+151.101.64.84	jp.pinterest.com
+151.101.64.84	kr.pinterest.com
+151.101.64.84	m.pinterest.com
+151.101.64.84	media-cache-ec0.pinterest.com
+151.101.64.84	pl.pinterest.com
+151.101.64.84	pt.pinterest.com
+151.101.64.84	ro.pinterest.com
+151.101.64.84	ru.pinterest.com
+151.101.64.84	se.pinterest.com
+151.101.64.84	sk.pinterest.com
+151.101.64.84	tr.pinterest.com
+151.101.64.84	uk.about.pinterest.com
+151.101.64.84	uk.pinterest.com
+151.101.64.84	no.pinterest.com
+151.101.64.84	engineering.pinterest.com
+151.101.64.84	ak.pinterest.com
 151.101.192.84	s.pinimg.com
 151.101.192.84	i.pinimg.com
 151.101.192.84	v.pinimg.com
 151.101.192.84	s-media-cache-ak0.pinimg.com
-151.101.192.84	passets-cdn.pinterest.com
-151.101.192.84	post.pinterest.com
-151.101.192.84	trk.pinterest.com
-151.101.192.84	api.pinterest.com
-23.212.99.185	s-media-cache-ak0.pinimg.com
-23.212.99.185	s.pinimg.com
 # pinterest End
 
 # Smartdnsproxy start
