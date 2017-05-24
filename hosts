@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-05-21
+# Last updated: 2017-05-23
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -66,7 +66,6 @@
 61.91.161.217	androidmarket.googleusercontent.com
 61.91.161.217	android.googleapis.com
 61.91.161.217	jmoore-dot-android-experiments.appspot.com
-61.91.161.217	maven.google.com
 64.233.188.121	b.android.com
 64.233.188.121	m.android.com
 64.233.188.121	tools.android.com
@@ -2925,7 +2924,7 @@
 31.13.70.52	scontent-a.cdninstagram.com
 31.13.70.52	scontent-b.cdninstagram.com
 31.13.69.245	graph.instagram.com
-31.13.95.48	platform.instagram.com
+157.240.11.52	platform.instagram.com
 184.51.15.142	igcdn-photos-a-a.akamaihd.net
 184.51.15.142	igcdn-photos-b-a.akamaihd.net
 184.51.15.142	igcdn-photos-c-a.akamaihd.net
