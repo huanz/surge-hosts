@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-06-04
+# Last updated: 2017-06-06
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -229,6 +229,7 @@
 157.240.2.35	mqtt-mini.facebook.com
 157.240.2.35	orcart.facebook.com
 157.240.2.35	pixel.facebook.com
+157.240.2.35	scontent.facebook.com
 157.240.2.35	ssl.facebook.com
 157.240.2.35	star.facebook.com
 157.240.2.35	secure.facebook.com
