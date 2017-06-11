@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-06-06
+# Last updated: 2017-06-10
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1176,6 +1176,7 @@
 61.91.161.217	bigcache.googleapis.com
 61.91.161.217	chart.googleapis.com
 61.91.161.217	content.googleapis.com
+61.91.161.217	device-provisioning.googleapis.com
 61.91.161.217	growth-pa.googleapis.com
 61.91.161.217	khms0.googleapis.com
 61.91.161.217	khms1.googleapis.com
