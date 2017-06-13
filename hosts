@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-06-10
+# Last updated: 2017-06-13
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -37,6 +37,7 @@
 54.231.168.160	s3-us-west-2.amazonaws.com
 52.216.80.48	github-cloud.s3.amazonaws.com
 54.231.48.40	github-com.s3.amazonaws.com
+219.76.4.4	github-production-release-asset-2e65be.s3.amazonaws.com
 # Amazon AWS End
 
 # Android Start
