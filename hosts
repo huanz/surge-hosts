@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-06-22
+# Last updated: 2017-06-27
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -158,55 +158,55 @@
 # Disqus End
 
 # Dropbox Start
-108.160.173.239	dropbox.com
-108.160.173.239	www.dropbox.com
-108.160.173.193	db.tt
-108.160.173.193	www.v.dropbox.com
-108.160.173.193	www.dropbox-dns.com
-108.160.173.193	api.dropbox.com
-108.160.173.193	api-d.dropbox.com
-108.160.173.193	api.dropboxapi.com
-108.160.173.193	api.v.dropbox.com
-108.160.173.193	api-notify.dropbox.com
-108.160.173.193	api-content.dropbox.com
-108.160.173.193	api-content-photos.dropbox.com
-108.160.173.193	blogs.dropbox.com
-108.160.173.193	block.dropbox.com
-108.160.173.193	block.v.dropbox.com
-108.160.173.193	bolt.dropbox.com
-108.160.173.193	client.dropbox.com
-108.160.173.193	client.v.dropbox.com
-108.160.173.193	client-lb.dropbox.com
-108.160.173.193	client-cf.dropbox.com
-108.160.173.193	client-web.dropbox.com
-108.160.173.193	d.dropbox.com
-108.160.173.193	d.v.dropbox.com
-108.160.173.193	dl.dropbox.com
-108.160.173.193	dl-doc.dropbox.com
-108.160.173.193	dl-web.dropbox.com
-108.160.173.193	dl-debug.dropbox.com
-108.160.173.193	forums.dropbox.com
-108.160.173.193	linux.dropbox.com
-108.160.173.193	m.dropbox.com
-108.160.173.193	marketing.dropbox.com
-108.160.173.193	notify.dropbox.com
-108.160.173.193	photos.dropbox.com
-108.160.173.193	photos-1.dropbox.com
-108.160.173.193	photos-2.dropbox.com
-108.160.173.193	photos-3.dropbox.com
-108.160.173.193	photos-4.dropbox.com
-108.160.173.193	photos-5.dropbox.com
-108.160.173.193	photos-6.dropbox.com
-108.160.173.193	photos-thumb.dropbox.com
-108.160.173.193	photos-thumb.x.dropbox.com
-108.160.173.193	status.dropbox.com
-108.160.173.193	snapengage.dropbox.com
-162.125.3.6	dl.dropboxusercontent.com
-104.16.100.29	www.dropboxstatic.com
+162.125.248.1	dropbox.com
+162.125.248.1	www.dropbox.com
+162.125.32.9	db.tt
+162.125.32.14	www.v.dropbox.com
+162.125.7.1	www.dropbox-dns.com
+162.125.82.7	api.dropbox.com
+162.125.82.7	api.dropboxapi.com
+162.125.32.5	api-d.dropbox.com
+162.125.32.13	api.v.dropbox.com
+162.125.32.13	api-notify.dropbox.com
+162.125.1.8	api-content.dropbox.com
+162.125.2.5	api-content-photos.dropbox.com
+52.85.12.34	blogs.dropbox.com
+162.125.32.2	block.dropbox.com
+162.125.34.133	block.v.dropbox.com
+162.125.18.133	bolt.dropbox.com
+162.125.2.3	client.dropbox.com
+162.125.2.3	client-cf.dropbox.com
+162.125.32.12	client.v.dropbox.com
+162.125.80.3	client-lb.dropbox.com
+162.125.80.3	client-web.dropbox.com
+162.125.32.5	d.dropbox.com
+162.125.32.5	d.v.dropbox.com
+162.125.2.6	dl.dropbox.com
+162.125.2.6	dl-web.dropbox.com
+162.125.80.6	dl-doc.dropbox.com
+34.197.94.108	dl-debug.dropbox.com
+52.85.12.7	forums.dropbox.com
+54.192.136.115	linux.dropbox.com
+162.125.32.9	m.dropbox.com
+52.85.12.227	marketing.dropbox.com
+162.125.17.131	notify.dropbox.com
+162.125.32.15	photos.dropbox.com
+162.125.80.5	photos-1.dropbox.com
+162.125.80.5	photos-2.dropbox.com
+162.125.80.5	photos-3.dropbox.com
+162.125.80.5	photos-4.dropbox.com
+162.125.80.5	photos-5.dropbox.com
+162.125.80.5	photos-6.dropbox.com
+162.125.80.5	photos-thumb.dropbox.com
+162.125.18.129	photos-thumb.x.dropbox.com
+52.85.12.41	status.dropbox.com
+52.85.12.72	snapengage.dropbox.com
+162.125.2.6	dl.dropboxusercontent.com
+162.125.32.10	www.dropboxstatic.com
 104.16.100.29	cfl.dropboxstatic.com
-104.16.100.29	cf.dropboxstatic.com
-104.16.100.29	dbxlocal.dropboxstatic.com
-104.16.100.29	log.getdropbox.com
+54.230.125.126	cf.dropboxstatic.com
+162.125.32.10	dbxlocal.dropboxstatic.com
+162.125.32.6	log.getdropbox.com
 # Dropbox End
 
 # DuckDuckGo Start
