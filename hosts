@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-06-27
+# Last updated: 2017-07-01
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -709,6 +709,7 @@
 216.58.200.33	www.textcube.com
 216.58.200.33	www.blogspot.com
 216.58.200.33	blogspot.com
+216.58.200.33	bp.blogspot.com
 216.58.200.33	1.bp.blogspot.com
 216.58.200.33	2.bp.blogspot.com
 216.58.200.33	3.bp.blogspot.com
@@ -753,6 +754,17 @@
 216.58.200.33	chrometophone.appspot.com
 216.58.200.33	google-developers.appspot.com
 216.58.200.33	download-chromium.appspot.com
+216.58.200.33	apps.googleusercontent.com
+216.58.200.33	appspot.com.storage.googleapis.com
+216.58.200.33	storage-download.googleapis.com
+216.58.200.33	content-storage-download.googleapis.com
+216.58.200.33	content-storage-upload.googleapis.com
+216.58.200.33	content-storage.googleapis.com
+216.58.200.33	googlesyndication.com
+216.58.200.33	googleweblight.com
+216.58.200.33	static.panoramio.com.storage.googleapis.com
+216.58.200.33	unfiltered.news
+216.58.200.33	jigsaw.google.com
 216.58.200.33	lfe-alpo-gm.appspot.com
 216.58.200.33	m-dot-betaspike.appspot.com
 216.58.200.33	mission-author-dot-betaspike.appspot.com
@@ -1280,6 +1292,7 @@
 216.58.200.33	securetoken.googleapis.com
 216.58.200.33	firebasestorage.googleapis.com
 216.58.200.33	www-tactile-opensocial.googleusercontent.com
+216.58.200.33	safenup.googleusercontent.com
 216.58.200.33	www--google--com.safenup.googleusercontent.com
 216.58.200.33	www--google--com--hk.safenup.googleusercontent.com
 216.58.200.33	doc-00-24-apps-viewer.googleusercontent.com
@@ -2458,6 +2471,7 @@
 216.58.200.33	ytimg.googleusercontent.com
 216.58.200.33	www-opensocial.googleusercontent.com
 216.58.200.33	www-gm-opensocial.googleusercontent.com
+216.58.200.33	sandbox.googleusercontent.com
 216.58.200.33	www-opensocial-sandbox.googleusercontent.com
 216.58.200.33	www-fc-opensocial.googleusercontent.com
 216.58.200.33	www-focus-opensocial.googleusercontent.com
