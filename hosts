@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-07-01
+# Last updated: 2017-07-04
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -292,6 +292,15 @@
 157.240.7.35	static.xx.fbcdn.net
 157.240.7.35	static.thefacebook.com
 157.240.7.35	attachment.fbsbx.com
+157.240.7.35	messenger.com
+157.240.7.35	www.messenger.com
+157.240.7.35	0-edge-chat.messenger.com
+157.240.7.35	1-edge-chat.messenger.com
+157.240.7.35	2-edge-chat.messenger.com
+157.240.7.35	3-edge-chat.messenger.com
+157.240.7.35	4-edge-chat.messenger.com
+157.240.7.35	5-edge-chat.messenger.com
+157.240.7.35	6-edge-chat.messenger.com
 31.13.95.33	snaptu-z.facebook.com
 31.13.95.33	snaptu-p1.facebook.com
 31.13.95.33	snaptu-p2.facebook.com
@@ -551,14 +560,24 @@
 216.58.200.33	gcr.io
 216.58.200.33	www.gcr.io
 216.58.200.33	console.firebase.google.com
-216.58.200.33	cloudusersettings-pa.clients6.google.com
+216.58.200.33	appengine.clients6.google.com
+216.58.200.33	bigtableadmin.clients6.google.com
+216.58.200.33	clouddebugger.clients6.google.com
 216.58.200.33	cloudconfig.clients6.google.com
-216.58.200.33	firebasestorage.clients6.google.com
-216.58.200.33	firebaserules.clients6.google.com
+216.58.200.33	cloudpersonalization-pa.clients6.google.com
+216.58.200.33	cloudsupport.clients6.google.com
+216.58.200.33	cloudusersettings-pa.clients6.google.com
+216.58.200.33	dataflow.clients6.google.com
+216.58.200.33	datahub.clients6.google.com
 216.58.200.33	firebasedurablelinks-pa.clients6.google.com
+216.58.200.33	firebaserules.clients6.google.com
+216.58.200.33	firebasestorage.clients6.google.com
 216.58.200.33	gcmcontextualcampaign-pa.clients6.google.com
-216.58.200.33	mobilesdk-pa.clients6.google.com
+216.58.200.33	logging.clients6.google.com
+216.58.200.33	memcache.clients6.google.com
+216.58.200.33	ml.clients6.google.com
 216.58.200.33	mobilecrashreporting.clients6.google.com
+216.58.200.33	mobilesdk-pa.clients6.google.com
 216.58.200.33	reminders-pa.clients6.google.com
 216.58.200.33	linkhelp.clients.google.com
 216.58.200.33	upload.clients.google.com
@@ -794,11 +813,12 @@
 216.58.200.33	google-code-prettify.googlecode.com
 216.58.200.33	www.googlesource.com
 216.58.200.33	cloud.google.com
+216.58.200.33	console.cloud.google.com
 216.58.200.33	ogs.google.com
 216.58.200.33	packages.cloud.google.com
-216.58.200.33	console.cloud.google.com
-216.58.200.33	status.cloud.google.com
 216.58.200.33	ssh.cloud.google.com
+216.58.200.33	status.cloud.google.com
+216.58.200.33	storage.cloud.google.com
 216.58.200.33	developers.google.com
 216.58.200.33	cloudssh.developers.google.com
 216.58.200.33	codelabs.developers.google.com
@@ -973,6 +993,7 @@
 216.58.200.33	safebrowsing.clients.google.com
 216.58.200.33	safebrowsing-cache.google.com
 216.58.200.33	sandbox.google.com
+216.58.200.33	googleapis.sandbox.google.com
 216.58.200.33	scholar.google.com
 216.58.200.33	scholar.google.com.tw
 216.58.200.33	sites.google.com
@@ -1260,6 +1281,7 @@
 
 # Googleapis Start
 216.58.200.33	chart.apis.google.com
+216.58.200.33	explorer.apis.google.com
 216.58.200.33	googleapis.com
 216.58.200.33	www.googleapis.com
 216.58.200.33	ajax.googleapis.com
@@ -2962,9 +2984,9 @@
 64.233.188.188	gcm.googleapis.com
 64.233.188.188	gcm.l.google.com
 64.233.188.188	gcm-xmpp.googleapis.com
-64.233.188.188	gcm-http.googleapis.com
 64.233.188.188	gcm-preprod.l.google.com
 64.233.188.188	gcm-preprod.googleapis.com
+216.58.200.33	gcm-http.googleapis.com
 # Google:gcm End
 
 # Goole:duo Start
@@ -2994,11 +3016,11 @@
 # Google:Fit End
 
 # HumbleBundle Start
-5.153.35.171	humble.pubnub.com
-198.41.186.33	humblebundle.com
+54.249.82.177	humble.pubnub.com
+104.20.35.236	humblebundle.com
 203.69.81.33	humblebundle-a.akamaihd.net
 52.36.140.12	pubnub.com
-74.125.34.32	www.humblebundle.com
+216.58.200.243	www.humblebundle.com
 # HumbleBundle End
 
 # imgur Start
@@ -3393,7 +3415,7 @@
 
 # OneDrive Start
 204.79.197.213	api.onedrive.com
-2.17.58.51	api.onedrive.com
+2.17.58.51	api.onedrive.live.com
 204.79.197.217	onedrive.live.com
 204.79.197.217	skyweb.skyprod.akadns.net
 204.79.197.217	webedgegeo.skyprod.akadns.net
@@ -3526,11 +3548,18 @@
 104.20.39.14	www.psiphon.ca
 # Psiphon End
 
+# RawGit Start
+198.232.125.81	cdn.rawgit.com
+# RawGit End
+
 # Resilio Sync Start
+13.32.231.218	download-cdn.getsync.com
 52.85.69.35	config.getsync.com
 52.85.69.35	update.getsync.com
 52.85.69.166	www.getsync.com
 52.85.69.73	getsync.com
+13.32.231.244	www.resilio.com
+54.82.227.39	new-bench.resilio.com
 # Resilio Sync End
 
 # slideshare Start
@@ -3807,6 +3836,10 @@
 192.229.173.207	w3schools.com
 192.229.173.207	www.w3schools.com
 # W3schools End
+
+# Wikinews Start
+198.35.26.96	zh.m.wikinews.org
+# Wikinews End
 
 # Wikipedia Start
 198.35.26.96	www.wikipedia.org
