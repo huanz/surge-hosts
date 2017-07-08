@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-07-04
+# Last updated: 2017-07-07
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3328,30 +3328,31 @@
 # Kobo End
 
 # Line Start
-104.121.240.61	scdn.line-apps.com
+203.104.138.138	line.me
 125.209.210.239	lcp-checkout.line.me
-125.209.222.202	gd2w.line.naver.jp
-125.209.222.202	gww.line.naver.jp
-125.209.222.59	gd2k.line.naver.jp
-125.209.222.59	gwx.line.naver.jp
-125.209.238.181	obs-cn.line-apps.com
+223.119.202.208	lan.line.me
+223.119.202.208	w.line.me
+223.119.202.208	scdn.line-apps.com
 125.209.238.181	obs.line-apps.com
+125.209.238.181	obs-cn.line-apps.com
+203.104.153.6	obs-tw.line-apps.com
 125.209.238.186	xcdn-cn-prf.line-apps.com
 125.209.238.186	xcdn-cn-shp.line-apps.com
 125.209.238.186	xcdn-cn-stk.line-apps.com
-125.209.252.17	gd2g.line.naver.jp
-125.209.252.18	gd2i.line.naver.jp
-203.104.138.138	line.me
-203.104.142.52	lan.line.me
 203.104.150.2	gd2.line.naver.jp
 203.104.150.2	gw.line.naver.jp
-203.104.150.4	obs-tw.line-apps.com
-203.104.160.11	gd2u.line.naver.jp
-203.104.174.12	gd2s.line.naver.jp
-203.104.174.13	gd2v.line.naver.jp
-23.0.130.177	w.line.me
-23.215.103.24	dl.profile.line.naver.jp
-23.215.103.40	dl.stickershop.line.naver.jp
+203.104.160.12	gd2u.line.naver.jp
+203.104.160.12	gd2s.line.naver.jp
+203.104.160.12	gd2v.line.naver.jp
+125.209.252.17	gd2g.line.naver.jp
+125.209.252.17	gd2i.line.naver.jp
+125.209.222.202	gd2k.line.naver.jp
+125.209.222.202	gd2w.line.naver.jp
+125.209.222.202	gww.line.naver.jp
+203.104.174.18	gwx.line.naver.jp
+96.7.54.24	dl.profile.line.naver.jp
+96.7.54.17	dl.stickershop.line.naver.jp
+203.104.150.35	static.line.naver.jp
 # Line End
 
 # Logmein Start
@@ -3541,6 +3542,28 @@
 52.203.245.216	developers.pinterest.com
 # pinterest End
 
+# Periscope Start
+52.193.42.51	pscp.tv
+52.193.42.51	www.pscp.tv
+52.11.126.129	channels.pscp.tv
+52.32.74.235	proxsee.pscp.tv
+13.32.194.196	assets.pscp.tv
+13.32.194.196	prod-profile.pscp.tv
+13.32.194.196	prod-thumbnail.pscp.tv
+151.101.2.93	prod-video-ap-northeast-1.pscp.tv
+151.101.2.93	prod-video-ap-southeast-1.pscp.tv
+151.101.2.93	prod-video-ap-southeast-2.pscp.tv
+151.101.2.93	prod-video-eu-central-1.pscp.tv
+151.101.2.93	prod-video-eu-west-1.pscp.tv
+151.101.2.93	prod-video-us-east-1.pscp.tv
+151.101.2.93	prod-video-us-west-1.pscp.tv
+151.101.2.93	prod-video-us-west-2.pscp.tv
+151.101.2.93	prod-video-sa-east-1.pscp.tv
+52.28.70.96	prod-chatman-ancillary-eu-central-1.pscp.tv
+52.5.25.47	prod-chatman-ancillary-us-east-1.pscp.tv
+52.26.41.23	prod-chatman-ancillary-us-west-2.pscp.tv
+# Periscope End
+
 # Psiphon Start
 54.239.168.4	psiphon3.com
 54.239.168.4	www.psiphon3.com
@@ -3553,12 +3576,13 @@
 # RawGit End
 
 # Resilio Sync Start
+13.32.231.218	getsync.com
+13.32.231.218	config.getsync.com
 13.32.231.218	download-cdn.getsync.com
-52.85.69.35	config.getsync.com
-52.85.69.35	update.getsync.com
-52.85.69.166	www.getsync.com
-52.85.69.73	getsync.com
-13.32.231.244	www.resilio.com
+13.32.231.218	update.getsync.com
+13.32.231.218	www.getsync.com
+13.32.231.218	config.resilio.com
+13.32.231.218	www.resilio.com
 54.82.227.39	new-bench.resilio.com
 # Resilio Sync End
 
@@ -3620,6 +3644,14 @@
 149.154.167.99	macos.telegram.org
 149.154.167.120	web.telegram.org
 149.154.167.57	venus.web.telegram.org
+149.154.175.16	pluto.web.telegram.org
+149.154.175.16	pluto-1.web.telegram.org
+149.154.167.24	venus.web.telegram.org
+149.154.167.24	venus-1.web.telegram.org
+149.154.175.115	aurora.web.telegram.org
+149.154.175.115	aurora-1.web.telegram.org
+149.154.167.124	vesta.web.telegram.org
+149.154.167.124	vesta-1.web.telegram.org
 149.154.171.22	flora.web.telegram.org
 149.154.171.22	flora-1.web.telegram.org
 # telegram End
@@ -3651,17 +3683,19 @@
 154.35.132.70	consensus-health.torproject.org
 154.35.132.70	deb.torproject.org
 154.35.132.70	dist.torproject.org
+154.35.132.70	extra.torproject.org
 154.35.132.70	gettor.torproject.org
 154.35.132.70	help.torproject.org
 154.35.132.70	onion.torproject.org
 154.35.132.70	ooni.torproject.org
 154.35.132.70	research.torproject.org
 154.35.132.70	spec.torproject.org
+154.35.132.70	stem.torproject.org
 154.35.132.70	tb-manual.torproject.org
 154.35.132.70	wiki.torproject.org
 82.195.75.101	archive.torproject.org
 82.195.75.101	media.torproject.org
-138.201.14.196	blog.torproject.org
+23.185.0.2	blog.torproject.org
 78.47.38.229	bridges.torproject.org
 138.201.14.212	check.torproject.org
 138.201.14.216	collector.torproject.org
@@ -3678,7 +3712,6 @@
 52.70.141.81	explorer.ooni.torproject.org
 138.201.14.203	people.torproject.org
 138.201.212.230	rt.torproject.org
-78.47.38.231	stem.torproject.org
 78.47.38.231	storm.torproject.org
 138.201.14.206	svn.torproject.org
 138.201.212.227	trac.torproject.org
@@ -3856,114 +3889,90 @@
 # Xboxlive End
 
 # Yahoo Start
-119.161.10.150	api.flickr.com
 202.43.194.205	c5.ah.yahoo.com
+202.43.194.205	edit.yahoo.com
+202.43.194.205	na.edit.yahoo.com
+202.43.194.205	sa.edit.yahoo.com
+202.43.194.205	login.yahoo.com
+202.43.194.205	mail.yahoo.com
+202.43.194.205	open.login.yahoo.com
 192.0.79.32	code.flickr.com
-119.160.254.215	d.yimg.com
-119.160.254.215	e.yimg.com
-119.160.254.215	h.yimg.com
-119.160.254.215	l.yimg.com
-119.160.254.215	p.yimg.com
-119.160.254.215	s1.yimg.com
-106.10.136.195	de.yahoo.com
-98.139.21.169	edit.yahoo.com
-69.147.88.13	c.staticflickr.com
-69.147.88.13	c1.staticflickr.com
-69.147.88.13	c2.staticflickr.com
-69.147.88.13	c3.staticflickr.com
-69.147.88.13	c4.staticflickr.com
-69.147.88.13	c5.staticflickr.com
-69.147.88.13	c6.staticflickr.com
-69.147.88.13	c7.staticflickr.com
-69.147.88.13	c8.staticflickr.com
-69.147.88.13	c9.staticflickr.com
-106.10.137.23	static.flickr.com
-106.10.137.23	farm1.staticflickr.com
-106.10.137.23	farm2.staticflickr.com
-106.10.137.23	farm3.staticflickr.com
-106.10.137.23	farm4.staticflickr.com
-106.10.137.23	farm5.staticflickr.com
-106.10.137.23	farm6.staticflickr.com
-106.10.137.23	farm7.staticflickr.com
-106.10.137.23	farm8.staticflickr.com
-106.10.137.23	farm9.staticflickr.com
-63.250.200.72	bf1.farm3.staticflickr.com
-63.250.200.72	bf1.farm6.staticflickr.com
-63.250.200.72	bf1.farm7.staticflickr.com
-74.6.47.80	gq1.farm3.staticflickr.com
-74.6.47.80	gq1.farm4.staticflickr.com
-74.6.47.80	gq1.farm5.staticflickr.com
-74.6.47.80	gq1.farm6.staticflickr.com
-98.138.4.56	ne1.farm7.staticflickr.com
-208.71.44.31	flickr.com
-208.71.44.31	m.flickr.com
-208.71.44.31	secure.flickr.com
-208.71.44.31	www.flickr.com
-208.71.44.31	downloadr.flickr.com
-106.10.137.175	geo.query.yahoo.com
-217.12.13.41	geo.yahoo.com
+192.0.79.32	code.flickr.net
+106.10.231.23	static.flickr.com
+106.10.231.23	farm1.staticflickr.com
+106.10.231.23	farm2.staticflickr.com
+106.10.231.23	farm3.staticflickr.com
+106.10.231.23	farm4.staticflickr.com
+106.10.231.23	farm5.staticflickr.com
+106.10.231.23	farm6.staticflickr.com
+106.10.231.23	farm7.staticflickr.com
+106.10.231.23	farm8.staticflickr.com
+106.10.231.23	farm9.staticflickr.com
+119.161.14.17	flickr.com
+119.161.14.17	m.flickr.com
+119.161.14.17	secure.flickr.com
+119.161.14.17	www.flickr.com
+119.161.14.17	heartbeat.flickr.com
+119.161.14.17	api.flickr.com
+119.161.14.17	up.flickr.com
+76.13.28.196	downloadr.flickr.com
 203.84.197.27	finance.yahoo.com
-203.84.197.27	lh.secure.yahoo.com
-203.84.197.27	mg.mail.yahoo.com
+203.84.197.27	hk.finance.yahoo.com0
+203.84.197.27	answers.yahoo.com
+203.84.197.27	hk.answers.yahoo.com
+203.84.197.27	tw.answers.yahoo.com
+203.84.197.27	geo.yahoo.com
+116.214.10.132	tw.bid.yahoo.com
 121.101.144.112	hk.finance.yahoo.com
-27.123.201.252	tw.finance.yahoo.com
-106.10.199.10	hk.news.yahoo.com
-106.10.138.240	hk.yahoo.com
-106.10.138.240	tw.yahoo.com
-106.10.138.240	us.yahoo.com
-106.10.138.240	www.yahoo.com
-106.10.136.146	hsrd.yahoo.com
-106.10.193.20	hk-mg61.mail.yahoo.com
-106.10.193.20	login.yahoo.com
-106.10.193.20	mail.yahoo.com
-106.10.193.20	na.edit.yahoo.com
-106.10.193.20	open.login.yahoo.com
-106.10.193.20	sa.edit.yahoo.com
-216.39.54.12	overview.mail.yahoo.com
-124.108.101.57	s.yimg.com
-106.10.199.11	heartbeat.flickr.com
-106.10.199.11	tw.news.yahoo.com
-106.10.193.30	sp.analytics.yahoo.com
-119.161.11.10	up.flickr.com
-204.0.5.34	us.js2.yimg.com
-98.138.253.109	yahoo.com
-77.238.184.150	ying.com
+124.108.112.57	tw.finance.yahoo.com
+106.10.160.45	news.yahoo.com
+203.188.200.67	hk.yahoo.com
+203.188.200.67	tw.yahoo.com
+180.222.100.23	tw.news.yahoo.com
+180.222.100.23	hk.news.yahoo.com
+106.10.178.36	yahoo.com
 50.18.192.250	duckduckgo-owned-server.yahoo.net
 116.214.11.98	tw.mobi.yahoo.com
+119.160.242.137	tw.mall.yahoo.com
+116.214.11.98	hk.mobi.yahoo.com
+116.214.11.98	tw.mobi.yahoo.com
+27.123.200.67	search.yahoo.com
+27.123.200.67	hk.search.yahoo.com
+27.123.200.67	tw.search.yahoo.com
 # Yahoo End
 
 # Youtube Start
-61.91.161.217	youtube.com
-61.91.161.217	www.youtube.com
-61.91.161.217	ads.youtube.com
-61.91.161.217	au.youtube.com
-61.91.161.217	ca.youtube.com
-61.91.161.217	de.youtube.com
-61.91.161.217	jp.youtube.com
-61.91.161.217	ru.youtube.com
-61.91.161.217	tw.youtube.com
-61.91.161.217	uk.youtube.com
-61.91.161.217	accounts.youtube.com
-61.91.161.217	analytics.youtube.com
-61.91.161.217	apiblog.youtube.com
-61.91.161.217	creatoracademy.youtube.com
-61.91.161.217	m.youtube.com
-61.91.161.217	s.youtube.com
-61.91.161.217	gdata.youtube.com
-61.91.161.217	gaming.youtube.com
-61.91.161.217	help.youtube.com
-61.91.161.217	img.youtube.com
-61.91.161.217	insight.youtube.com
-61.91.161.217	upload.youtube.com
-61.91.161.217	redirector.c.youtube.com
-61.91.161.217	stage.gdata.youtube.com
-61.91.161.217	tv.youtube.com
-61.91.161.217	uploads.stage.gdata.youtube.com
-61.91.161.217	youtube.googleblog.com
-61.91.161.217	youtube.googleapis.com
-61.91.161.217	youtubei.googleapis.com
-61.91.161.217	youtube-ui.l.google.com
-61.91.161.217	www.youtube-nocookie.com
+172.217.26.46	youtube.com
+172.217.26.46	www.youtube.com
+172.217.26.46	ads.youtube.com
+172.217.26.46	au.youtube.com
+172.217.26.46	ca.youtube.com
+172.217.26.46	de.youtube.com
+172.217.26.46	jp.youtube.com
+172.217.26.46	ru.youtube.com
+172.217.26.46	tw.youtube.com
+172.217.26.46	uk.youtube.com
+172.217.26.46	accounts.youtube.com
+172.217.26.46	analytics.youtube.com
+172.217.26.46	apiblog.youtube.com
+172.217.26.46	creatoracademy.youtube.com
+172.217.26.46	m.youtube.com
+172.217.26.46	s.youtube.com
+172.217.26.46	gdata.youtube.com
+172.217.26.46	gaming.youtube.com
+172.217.26.46	help.youtube.com
+172.217.26.46	img.youtube.com
+172.217.26.46	insight.youtube.com
+172.217.26.46	upload.youtube.com
+172.217.26.46	redirector.c.youtube.com
+172.217.26.46	stage.gdata.youtube.com
+172.217.26.46	tv.youtube.com
+172.217.26.46	uploads.stage.gdata.youtube.com
+172.217.26.46	youtube.googleblog.com
+172.217.26.46	youtube.googleapis.com
+172.217.26.46	youtubei.googleapis.com
+172.217.26.46	youtube-ui.l.google.com
+172.217.26.46	www.youtube-nocookie.com
 # Youtube End
 
 # Modified Hosts End
