@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-07-20
+# Last updated: 2017-07-25
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -37,7 +37,7 @@
 54.231.168.160	s3-us-west-2.amazonaws.com
 52.216.80.48	github-cloud.s3.amazonaws.com
 54.231.40.3	github-com.s3.amazonaws.com
-54.231.49.104	github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.20.171	github-production-release-asset-2e65be.s3.amazonaws.com
 52.216.228.168	github-production-user-asset-6210df.s3.amazonaws.com
 # Amazon AWS End
 
@@ -169,6 +169,7 @@
 162.125.32.5	api-d.dropbox.com
 162.125.32.13	api.v.dropbox.com
 162.125.32.13	api-notify.dropbox.com
+52.84.243.64	aem.dropbox.com
 162.125.1.8	api-content.dropbox.com
 162.125.2.5	api-content-photos.dropbox.com
 52.85.12.34	blogs.dropbox.com
@@ -200,6 +201,7 @@
 162.125.80.5	photos-6.dropbox.com
 162.125.80.5	photos-thumb.dropbox.com
 162.125.18.129	photos-thumb.x.dropbox.com
+162.125.2.3	paper.dropbox.com
 52.85.12.41	status.dropbox.com
 52.85.12.72	snapengage.dropbox.com
 162.125.2.6	dl.dropboxusercontent.com
