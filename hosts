@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-08-02
+# Last updated: 2017-08-03
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -3017,7 +3017,7 @@
 # Google:Fit End
 
 # Google Play Start
-216.58.195.238	redirector.gvt1.com
+203.208.41.40	redirector.gvt1.com
 194.9.24.76	r1---sn-5uh5o-f5f6.gvt1.com
 194.9.24.77	r2---sn-5uh5o-f5f6.gvt1.com
 194.9.24.78	r3---sn-5uh5o-f5f6.gvt1.com
@@ -4498,7 +4498,7 @@
 # Youtube End
 
 # Google Video Start
-216.58.195.238	redirector.googlevideo.com
+203.208.41.40	redirector.googlevideo.com
 194.9.24.76	r1---sn-5uh5o-f5f6.googlevideo.com
 194.9.24.77	r2---sn-5uh5o-f5f6.googlevideo.com
 194.9.24.78	r3---sn-5uh5o-f5f6.googlevideo.com
