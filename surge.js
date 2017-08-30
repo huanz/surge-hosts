@@ -44,14 +44,14 @@ exports.update = function (params, cb) {
             } else {
                 cmds = [
                     'rm -rf hosts surge-hosts AppleDNS',
-                    'git clone --depth 1 --branch master --single-branch https://github.com/racaljk/hosts.git',
+                    'git clone --depth 1 --branch master --single-branch https://github.com/googlehosts/hosts.git',
                     'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git',
                     'git clone --depth 1 --branch master --single-branch ' + GHTOKEN
                 ];
             }
         } catch (e) {
             cmds = [
-                'git clone --depth 1 --branch master --single-branch https://github.com/racaljk/hosts.git',
+                'git clone --depth 1 --branch master --single-branch https://github.com/googlehosts/hosts.git',
                 'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git',
                 'git clone --depth 1 --branch master --single-branch ' + GHTOKEN
             ];
@@ -66,7 +66,7 @@ exports.update = function (params, cb) {
         ]), function (err) {
             if (err === null) {
                 var hostsArr = [];
-                var lr = new LineByLineReader('hosts/hosts');
+                var lr = new LineByLineReader('hosts/hosts-files/hosts');
                 lr.on('line', function (line) {
                     line = line.trim();
                     if (line && !line.startsWith('#')) {
