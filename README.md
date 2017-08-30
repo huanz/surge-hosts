@@ -2,4 +2,4 @@
 
 auto update server
 
-[update](https://surge.leanapp.cn)
+[update](https://surges.leanapp.cn)
