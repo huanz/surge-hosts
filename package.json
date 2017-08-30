@@ -14,13 +14,15 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "ejs": "^2.4.1",
-    "express": "^4.13.4",
-    "leanengine": "^0.4.0",
-    "line-by-line": "^0.1.4"
+    "body-parser": "^1.17.2",
+    "connect-timeout": "^1.9.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "leancloud-storage": "^3.1.1",
+    "leanengine": "^3.0.2",
+    "line-by-line": "^0.1.5"
   },
   "engines": {
-    "node": "4.x"
+    "node": "8.x"
   }
 }
