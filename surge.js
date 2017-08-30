@@ -89,7 +89,7 @@ exports.update = function (params, cb) {
                     fs.writeFileSync('surge-hosts/ChinaNet.conf', ChinaNetData);
                     fs.writeFileSync('surge-hosts/CMCC.conf', CMCCData);
                     shell.series([
-                        'cp hosts/hosts surge-hosts',
+                        'cp hosts/hosts-files/hosts surge-hosts',
                         'git config --global user.name "huanz"',
                         'git config --global user.email "yhz1219@gmail.com"',
                         'cd surge-hosts && git add -u',
