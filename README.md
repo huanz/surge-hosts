@@ -6,7 +6,7 @@
 
 [hosts](https://raw.githubusercontent.com/huanz/surge-hosts/master/hosts)
 
-for pc, just copy from [racaljk/hosts](https://github.com/racaljk/hosts)
+for pc, just copy from [googlehosts/hosts](https://github.com/googlehosts/hosts)
 
 ## 运营商类型查看
 
