@@ -1,6 +1,6 @@
 # Copyright (c) 2017, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2017-09-07
+# Last updated: 2017-09-08
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -381,7 +381,7 @@
 # Gmail End
 
 # Google Apis Start
-216.58.203.138	www.googleapis.com
+74.125.197.95	www.googleapis.com
 108.177.121.201	googleapis.com
 108.177.121.201	ajax.googleapis.com
 108.177.121.201	android.googleapis.com
@@ -702,6 +702,7 @@
 
 # Google Chrome/Chromium Start
 172.217.25.220	chrome.google.com
+74.125.248.73	git.chromium.org
 # Google Chrome/Chromium End
 
 # Google Search Country Start
@@ -802,7 +803,6 @@
 108.177.120.94	bpui0.google.com
 108.177.120.94	buzz.google.com
 108.177.120.94	calendar.google.com
-108.177.120.94	checkout.google.com
 108.177.120.94	classroom.google.com
 108.177.120.94	cloud.google.com
 108.177.120.94	packages.cloud.google.com
@@ -1008,6 +1008,7 @@
 108.177.120.94	sketchup.google.com
 108.177.120.94	tagmanager.google.com
 108.177.120.94	talkgadget.google.com
+74.125.197.115	checkout.google.com
 209.85.235.188	ipv4.google.com
 108.177.125.189	0.client-channel.google.com
 108.177.125.189	1.client-channel.google.com
@@ -2911,6 +2912,23 @@
 216.58.217.174	s.ytimg.com
 216.58.197.249	www.youtube.com
 # Youtube End
+
+# Google 1e100 Start
+74.125.67.1	ams15s21-in-f1.1e100.net
+216.239.36.4	ams15s21-in-f4.1e100.net
+216.239.36.5	ams15s21-in-f5.1e100.net
+216.239.36.5	ams15s21-in-f6.1e100.net
+216.239.34.22	ams15s21-in-f22.1e100.net
+216.239.34.23	ams15s21-in-f23.1e100.net
+216.239.34.27	ams15s21-in-f27.1e100.net
+216.239.34.29	ams15s21-in-f29.1e100.net
+216.239.34.30	ams15s21-in-f30.1e100.net
+216.239.34.31	ams15s21-in-f31.1e100.net
+74.125.67.1	ams15s22-in-f1.1e100.net
+216.239.36.4	ams15s22-in-f4.1e100.net
+216.239.36.5	ams15s22-in-f5.1e100.net
+216.239.36.6	ams15s22-in-f7.1e100.net
+# Google 1e100 End
 
 # Google 2mdn Start
 203.208.41.41	redirector.c.2mdn.net
@@ -5678,6 +5696,26 @@
 74.125.106.138	r4---sn-oguesnze.c.docs.google.com
 74.125.106.139	r5---sn-oguesnze.c.docs.google.com
 74.125.106.140	r6---sn-oguesnze.c.docs.google.com
+173.194.51.70	r1---sn-oguesnle.c.docs.google.com
+173.194.51.71	r2---sn-oguesnle.c.docs.google.com
+173.194.51.72	r3---sn-oguesnle.c.docs.google.com
+173.194.51.73	r4---sn-oguesnle.c.docs.google.com
+173.194.51.74	r5---sn-oguesnle.c.docs.google.com
+173.194.51.75	r6---sn-oguesnle.c.docs.google.com
+173.194.51.76	r7---sn-oguesnle.c.docs.google.com
+173.194.51.77	r8---sn-oguesnle.c.docs.google.com
+173.194.51.78	r9---sn-oguesnle.c.docs.google.com
+173.194.51.79	r10---sn-oguesnle.c.docs.google.com
+173.194.51.80	r11---sn-oguesnle.c.docs.google.com
+173.194.51.81	r12---sn-oguesnle.c.docs.google.com
+173.194.51.82	r13---sn-oguesnle.c.docs.google.com
+173.194.51.83	r14---sn-oguesnle.c.docs.google.com
+173.194.51.84	r15---sn-oguesnle.c.docs.google.com
+173.194.51.85	r16---sn-oguesnle.c.docs.google.com
+173.194.51.86	r17---sn-oguesnle.c.docs.google.com
+173.194.51.87	r18---sn-oguesnle.c.docs.google.com
+173.194.51.88	r19---sn-oguesnle.c.docs.google.com
+173.194.51.89	r20---sn-oguesnle.c.docs.google.com
 # Google Docs End
 
 # Google Usercontent Doc Start
@@ -6370,6 +6408,26 @@
 74.125.106.138	r4---sn-oguesnze.c.doc-0-0-sj.sj.googleusercontent.com
 74.125.106.139	r5---sn-oguesnze.c.doc-0-0-sj.sj.googleusercontent.com
 74.125.106.140	r6---sn-oguesnze.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.70	r1---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.71	r2---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.72	r3---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.73	r4---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.74	r5---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.75	r6---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.76	r7---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.77	r8---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.78	r9---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.79	r10---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.80	r11---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.81	r12---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.82	r13---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.83	r14---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.84	r15---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.85	r16---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.86	r17---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.87	r18---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.88	r19---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
+173.194.51.89	r20---sn-oguesnle.c.doc-0-0-sj.sj.googleusercontent.com
 # Google Usercontent Doc End
 
 # Google Drive Start
@@ -7062,6 +7120,26 @@
 74.125.106.138	r4---sn-oguesnze.c.drive.google.com
 74.125.106.139	r5---sn-oguesnze.c.drive.google.com
 74.125.106.140	r6---sn-oguesnze.c.drive.google.com
+173.194.51.70	r1---sn-oguesnle.c.drive.google.com
+173.194.51.71	r2---sn-oguesnle.c.drive.google.com
+173.194.51.72	r3---sn-oguesnle.c.drive.google.com
+173.194.51.73	r4---sn-oguesnle.c.drive.google.com
+173.194.51.74	r5---sn-oguesnle.c.drive.google.com
+173.194.51.75	r6---sn-oguesnle.c.drive.google.com
+173.194.51.76	r7---sn-oguesnle.c.drive.google.com
+173.194.51.77	r8---sn-oguesnle.c.drive.google.com
+173.194.51.78	r9---sn-oguesnle.c.drive.google.com
+173.194.51.79	r10---sn-oguesnle.c.drive.google.com
+173.194.51.80	r11---sn-oguesnle.c.drive.google.com
+173.194.51.81	r12---sn-oguesnle.c.drive.google.com
+173.194.51.82	r13---sn-oguesnle.c.drive.google.com
+173.194.51.83	r14---sn-oguesnle.c.drive.google.com
+173.194.51.84	r15---sn-oguesnle.c.drive.google.com
+173.194.51.85	r16---sn-oguesnle.c.drive.google.com
+173.194.51.86	r17---sn-oguesnle.c.drive.google.com
+173.194.51.87	r18---sn-oguesnle.c.drive.google.com
+173.194.51.88	r19---sn-oguesnle.c.drive.google.com
+173.194.51.89	r20---sn-oguesnle.c.drive.google.com
 # Google Drive End
 
 # Google Inbox Start
@@ -7754,6 +7832,26 @@
 74.125.106.138	r4---sn-oguesnze.c.inbox.google.com
 74.125.106.139	r5---sn-oguesnze.c.inbox.google.com
 74.125.106.140	r6---sn-oguesnze.c.inbox.google.com
+173.194.51.70	r1---sn-oguesnle.c.inbox.google.com
+173.194.51.71	r2---sn-oguesnle.c.inbox.google.com
+173.194.51.72	r3---sn-oguesnle.c.inbox.google.com
+173.194.51.73	r4---sn-oguesnle.c.inbox.google.com
+173.194.51.74	r5---sn-oguesnle.c.inbox.google.com
+173.194.51.75	r6---sn-oguesnle.c.inbox.google.com
+173.194.51.76	r7---sn-oguesnle.c.inbox.google.com
+173.194.51.77	r8---sn-oguesnle.c.inbox.google.com
+173.194.51.78	r9---sn-oguesnle.c.inbox.google.com
+173.194.51.79	r10---sn-oguesnle.c.inbox.google.com
+173.194.51.80	r11---sn-oguesnle.c.inbox.google.com
+173.194.51.81	r12---sn-oguesnle.c.inbox.google.com
+173.194.51.82	r13---sn-oguesnle.c.inbox.google.com
+173.194.51.83	r14---sn-oguesnle.c.inbox.google.com
+173.194.51.84	r15---sn-oguesnle.c.inbox.google.com
+173.194.51.85	r16---sn-oguesnle.c.inbox.google.com
+173.194.51.86	r17---sn-oguesnle.c.inbox.google.com
+173.194.51.87	r18---sn-oguesnle.c.inbox.google.com
+173.194.51.88	r19---sn-oguesnle.c.inbox.google.com
+173.194.51.89	r20---sn-oguesnle.c.inbox.google.com
 # Google Inbox End
 
 # Google Mail Start
@@ -8446,6 +8544,26 @@
 74.125.106.138	r4---sn-oguesnze.c.mail.google.com
 74.125.106.139	r5---sn-oguesnze.c.mail.google.com
 74.125.106.140	r6---sn-oguesnze.c.mail.google.com
+173.194.51.70	r1---sn-oguesnle.c.mail.google.com
+173.194.51.71	r2---sn-oguesnle.c.mail.google.com
+173.194.51.72	r3---sn-oguesnle.c.mail.google.com
+173.194.51.73	r4---sn-oguesnle.c.mail.google.com
+173.194.51.74	r5---sn-oguesnle.c.mail.google.com
+173.194.51.75	r6---sn-oguesnle.c.mail.google.com
+173.194.51.76	r7---sn-oguesnle.c.mail.google.com
+173.194.51.77	r8---sn-oguesnle.c.mail.google.com
+173.194.51.78	r9---sn-oguesnle.c.mail.google.com
+173.194.51.79	r10---sn-oguesnle.c.mail.google.com
+173.194.51.80	r11---sn-oguesnle.c.mail.google.com
+173.194.51.81	r12---sn-oguesnle.c.mail.google.com
+173.194.51.82	r13---sn-oguesnle.c.mail.google.com
+173.194.51.83	r14---sn-oguesnle.c.mail.google.com
+173.194.51.84	r15---sn-oguesnle.c.mail.google.com
+173.194.51.85	r16---sn-oguesnle.c.mail.google.com
+173.194.51.86	r17---sn-oguesnle.c.mail.google.com
+173.194.51.87	r18---sn-oguesnle.c.mail.google.com
+173.194.51.88	r19---sn-oguesnle.c.mail.google.com
+173.194.51.89	r20---sn-oguesnle.c.mail.google.com
 # Google Mail End
 
 # Google Map offline Start
@@ -9138,6 +9256,26 @@
 74.125.106.138	r4---sn-oguesnze.c.offline.maps.google.com
 74.125.106.139	r5---sn-oguesnze.c.offline.maps.google.com
 74.125.106.140	r6---sn-oguesnze.c.offline.maps.google.com
+173.194.51.70	r1---sn-oguesnle.c.offline.maps.google.com
+173.194.51.71	r2---sn-oguesnle.c.offline.maps.google.com
+173.194.51.72	r3---sn-oguesnle.c.offline.maps.google.com
+173.194.51.73	r4---sn-oguesnle.c.offline.maps.google.com
+173.194.51.74	r5---sn-oguesnle.c.offline.maps.google.com
+173.194.51.75	r6---sn-oguesnle.c.offline.maps.google.com
+173.194.51.76	r7---sn-oguesnle.c.offline.maps.google.com
+173.194.51.77	r8---sn-oguesnle.c.offline.maps.google.com
+173.194.51.78	r9---sn-oguesnle.c.offline.maps.google.com
+173.194.51.79	r10---sn-oguesnle.c.offline.maps.google.com
+173.194.51.80	r11---sn-oguesnle.c.offline.maps.google.com
+173.194.51.81	r12---sn-oguesnle.c.offline.maps.google.com
+173.194.51.82	r13---sn-oguesnle.c.offline.maps.google.com
+173.194.51.83	r14---sn-oguesnle.c.offline.maps.google.com
+173.194.51.84	r15---sn-oguesnle.c.offline.maps.google.com
+173.194.51.85	r16---sn-oguesnle.c.offline.maps.google.com
+173.194.51.86	r17---sn-oguesnle.c.offline.maps.google.com
+173.194.51.87	r18---sn-oguesnle.c.offline.maps.google.com
+173.194.51.88	r19---sn-oguesnle.c.offline.maps.google.com
+173.194.51.89	r20---sn-oguesnle.c.offline.maps.google.com
 # Google Map offline End
 
 # Google Pack Start
@@ -9830,6 +9968,26 @@
 74.125.106.138	r4---sn-oguesnze.c.pack.google.com
 74.125.106.139	r5---sn-oguesnze.c.pack.google.com
 74.125.106.140	r6---sn-oguesnze.c.pack.google.com
+173.194.51.70	r1---sn-oguesnle.c.pack.google.com
+173.194.51.71	r2---sn-oguesnle.c.pack.google.com
+173.194.51.72	r3---sn-oguesnle.c.pack.google.com
+173.194.51.73	r4---sn-oguesnle.c.pack.google.com
+173.194.51.74	r5---sn-oguesnle.c.pack.google.com
+173.194.51.75	r6---sn-oguesnle.c.pack.google.com
+173.194.51.76	r7---sn-oguesnle.c.pack.google.com
+173.194.51.77	r8---sn-oguesnle.c.pack.google.com
+173.194.51.78	r9---sn-oguesnle.c.pack.google.com
+173.194.51.79	r10---sn-oguesnle.c.pack.google.com
+173.194.51.80	r11---sn-oguesnle.c.pack.google.com
+173.194.51.81	r12---sn-oguesnle.c.pack.google.com
+173.194.51.82	r13---sn-oguesnle.c.pack.google.com
+173.194.51.83	r14---sn-oguesnle.c.pack.google.com
+173.194.51.84	r15---sn-oguesnle.c.pack.google.com
+173.194.51.85	r16---sn-oguesnle.c.pack.google.com
+173.194.51.86	r17---sn-oguesnle.c.pack.google.com
+173.194.51.87	r18---sn-oguesnle.c.pack.google.com
+173.194.51.88	r19---sn-oguesnle.c.pack.google.com
+173.194.51.89	r20---sn-oguesnle.c.pack.google.com
 # Google Pack End
 
 # Google Play Start
@@ -10523,6 +10681,26 @@
 74.125.106.138	r4---sn-oguesnze.gvt1.com
 74.125.106.139	r5---sn-oguesnze.gvt1.com
 74.125.106.140	r6---sn-oguesnze.gvt1.com
+173.194.51.70	r1---sn-oguesnle.gvt1.com
+173.194.51.71	r2---sn-oguesnle.gvt1.com
+173.194.51.72	r3---sn-oguesnle.gvt1.com
+173.194.51.73	r4---sn-oguesnle.gvt1.com
+173.194.51.74	r5---sn-oguesnle.gvt1.com
+173.194.51.75	r6---sn-oguesnle.gvt1.com
+173.194.51.76	r7---sn-oguesnle.gvt1.com
+173.194.51.77	r8---sn-oguesnle.gvt1.com
+173.194.51.78	r9---sn-oguesnle.gvt1.com
+173.194.51.79	r10---sn-oguesnle.gvt1.com
+173.194.51.80	r11---sn-oguesnle.gvt1.com
+173.194.51.81	r12---sn-oguesnle.gvt1.com
+173.194.51.82	r13---sn-oguesnle.gvt1.com
+173.194.51.83	r14---sn-oguesnle.gvt1.com
+173.194.51.84	r15---sn-oguesnle.gvt1.com
+173.194.51.85	r16---sn-oguesnle.gvt1.com
+173.194.51.86	r17---sn-oguesnle.gvt1.com
+173.194.51.87	r18---sn-oguesnle.gvt1.com
+173.194.51.88	r19---sn-oguesnle.gvt1.com
+173.194.51.89	r20---sn-oguesnle.gvt1.com
 194.9.24.76	r1---sn-5uh5o-f5f6.c.play.google.com
 194.9.24.77	r2---sn-5uh5o-f5f6.c.play.google.com
 194.9.24.78	r3---sn-5uh5o-f5f6.c.play.google.com
@@ -11211,11 +11389,31 @@
 74.125.106.138	r4---sn-oguesnze.c.play.google.com
 74.125.106.139	r5---sn-oguesnze.c.play.google.com
 74.125.106.140	r6---sn-oguesnze.c.play.google.com
+173.194.51.70	r1---sn-oguesnle.c.play.google.com
+173.194.51.71	r2---sn-oguesnle.c.play.google.com
+173.194.51.72	r3---sn-oguesnle.c.play.google.com
+173.194.51.73	r4---sn-oguesnle.c.play.google.com
+173.194.51.74	r5---sn-oguesnle.c.play.google.com
+173.194.51.75	r6---sn-oguesnle.c.play.google.com
+173.194.51.76	r7---sn-oguesnle.c.play.google.com
+173.194.51.77	r8---sn-oguesnle.c.play.google.com
+173.194.51.78	r9---sn-oguesnle.c.play.google.com
+173.194.51.79	r10---sn-oguesnle.c.play.google.com
+173.194.51.80	r11---sn-oguesnle.c.play.google.com
+173.194.51.81	r12---sn-oguesnle.c.play.google.com
+173.194.51.82	r13---sn-oguesnle.c.play.google.com
+173.194.51.83	r14---sn-oguesnle.c.play.google.com
+173.194.51.84	r15---sn-oguesnle.c.play.google.com
+173.194.51.85	r16---sn-oguesnle.c.play.google.com
+173.194.51.86	r17---sn-oguesnle.c.play.google.com
+173.194.51.87	r18---sn-oguesnle.c.play.google.com
+173.194.51.88	r19---sn-oguesnle.c.play.google.com
+173.194.51.89	r20---sn-oguesnle.c.play.google.com
 # Google Play End
 
 # Google Video Start
 172.217.31.96	manifest.googlevideo.com
-203.208.41.41	redirector.a1.googlevideo.com.
+203.208.41.41	redirector.a1.googlevideo.com
 203.208.41.41	redirector.c.video.google.com
 203.208.41.41	redirector.googlevideo.com
 194.9.24.76	r1---sn-5uh5o-f5f6.googlevideo.com
@@ -11906,6 +12104,26 @@
 74.125.106.138	r4---sn-oguesnze.googlevideo.com
 74.125.106.139	r5---sn-oguesnze.googlevideo.com
 74.125.106.140	r6---sn-oguesnze.googlevideo.com
+173.194.51.70	r1---sn-oguesnle.googlevideo.com
+173.194.51.71	r2---sn-oguesnle.googlevideo.com
+173.194.51.72	r3---sn-oguesnle.googlevideo.com
+173.194.51.73	r4---sn-oguesnle.googlevideo.com
+173.194.51.74	r5---sn-oguesnle.googlevideo.com
+173.194.51.75	r6---sn-oguesnle.googlevideo.com
+173.194.51.76	r7---sn-oguesnle.googlevideo.com
+173.194.51.77	r8---sn-oguesnle.googlevideo.com
+173.194.51.78	r9---sn-oguesnle.googlevideo.com
+173.194.51.79	r10---sn-oguesnle.googlevideo.com
+173.194.51.80	r11---sn-oguesnle.googlevideo.com
+173.194.51.81	r12---sn-oguesnle.googlevideo.com
+173.194.51.82	r13---sn-oguesnle.googlevideo.com
+173.194.51.83	r14---sn-oguesnle.googlevideo.com
+173.194.51.84	r15---sn-oguesnle.googlevideo.com
+173.194.51.85	r16---sn-oguesnle.googlevideo.com
+173.194.51.86	r17---sn-oguesnle.googlevideo.com
+173.194.51.87	r18---sn-oguesnle.googlevideo.com
+173.194.51.88	r19---sn-oguesnle.googlevideo.com
+173.194.51.89	r20---sn-oguesnle.googlevideo.com
 194.9.24.76	r1---sn-5uh5o-f5f6.a1.googlevideo.com
 194.9.24.77	r2---sn-5uh5o-f5f6.a1.googlevideo.com
 194.9.24.78	r3---sn-5uh5o-f5f6.a1.googlevideo.com
@@ -12594,6 +12812,26 @@
 74.125.106.138	r4---sn-oguesnze.a1.googlevideo.com
 74.125.106.139	r5---sn-oguesnze.a1.googlevideo.com
 74.125.106.140	r6---sn-oguesnze.a1.googlevideo.com
+173.194.51.70	r1---sn-oguesnle.a1.googlevideo.com
+173.194.51.71	r2---sn-oguesnle.a1.googlevideo.com
+173.194.51.72	r3---sn-oguesnle.a1.googlevideo.com
+173.194.51.73	r4---sn-oguesnle.a1.googlevideo.com
+173.194.51.74	r5---sn-oguesnle.a1.googlevideo.com
+173.194.51.75	r6---sn-oguesnle.a1.googlevideo.com
+173.194.51.76	r7---sn-oguesnle.a1.googlevideo.com
+173.194.51.77	r8---sn-oguesnle.a1.googlevideo.com
+173.194.51.78	r9---sn-oguesnle.a1.googlevideo.com
+173.194.51.79	r10---sn-oguesnle.a1.googlevideo.com
+173.194.51.80	r11---sn-oguesnle.a1.googlevideo.com
+173.194.51.81	r12---sn-oguesnle.a1.googlevideo.com
+173.194.51.82	r13---sn-oguesnle.a1.googlevideo.com
+173.194.51.83	r14---sn-oguesnle.a1.googlevideo.com
+173.194.51.84	r15---sn-oguesnle.a1.googlevideo.com
+173.194.51.85	r16---sn-oguesnle.a1.googlevideo.com
+173.194.51.86	r17---sn-oguesnle.a1.googlevideo.com
+173.194.51.87	r18---sn-oguesnle.a1.googlevideo.com
+173.194.51.88	r19---sn-oguesnle.a1.googlevideo.com
+173.194.51.89	r20---sn-oguesnle.a1.googlevideo.com
 194.9.24.76	r1---sn-5uh5o-f5f6.c.video.google.com
 194.9.24.77	r2---sn-5uh5o-f5f6.c.video.google.com
 194.9.24.78	r3---sn-5uh5o-f5f6.c.video.google.com
@@ -13974,6 +14212,26 @@
 74.125.106.138	r4---sn-oguesnze.c.youtube.com
 74.125.106.139	r5---sn-oguesnze.c.youtube.com
 74.125.106.140	r6---sn-oguesnze.c.youtube.com
+173.194.51.70	r1---sn-oguesnle.c.youtube.com
+173.194.51.71	r2---sn-oguesnle.c.youtube.com
+173.194.51.72	r3---sn-oguesnle.c.youtube.com
+173.194.51.73	r4---sn-oguesnle.c.youtube.com
+173.194.51.74	r5---sn-oguesnle.c.youtube.com
+173.194.51.75	r6---sn-oguesnle.c.youtube.com
+173.194.51.76	r7---sn-oguesnle.c.youtube.com
+173.194.51.77	r8---sn-oguesnle.c.youtube.com
+173.194.51.78	r9---sn-oguesnle.c.youtube.com
+173.194.51.79	r10---sn-oguesnle.c.youtube.com
+173.194.51.80	r11---sn-oguesnle.c.youtube.com
+173.194.51.81	r12---sn-oguesnle.c.youtube.com
+173.194.51.82	r13---sn-oguesnle.c.youtube.com
+173.194.51.83	r14---sn-oguesnle.c.youtube.com
+173.194.51.84	r15---sn-oguesnle.c.youtube.com
+173.194.51.85	r16---sn-oguesnle.c.youtube.com
+173.194.51.86	r17---sn-oguesnle.c.youtube.com
+173.194.51.87	r18---sn-oguesnle.c.youtube.com
+173.194.51.88	r19---sn-oguesnle.c.youtube.com
+173.194.51.89	r20---sn-oguesnle.c.youtube.com
 # Youtube End
 
 # Google XN Start
@@ -14666,6 +14924,26 @@
 74.125.106.138	r4---sn-oguesnze.xn--ngstr-lra8j.com
 74.125.106.139	r5---sn-oguesnze.xn--ngstr-lra8j.com
 74.125.106.140	r6---sn-oguesnze.xn--ngstr-lra8j.com
+173.194.51.70	r1---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.71	r2---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.72	r3---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.73	r4---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.74	r5---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.75	r6---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.76	r7---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.77	r8---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.78	r9---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.79	r10---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.80	r11---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.81	r12---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.82	r13---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.83	r14---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.84	r15---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.85	r16---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.86	r17---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.87	r18---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.88	r19---sn-oguesnle.xn--ngstr-lra8j.com
+173.194.51.89	r20---sn-oguesnle.xn--ngstr-lra8j.com
 # Google XN End
 
 # Modified Hosts End
