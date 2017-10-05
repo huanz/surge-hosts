@@ -1,6 +1,6 @@
 # Copyright (c) 2017, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2017-09-29
+# Last updated: 2017-10-05
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -23,6 +23,7 @@
 96.7.235.57	i.pinimg.com
 96.7.235.57	v.pinimg.com
 96.7.235.57	s-media-cache-ak0.pinimg.com
+23.56.25.171	blogthumb.pstatic.net
 # Akamai End
 
 # Amazon AWS Start
@@ -2662,6 +2663,10 @@
 34.205.198.51	help.issuu.com
 # issuu End
 
+# Kik Start
+104.20.171.40	www.kik.com
+# Kik End
+
 # Kobo Start
 128.127.159.1	magazines-adf.kobo.com
 157.55.176.209	social.kobobooks.com
@@ -2756,7 +2761,7 @@
 203.104.160.11	gd2s.line.naver.jp
 203.104.174.20	gd2v.line.naver.jp
 125.209.252.18	gd2g.line.naver.jp
-125.209.252.17	gd2i.line.naver.jpstatic.sxzhchina.com
+125.209.252.17	gd2i.line.naver.jp
 125.209.222.59	gd2k.line.naver.jp
 125.209.222.202	gd2w.line.naver.jp
 125.209.222.202	gww.line.naver.jp
@@ -2789,15 +2794,15 @@
 31.13.64.40	l0.cn.nytimes.com
 208.100.17.183	ic.tynt.com
 54.182.4.208	m.cn.nytstyle.com
-151.101.77.164	www.nytimes.com
-151.101.77.164	graphics8.nytimes.com
-151.101.77.164	typeface.nytimes.com
-151.101.77.164	typeface.nyt.com
-151.101.77.164	static01.nyt.com
-151.101.77.164	static02.nyt.com
-151.101.77.164	js.nyt.com
-151.101.77.164	css.nyt.com
-151.101.77.164	int.nyt.com
+151.101.65.164	www.nytimes.com
+151.101.65.164	graphics8.nytimes.com
+151.101.65.164	typeface.nytimes.com
+151.101.65.164	typeface.nyt.com
+151.101.65.164	static01.nyt.com
+151.101.65.164	static02.nyt.com
+151.101.65.164	js.nyt.com
+151.101.65.164	css.nyt.com
+151.101.65.164	int.nyt.com
 54.182.4.198	cn.nytimes.com
 35.186.231.252	m.cn.nytimes.com
 151.101.1.164	json8.nytimes.com
@@ -3007,14 +3012,23 @@
 192.229.237.97	mx.tumblr.com
 124.108.101.58	static.tumblr.com
 124.108.101.58	24.media.tumblr.com
+124.108.101.58	25.media.tumblr.com
 124.108.101.58	31.media.tumblr.com
 124.108.101.58	33.media.tumblr.com
 124.108.101.58	37.media.tumblr.com
 124.108.101.58	38.media.tumblr.com
 124.108.101.58	40.media.tumblr.com
 124.108.101.58	49.media.tumblr.com
+124.108.101.58	55.media.tumblr.com
+124.108.101.58	56.media.tumblr.com
+124.108.101.58	57.media.tumblr.com
+124.108.101.58	58.media.tumblr.com
 124.108.101.58	66.media.tumblr.com
+124.108.101.58	68.media.tumblr.com
+124.108.101.58	78.media.tumblr.com
 124.108.101.58	90.media.tumblr.com
+124.108.101.58	91.media.tumblr.com
+124.108.101.58	92.media.tumblr.com
 66.6.32.162	ls.srvcs.tumblr.com
 66.6.32.162	px.srvcs.tumblr.com
 52.85.155.165	96.media.tumblr.com
