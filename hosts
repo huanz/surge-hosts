@@ -1,6 +1,6 @@
 # Copyright (c) 2017, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2017-10-05
+# Last updated: 2017-10-15
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -143,6 +143,13 @@
 107.152.24.197	upload.box.com
 107.152.24.197	m.box.com
 # Box End
+
+# Change.org Start
+104.16.5.13	www.change.org
+104.16.5.13	assets.change.org
+104.16.4.13	change.org
+104.16.4.13	assets-fe.change.org
+# Change.org End
 
 # Cloudfront Start
 52.84.167.78	d3c33hcgiwev3.cloudfront.net
@@ -381,6 +388,10 @@
 216.58.221.91	isolated.mail.google.com
 # Gmail End
 
+# Gmx Start
+82.165.230.43	search.gmx.com
+# Gmx End
+
 # Google Apis Start
 216.58.221.74	www.googleapis.com
 216.58.203.170	ajax.googleapis.com
@@ -441,7 +452,7 @@
 # Google Apis End
 
 # Googleapis:storage Start
-172.217.3.240	storage.googleapis.com
+172.217.24.16	storage.googleapis.com
 172.217.4.16	commondatastorage.googleapis.com
 172.217.4.144	content-storage.googleapis.com
 172.217.4.112	content-storage-download.googleapis.com
@@ -2814,8 +2825,8 @@
 # OneDrive Start
 204.79.197.213	api.onedrive.com
 23.76.75.24	api.onedrive.live.com
-204.79.197.217	onedrive.live.com
-204.79.197.217	webedgegeo.skyprod.akadns.net
+131.253.33.217	onedrive.live.com
+131.253.33.217	webedgegeo.skyprod.akadns.net
 131.253.14.230	skyapi.onedrive.live.com
 134.170.104.157	skyweb.skyprod.akadns.net
 # OneDrive End
@@ -3113,6 +3124,11 @@
 23.41.77.13	av.voanews.com
 23.66.39.94	gdb.voanews.com
 # Voa End
+
+# Web.de Start
+82.165.229.94	suche.web.de
+54.93.172.67	lokale.suche.web.de
+# Web.de End
 
 # Wikinews Start
 198.35.26.96	zh.m.wikinews.org
