@@ -1,6 +1,6 @@
 # Copyright (c) 2017, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2017-12-10
+# Last updated: 2017-12-16
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -162,6 +162,13 @@
 # Culturalspot Start
 172.217.31.96	embed.culturalspot.org
 # Culturalspot End
+
+# Conoha Start
+157.7.225.122	cp.conoha.jp
+103.3.190.48	www.conoha.jp
+157.7.225.117	app.conoha.jp
+157.7.225.120	manage.conoha.jp
+# Conoha End
 
 # Dropbox Start
 162.125.248.2	db.tt
@@ -797,10 +804,10 @@
 216.58.200.183	p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-i2-unicast4.metric.gstatic.com
 216.58.200.195	p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-s1-v6exp3-v4.metric.gstatic.com
 216.58.200.187	ogs.google.com
-172.217.60.241	www.google.com
-172.217.60.148	id.google.com
-172.217.60.89	clients5.google.com
-172.217.60.185	apis.google.com
+216.58.203.14	www.google.com
+216.58.203.35	id.google.com
+216.58.203.14	clients5.google.com
+216.58.203.14	apis.google.com
 # Google Search Home End
 
 # Google Service Start
@@ -2929,6 +2936,8 @@
 52.219.4.114	dev.pixiv.net
 210.129.120.42	chat.pixiv.net
 113.33.39.198	blog.pixiv.net
+210.129.120.43	embed.pixiv.net
+210.129.120.44	comic-api.pixiv.net
 # Pixiv End
 
 # Periscope Start
@@ -3052,6 +3061,16 @@
 64.71.134.121	support.ixquick.com
 # Startpage & Ixquick End
 
+# Steam Start
+223.119.217.234	steamcommunity.com
+223.119.217.234	store.steampowered.com
+223.119.217.234	help.steampowered.com
+223.119.50.137	steamcommunity-a.akamaihd.net
+223.119.248.8	steamuserimages-a.akamaihd.net
+223.119.50.139	steamcdn-a.akamaihd.net
+223.119.248.26	cdn.akamai.steamstatic.com
+# Steam End
+
 # Theinitium Start
 52.76.148.61	stigma.theinitium.com
 52.221.46.214	theinitium.com
@@ -3095,6 +3114,7 @@
 66.6.32.162	px.srvcs.tumblr.com
 52.85.155.165	96.media.tumblr.com
 192.229.237.98	97.media.tumblr.com
+124.108.101.59	api-http2.tumblr.com
 # Tumblr End
 
 # Tutanota Start
@@ -3179,6 +3199,10 @@
 23.41.77.13	av.voanews.com
 23.66.39.94	gdb.voanews.com
 # Voa End
+
+# Vnet Start
+149.56.30.149	vnet.link
+# Vnet End
 
 # Whatsapp Start
 157.240.1.53	www-cdn.whatsapp.net
