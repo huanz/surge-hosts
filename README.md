@@ -14,12 +14,12 @@ for pc, just copy from [googlehosts/hosts](https://github.com/googlehosts/hosts)
 
 ## CMCC.conf
 
- 中国移动用户surge conf：[http://surge.w3cboy.com/CMCC.conf](http://surge.w3cboy.com/CMCC.conf)
+ 中国移动用户surge conf：[http://surge.noonme.com/CMCC.conf](http://surge.noonme.com/CMCC.conf)
 
 ## ChinaUnicom.conf
 
-中国联通用户surge conf：[http://surge.w3cboy.com/ChinaUnicom.conf](http://surge.w3cboy.com/ChinaUnicom.conf)
+中国联通用户surge conf：[http://surge.noonme.com/ChinaUnicom.conf](http://surge.noonme.com/ChinaUnicom.conf)
 
 ## ChinaNet.conf
 
-中国电信用户surge conf：[http://surge.w3cboy.com/ChinaNet.conf](http://surge.w3cboy.com/ChinaNet.conf)
+中国电信用户surge conf：[http://surge.noonme.com/ChinaNet.conf](http://surge.noonme.com/ChinaNet.conf)
