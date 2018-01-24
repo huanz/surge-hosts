@@ -2606,7 +2606,6 @@
 216.58.221.65	yt3.ggpht.com
 108.177.120.94	accounts.gstatic.com
 108.177.120.94	maps.gstatic.com
-108.177.120.94	connectivitycheck.gstatic.com
 108.177.120.94	play-music.gstatic.com
 108.177.120.94	cdn.ampproject.org
 108.177.97.107	t0.gstatic.com
@@ -2809,8 +2808,9 @@
 203.104.150.35	static.line.naver.jp
 23.42.190.204	access.line.me
 2.17.50.95	help.line.me
-shop.line-scdn.net	104.111.208.121
-stickershop.line-scdn.net	104.102.162.148
+104.111.208.121	shop.line-scdn.net
+104.102.162.148	stickershop.line-scdn.net
+23.211.98.191	obs.line-scdn.net
 # Line End
 
 # MEGA Start
