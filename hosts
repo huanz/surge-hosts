@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-01-23
+# Last updated: 2018-01-25
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -327,7 +327,6 @@
 157.240.7.35	scontent-a-sin.xx.fbcdn.net
 157.240.7.35	scontent-b-lax.xx.fbcdn.net
 157.240.7.35	scontent-b-sin.xx.fbcdn.net
-157.240.7.35	static.xx.fbcdn.net
 157.240.7.35	static.thefacebook.com
 157.240.7.35	attachment.fbsbx.com
 157.240.7.35	messenger.com
@@ -350,6 +349,7 @@
 192.0.78.13	rightsmanager.fb.com
 192.0.78.13	techprep.fb.com
 192.0.78.13	work.fb.com
+31.13.91.15	static.xx.fbcdn.net
 31.13.91.15	scontent-lax3-1.xx.fbcdn.net
 31.13.91.15	scontent-lax3-2.xx.fbcdn.net
 31.13.91.15	scontent-lax3-3.xx.fbcdn.net
@@ -2674,13 +2674,13 @@
 31.13.77.52	scontent-a.cdninstagram.com
 52.45.94.103	i.instagram.com
 52.45.94.103	api.instagram.com
-31.13.76.84	help.instagram.com
-31.13.76.84	scontent-sea1-1.cdninstagram.com
-31.13.76.84	platform.instagram.com
+31.13.76.172	help.instagram.com
+31.13.76.172	scontent-sea1-1.cdninstagram.com
+31.13.76.172	platform.instagram.com
 66.6.32.22	blog.instagram.com
 31.13.95.48	scontent-hkg3-1.cdninstagram.com
 157.240.15.63	scontent-hkg3-2.cdninstagram.com
-31.13.78.52	scontent-sit4-1.cdninstagram.com
+31.13.78.174	scontent-sit4-1.cdninstagram.com
 # Instagram End
 
 # issuu Start
@@ -2792,6 +2792,7 @@
 125.209.238.186	xcdn-cn-prf.line-apps.com
 125.209.238.186	xcdn-cn-shp.line-apps.com
 125.209.238.186	xcdn-cn-stk.line-apps.com
+203.104.129.195	line.naver.jp
 203.104.150.2	gd2.line.naver.jp
 203.104.153.129	gw.line.naver.jp
 203.104.160.12	gd2u.line.naver.jp
@@ -2799,18 +2800,34 @@
 203.104.174.20	gd2v.line.naver.jp
 125.209.252.18	gd2g.line.naver.jp
 125.209.252.17	gd2i.line.naver.jp
-125.209.222.59	gd2k.line.naver.jp
-125.209.222.202	gd2w.line.naver.jp
-125.209.222.202	gww.line.naver.jp
+125.209.222.70	gd2w.line.naver.jp
+125.209.222.70	gww.line.naver.jp
+125.209.222.70	ga2w.line.naver.jp
+125.209.222.70	gd2k.line.naver.jp
+125.209.222.70	ga2k.line.naver.jp
 203.104.174.18	gwx.line.naver.jp
 223.119.50.146	dl.profile.line.naver.jp
 223.119.50.144	dl.stickershop.line.naver.jp
 203.104.150.35	static.line.naver.jp
+125.209.222.75	poker.line.naver.jp
+203.104.153.184	channel.line.naver.jp
+184.50.87.74	dl.appresource.line.naver.jp
+184.50.87.41	dl.shop.line.naver.jp
+203.104.174.13	ga2v.line.naver.jp
+203.104.174.12	ga2s.line.naver.jp
+203.104.153.1	ga2.line.naver.jp
+184.50.87.51	dl.os.line.naver.jp
+125.209.238.207	timeline.line.naver.jp
+125.209.238.172	myhome.line.naver.jp
+125.209.222.57	homeapi.line.naver.jp
+125.209.238.185	noteapi.line.naver.jp
+125.209.238.185	cafeapi.line.naver.jp
 23.42.190.204	access.line.me
 2.17.50.95	help.line.me
 104.111.208.121	shop.line-scdn.net
 104.102.162.148	stickershop.line-scdn.net
 23.211.98.191	obs.line-scdn.net
+2.17.56.25	profile.line-scdn.net
 # Line End
 
 # MEGA Start
@@ -3253,8 +3270,8 @@
 69.147.88.7	flickr.com
 119.161.14.18	m.flickr.com
 69.147.76.173	secure.flickr.com
-124.108.101.10	www.flickr.com
-124.108.101.10	heartbeat.flickr.com
+119.161.14.17	www.flickr.com
+119.161.14.17	heartbeat.flickr.com
 209.73.190.11	api.flickr.com
 209.73.190.12	up.flickr.com
 68.142.242.184	downloadr.flickr.com
