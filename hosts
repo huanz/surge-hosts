@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-01-25
+# Last updated: 2018-02-05
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -41,11 +41,10 @@
 108.177.120.94	dev.android.com
 108.177.120.94	market.android.com
 108.177.120.94	r.android.com
-172.217.60.51	android.com
-172.217.60.47	www.android.com
-172.217.60.74	source.android.com
-172.217.60.162	tools.android.com
-172.217.60.97	developer.android.com
+216.58.217.196	android.com
+172.217.4.174	www.android.com
+172.217.4.174	source.android.com
+172.217.4.174	developer.android.com
 # Android End
 
 # Androidfilehost Start
@@ -231,7 +230,9 @@
 50.18.192.250	duckduckgo.com
 50.18.192.250	www.duckduckgo.com
 50.18.192.250	ac.duckduckgo.com
+50.18.192.250	start.duckduckgo.com
 54.229.110.205	icons.duckduckgo.com
+54.229.110.205	proxy.duckduckgo.com
 54.229.110.205	images.duckduckgo.com
 96.45.82.134	help.duckduckgo.com
 # DuckDuckGo End
@@ -373,16 +374,6 @@
 192.0.66.2	threatexchange.fb.com
 157.240.11.18	video.xx.fbcdn.net
 # Facebook End
-
-# FlipBoard Start
-52.222.211.250	s.flipboard.com
-54.230.242.42	cdn.flipboard.com
-34.193.207.226	ue.flipboard.com
-34.192.210.197	beacon.flipboard.com
-52.44.196.4	flipboard.com
-52.204.24.196	fbprod.flipboard.com
-50.18.47.33	flipboard.helpshift.com
-# FlipBoard End
 
 # Github Start
 192.30.253.118	gist.github.com
@@ -760,7 +751,7 @@
 216.58.200.24	www.google.com.gi
 216.58.200.24	www.google.com.gr
 216.58.200.24	www.google.com.gt
-172.217.60.148	www.google.com.hk
+172.217.4.163	www.google.com.hk
 216.58.200.24	www.google.com.iq
 216.58.200.24	www.google.com.jm
 216.58.200.24	www.google.com.jo
@@ -795,7 +786,7 @@
 216.58.200.24	www.google.com.sv
 216.58.200.24	www.google.com.tj
 216.58.200.24	www.google.com.tr
-172.217.60.221	www.google.com.tw
+172.217.4.163	www.google.com.tw
 216.58.200.24	www.google.com.ua
 216.58.200.24	www.google.com.uy
 216.58.200.24	www.google.com.vc
@@ -2309,6 +2300,7 @@
 216.239.38.21	ghs-svc-https-sni.ghs-ssl.googlehosted.com
 216.239.38.21	polymer-project.org
 216.239.38.21	material.io
+172.217.4.179	tools.android.com
 # Google:ghs End
 
 # Google:Made the code for girls Start Start
@@ -2663,8 +2655,8 @@
 # Ingress End
 
 # Instagram Start
-52.45.94.103	instagram.com
-157.240.11.172	www.instagram.com
+31.13.82.172	instagram.com
+31.13.82.174	www.instagram.com
 157.240.11.172	badges.instagram.com
 157.240.11.172	scontent.cdninstagram.com
 157.240.11.172	scontent-b.cdninstagram.com
