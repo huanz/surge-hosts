@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-02-11
+# Last updated: 2018-02-24
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -3287,6 +3287,7 @@
 # Web.de End
 
 # Wikinews Start
+198.35.26.96	zh.wikinews.org
 198.35.26.96	zh.m.wikinews.org
 # Wikinews End
 
@@ -3359,7 +3360,7 @@
 64.15.118.37	i.ytimg.com
 216.58.217.174	s.ytimg.com
 64.15.118.42	www.youtube.com
-108.177.9.125	m.youtube.com
+216.58.194.46	m.youtube.com
 # Youtube End
 
 # Google 1e100 Start
