@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-03-10
+# Last updated: 2018-03-16
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -243,15 +243,15 @@
 151.101.52.64	links.services.disqus.com
 173.192.82.196	realtime.services.disqus.com
 50.18.252.168	help.disqus.com
-151.101.52.134	apkpure.disqus.com
 151.101.52.134	content.disqus.com
 151.101.52.134	referrer.disqus.com
 151.101.40.134	docs.disqus.com
+151.101.40.134	apkpure.disqus.com
 96.7.54.196	about.disqus.com
 96.7.54.200	blog.disqus.com
 96.7.54.198	publishers.disqus.com
 104.16.80.166	c.disquscdn.com
-151.101.24.249	a.disquscdn.com
+151.101.26.49	a.disquscdn.com
 # Disqus End
 
 # Facebook Start
@@ -374,7 +374,7 @@
 
 # FlipBoard Start
 52.44.186.59	beacon.flipboard.com
-52.205.51.238	fbprod.flipboard.com
+34.201.185.200	fbprod.flipboard.com
 # FlipBoard End
 
 # Github Start
@@ -1030,7 +1030,7 @@
 108.177.120.94	talkgadget.google.com
 74.125.197.115	checkout.google.com
 64.15.126.80	drive.google.com
-64.15.126.78	ipv4.google.com
+172.217.161.164	ipv4.google.com
 108.177.125.189	0.client-channel.google.com
 108.177.125.189	1.client-channel.google.com
 108.177.125.189	2.client-channel.google.com
@@ -3117,37 +3117,36 @@
 124.108.101.59	api.tumblr.com
 124.108.101.59	secure.static.tumblr.com
 124.108.101.59	vt.media.tumblr.com
+124.108.101.59	api-http2.tumblr.com
 124.108.101.31	assets.tumblr.com
-124.108.101.31	secure.assets.tumblr.com
-69.147.88.9	media.tumblr.com
-69.147.88.9	vt.tumblr.com
-69.147.88.9	vtt.tumblr.com
+119.161.4.32	secure.assets.tumblr.com
+119.161.4.42	static.tumblr.com
+119.161.4.42	media.tumblr.com
+119.161.4.42	vt.tumblr.com
+119.161.4.42	vtt.tumblr.com
 66.6.32.21	cynicallys.tumblr.com
-192.229.237.97	mx.tumblr.com
-124.108.101.58	static.tumblr.com
-124.108.101.58	24.media.tumblr.com
-124.108.101.58	25.media.tumblr.com
-124.108.101.58	31.media.tumblr.com
-124.108.101.58	33.media.tumblr.com
-124.108.101.58	37.media.tumblr.com
-124.108.101.58	38.media.tumblr.com
-124.108.101.58	40.media.tumblr.com
-124.108.101.58	49.media.tumblr.com
-124.108.101.58	55.media.tumblr.com
-124.108.101.58	56.media.tumblr.com
-124.108.101.58	57.media.tumblr.com
+152.195.57.79	mx.tumblr.com
+66.6.33.21	24.media.tumblr.com
+66.6.33.21	25.media.tumblr.com
+66.6.33.21	31.media.tumblr.com
+66.6.33.21	33.media.tumblr.com
+66.6.33.21	37.media.tumblr.com
+66.6.33.21	38.media.tumblr.com
+66.6.33.21	40.media.tumblr.com
+66.6.33.21	49.media.tumblr.com
+66.6.33.21	55.media.tumblr.com
+66.6.33.21	56.media.tumblr.com
+66.6.33.21	57.media.tumblr.com
+66.6.33.21	66.media.tumblr.com
 124.108.101.58	58.media.tumblr.com
-124.108.101.58	66.media.tumblr.com
 124.108.101.58	68.media.tumblr.com
 124.108.101.58	78.media.tumblr.com
 124.108.101.58	90.media.tumblr.com
-124.108.101.58	91.media.tumblr.com
 124.108.101.58	92.media.tumblr.com
 66.6.32.162	ls.srvcs.tumblr.com
 66.6.32.162	px.srvcs.tumblr.com
-52.85.155.165	96.media.tumblr.com
-192.229.237.98	97.media.tumblr.com
-124.108.101.59	api-http2.tumblr.com
+54.192.109.252	96.media.tumblr.com
+152.199.38.136	97.media.tumblr.com
 # Tumblr End
 
 # Tutanota Start
