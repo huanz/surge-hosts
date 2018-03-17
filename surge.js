@@ -39,79 +39,60 @@ exports.update = function (params, cb) {
                 cmds = [
                     'cd hosts && git pull',
                     'cd surge-hosts && git pull',
-                    'cd AppleDNS && git pull'
+                    'cd ipv6-hosts && git pull'
                 ];
             } else {
                 cmds = [
-                    'rm -rf hosts surge-hosts AppleDNS',
+                    'rm -rf hosts surge-hosts ipv6-hosts',
                     'git clone --depth 1 --branch master --single-branch https://github.com/googlehosts/hosts.git',
-                    'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git',
+                    'git clone --depth 1 --branch master --single-branch https://github.com/lennylxx/ipv6-hosts.git',
                     'git clone --depth 1 --branch master --single-branch ' + GHTOKEN
                 ];
             }
         } catch (e) {
             cmds = [
                 'git clone --depth 1 --branch master --single-branch https://github.com/googlehosts/hosts.git',
-                'git clone --depth 1 --branch master --single-branch https://github.com/gongjianhui/AppleDNS.git',
+                'git clone --depth 1 --branch master --single-branch https://github.com/lennylxx/ipv6-hosts.git',
                 'git clone --depth 1 --branch master --single-branch ' + GHTOKEN
             ];
         }
-        shell.series(cmds.concat([
-            'python AppleDNS/fetch-timeout.py AppleDNS/ChinaUnicom.json',
-            'python AppleDNS/export-configure.py surge > AppleDNS/ChinaUnicom.conf',
-            'python AppleDNS/fetch-timeout.py AppleDNS/ChinaNet.json',
-            'python AppleDNS/export-configure.py surge > AppleDNS/ChinaNet.conf',
-            'python AppleDNS/fetch-timeout.py AppleDNS/CMCC.json',
-            'python AppleDNS/export-configure.py surge > AppleDNS/CMCC.conf'
-        ]), function (err) {
-            if (err === null) {
-                var hostsArr = [];
-                var lr = new LineByLineReader('hosts/hosts-files/hosts');
-                lr.on('line', function (line) {
-                    line = line.trim();
-                    if (line && !line.startsWith('#')) {
-                        var tmp = line.split(/\s+/);
-                        if (tmp[0] && tmp[1] && tmp[1] !== 'localhost' && tmp[1] !== 'broadcasthost') {
-                            hostsArr.push(tmp[1] + ' = ' + tmp[0]);
-                        }
-                    }
-                });
-                lr.on('end', function () {
-                    var ChinaUnicom = fs.readFileSync('AppleDNS/ChinaUnicom.conf').toString().replace(/#[ \S]+\n/g, '');
-                    var ChinaNet = fs.readFileSync('AppleDNS/ChinaNet.conf').toString().replace(/#[ \S]+\n/g, '');
-                    var CMCC = fs.readFileSync('AppleDNS/CMCC.conf').toString().replace(/#[ \S]+\n/g, '');
-                    var final = fs.readFileSync('surge.conf').toString() + hostsArr.join('\n') + '\n';
-                    var updateDate = formatNow('yyyy-MM-dd hh:mm:ss');
-                    var ChinaUnicomData = '#!MANAGED-CONFIG http://surge.w3cboy.com/ChinaUnicom.conf interval=86400\n#UPDATE: ' + updateDate + '\n' + final + ChinaUnicom;
-                    var ChinaNetData = '#!MANAGED-CONFIG http://surge.w3cboy.com/ChinaNet.conf interval=86400\n#UPDATE: ' + updateDate + '\n' + final + ChinaNet;
-                    var CMCCData = '#!MANAGED-CONFIG http://surge.w3cboy.com/CMCC.conf interval=86400\n#UPDATE: ' + updateDate + '\n' + final + CMCC;
-                    fs.writeFileSync('surge-hosts/ChinaUnicom.conf', ChinaUnicomData);
-                    fs.writeFileSync('surge-hosts/ChinaNet.conf', ChinaNetData);
-                    fs.writeFileSync('surge-hosts/CMCC.conf', CMCCData);
-                    shell.series([
-                        'cp hosts/hosts-files/hosts surge-hosts',
-                        'git config --global user.name "huanz"',
-                        'git config --global user.email "yhz1219@gmail.com"',
-                        'cd surge-hosts && git add -u',
-                        'cd surge-hosts && git commit -m "hosts updated at ' + updateDate + '"',
-                        'cd surge-hosts && git branch -m master',
-                        'cd surge-hosts && git push -q ' + GHTOKEN + ' HEAD:master'
-                    ], function (err) {
-                        cb(err);
-                        if (err) {
-                            console.log('update surge hosts error: ' + err);
-                            shell.exec('rm -rf surge-hosts');
-                        }
-                    });
-                });
-                lr.on('error', function (err) {
-                    console.log('read hosts error: ' + err);
-                    cb(err);
-                });
-            } else {
-                console.log('executed apple dns error: ' + err);
-                cb(err);
+        
+        var hostsArr = [];
+        var lr = new LineByLineReader('hosts/hosts-files/hosts');
+        lr.on('line', function (line) {
+            line = line.trim();
+            if (line && !line.startsWith('#')) {
+                var tmp = line.split(/\s+/);
+                if (tmp[0] && tmp[1] && tmp[1] !== 'localhost' && tmp[1] !== 'broadcasthost') {
+                    hostsArr.push(tmp[1] + ' = ' + tmp[0]);
+                }
             }
+        });
+        lr.on('end', function () {
+            var final = fs.readFileSync('surge.conf').toString() + hostsArr.join('\n') + '\n';
+            var updateDate = formatNow('yyyy-MM-dd hh:mm:ss');
+            var surgeConf = '#!MANAGED-CONFIG http://surge.noonme.com/surge.conf interval=86400\n#UPDATE: ' + updateDate + '\n' + final;
+            fs.writeFileSync('surge-hosts/surge.conf', surgeConf);
+            shell.series([
+                'cp ipv6-hosts/hosts surge-hosts/ipv6_hosts',
+                'cp hosts/hosts-files/hosts surge-hosts',
+                'git config --global user.name "huanz"',
+                'git config --global user.email "yhz1219@gmail.com"',
+                'cd surge-hosts && git add -u',
+                'cd surge-hosts && git commit -m "hosts updated at ' + updateDate + '"',
+                'cd surge-hosts && git branch -m master',
+                'cd surge-hosts && git push -q ' + GHTOKEN + ' HEAD:master'
+            ], function (err) {
+                cb(err);
+                if (err) {
+                    console.log('update surge hosts error: ' + err);
+                    shell.exec('rm -rf surge-hosts');
+                }
+            });
+        });
+        lr.on('error', function (err) {
+            console.log('read hosts error: ' + err);
+            cb(err);
         });
     });
 };
