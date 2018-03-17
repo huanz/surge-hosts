@@ -15,4 +15,4 @@ before_install:
 script:
 - git clone git@git.coding.net:bukas/surge.git
 - cp surge.conf surge
-- cd surge && git add -u && git commit -m "updated by travis at $(date -u +'%Y-%m-%d %H:%M:%S')" && git push
+- cd surge && git add surge.conf && git commit -m "updated by travis at $(date -u +'%Y-%m-%d %H:%M:%S')" && git push
