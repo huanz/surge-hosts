@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-03-24
+# Last updated: 2018-04-05
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -813,9 +813,10 @@
 # Google Search Home End
 
 # Google Service Start
+216.239.34.21	blog.google
+216.239.38.21	environment.google
 108.177.120.94	domains.google
 108.177.120.94	domains.google.com
-108.177.120.94	environment.google
 108.177.120.94	aboutme.google.com
 108.177.120.94	ads.google.com
 108.177.120.94	abc.xyz
@@ -3102,7 +3103,7 @@
 # Steam Start
 223.119.217.234	steamcommunity.com
 173.223.87.13	help.steampowered.com
-104.116.5.247	store.steampowered.com
+23.50.18.229	store.steampowered.com
 23.4.240.26	steamcommunity-a.akamaihd.net
 184.28.218.74	steamuserimages-a.akamaihd.net
 184.25.205.16	steamcdn-a.akamaihd.net
@@ -3163,7 +3164,7 @@
 149.154.166.206	desktop.telegram.org
 149.154.166.206	core.telegram.org
 149.154.166.206	oauth.telegram.org
-149.154.167.216	api.telegram.org
+149.154.167.220	api.telegram.org
 149.154.175.16	pluto.web.telegram.org
 149.154.175.16	pluto-1.web.telegram.org
 149.154.167.25	venus.web.telegram.org
@@ -3176,6 +3177,7 @@
 149.154.164.225	flora-1.web.telegram.org
 149.154.167.118	telegram.me
 149.154.167.118	t.me
+149.154.167.80	updates.tdesktop.com
 # Telegram End
 
 # Tor Start
