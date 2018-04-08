@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-04-05
+# Last updated: 2018-04-06
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -805,11 +805,11 @@
 172.217.27.247	p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-i1-unicast3.metric.gstatic.com
 216.58.200.183	p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-i2-unicast4.metric.gstatic.com
 216.58.200.195	p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-s1-v6exp3-v4.metric.gstatic.com
-216.58.200.187	ogs.google.com
-216.58.203.14	www.google.com
-216.58.203.35	id.google.com
-216.58.203.14	clients5.google.com
-216.58.203.14	apis.google.com
+108.177.96.161	ogs.google.com
+108.177.9.162	www.google.com
+108.177.103.161	id.google.com
+108.177.103.163	clients5.google.com
+108.177.111.119	apis.google.com
 # Google Search Home End
 
 # Google Service Start
@@ -2254,8 +2254,8 @@
 
 # Google Service:Google Play Start
 209.85.235.200	services.googleapis.cn
-64.15.126.86	play.google.com
-64.15.126.86	android.clients.google.com
+64.15.124.72	play.google.com
+64.15.124.72	android.clients.google.com
 108.177.121.201	play.googleapis.com
 203.208.39.99	alt7-mtalk.google.com
 # Google Service:Google Play End
