@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-05-08
+# Last updated: 2018-05-13
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -36,6 +36,11 @@
 23.32.241.16	static.ak.instagram.com
 184.51.15.69	images.ak.instagram.com
 23.51.209.100	blogthumb.pstatic.net
+2.17.28.19	s.pinimg.com
+2.17.28.19	v.pinimg.com
+104.118.71.71	i.pinimg.com
+104.118.71.71	s-media-cache-ak0.pinimg.com
+104.118.71.71	passets-cdn.pinterest.com
 # Akamai End
 
 # Amazon AWS Start
@@ -133,11 +138,11 @@
 207.241.225.95	www.archive.org
 207.241.225.95	analytics.archive.org
 207.241.225.95	ia802704.us.archive.org
-207.241.224.19	web-beta.archive.org
-207.241.224.19	wwwb-sentry.us.archive.org
-207.241.224.19	web.archive.org
+207.241.225.186	web-beta.archive.org
+207.241.225.186	wwwb-sentry.us.archive.org
+207.241.225.186	web.archive.org
 207.241.224.6	mail.archive.org
-207.241.224.21	books-general.archive.org
+207.241.224.22	books-general.archive.org
 # Archive End
 
 # Armorgames Start
@@ -2348,6 +2353,10 @@
 64.233.177.127	alt5.stun.l.google.com
 # Google:stun Server End
 
+# Google:thinkwithgoogle Start
+72.14.249.236	www.thinkwithgoogle.com
+# Google:thinkwithgoogle End
+
 # Google:npf base Start
 172.217.31.179	1d73367a8bc4b849f5286dc68416acfd.baas.nintendo.com
 216.239.38.21	220ac3f28f8d4cf99d8ce38fc8d4d5a7.baas.nintendo.com
@@ -3058,11 +3067,6 @@
 54.149.226.209	post.pinterest.com
 52.5.103.187	trk.pinterest.com
 52.6.255.21	developers.pinterest.com
-151.101.72.84	passets-cdn.pinterest.com
-151.101.76.84	i.pinimg.com
-151.101.76.84	s.pinimg.com
-151.101.76.84	v.pinimg.com
-151.101.76.84	s-media-cache-ak0.pinimg.com
 # Pinterest End
 
 # Pixiv Start
