@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-07-18
+# Last updated: 2018-07-22
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -41,16 +41,49 @@
 23.32.241.9	a248.e.akamai.net
 23.32.241.16	static.ak.instagram.com
 184.51.15.69	images.ak.instagram.com
-2.17.28.19	s.pinimg.com
-96.7.107.161	i.pinimg.com
-96.7.107.161	s-media-cache-ak0.pinimg.com
-96.7.107.161	passets-cdn.pinterest.com
+23.2.36.161	s.pinimg.com
+104.76.17.41	i.pinimg.com
+23.217.143.151	s-media-cache-ak0.pinimg.com
+23.50.43.222	passets-cdn.pinterest.com
 # Akamai End
 
 # Amazon AWS Start
 52.219.0.4	s3-ap-northeast-1.amazonaws.com
 54.231.249.17	s3-ap-southeast-2.amazonaws.com
 # Amazon AWS End
+
+# Amazon Start
+52.119.164.121	amazon.co.jp
+54.239.96.187	aftlite-portal-nrt.amazon.co.jp
+52.94.210.248	alexa.amazon.co.jp
+54.240.251.149	api.amazon.co.jp
+52.119.168.241	arap.amazon.co.jp
+54.240.248.126	www.artistcentral.amazon.co.jp
+54.240.250.160	astore.amazon.co.jp
+52.94.211.66	brandregistry.amazon.co.jp
+54.240.248.142	catalog-sc.amazon.co.jp
+54.240.248.108	cde-ta-g7g-sha-proxy.amazon.co.jp
+52.94.210.103	completion.amazon.co.jp
+205.251.235.239	copilot.amazon.co.jp
+54.240.248.163	dropship.amazon.co.jp
+54.240.254.58	cs-ext.amazon.co.jp
+54.240.252.151	endeavour.amazon.co.jp
+54.149.133.67	fls-fe.amazon.co.jp
+54.240.250.189	kdp.amazon.co.jp
+176.32.100.154	kindle-images.amazon.co.jp
+54.240.248.180	kindlepreviewservice.amazon.co.jp
+54.240.250.59	kuato.amazon.co.jp
+54.240.254.122	logistics.amazon.co.jp
+54.240.248.64	mt.amazon.co.jp
+54.240.251.157	music.amazon.co.jp
+52.94.212.221	music-xray-service.amazon.co.jp
+54.240.249.62	widgets.amazon.co.jp
+54.240.252.167	opf-sellercentral.amazon.co.jp
+54.240.251.156	payments.amazon.co.jp
+54.240.250.198	prime.amazon.co.jp
+54.240.248.131	read.amazon.co.jp
+52.94.210.139	shm.amazon.co.jp
+# Amazon End
 
 # Android Start
 216.58.215.54	a.android.com
@@ -155,6 +188,33 @@
 # Bandwagonhost Start
 104.20.6.63	bandwagonhost.com
 # Bandwagonhost End
+
+# Bbc Start
+151.101.8.81	www.bbc.com
+151.101.40.81	fig.bbc.co.uk
+212.58.246.92	www.bbc.co.uk
+104.118.112.225	static.bbci.co.uk
+23.199.11.116	static.bbc.co.uk
+104.76.83.32	nav.files.bbci.co.uk
+23.50.99.110	ichef.bbci.co.uk
+23.73.186.251	m.files.bbci.co.uk
+172.227.98.43	feeds.bbci.co.uk
+23.13.157.61	mybbc.files.bbci.co.uk
+23.66.206.133	polling.bbc.co.uk
+23.33.70.13	search.files.bbci.co.uk
+95.101.92.111	a.files.bbci.co.uk
+95.101.15.42	gel.files.bbci.co.uk
+104.103.150.125	emp.bbc.com
+23.53.213.148	news.bbcimg.co.uk
+23.201.173.230	mybbc-analytics.files.bbci.co.uk
+212.58.246.212	ssl.bbc.co.uk
+54.72.23.188	push.api.bbci.co.uk
+34.251.9.18	search-suggest.api.bbci.co.uk
+34.253.116.138	ess.api.bbci.co.uk
+212.58.246.124	session.bbc.com
+212.58.249.134	account.bbc.com
+212.58.244.78	open.live.bbc.co.uk
+# Bbc End
 
 # Box Start
 107.152.25.196	box.com
