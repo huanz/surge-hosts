@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-09-17
+# Last updated: 2018-09-20
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -77,17 +77,17 @@
 54.240.248.163	dropship.amazon.co.jp
 54.240.254.58	cs-ext.amazon.co.jp
 54.240.252.151	endeavour.amazon.co.jp
-54.149.133.67	fls-fe.amazon.co.jp
+54.148.215.218	fls-fe.amazon.co.jp
 54.240.250.189	kdp.amazon.co.jp
 176.32.100.154	kindle-images.amazon.co.jp
-54.240.248.180	kindlepreviewservice.amazon.co.jp
+54.240.250.180	kindlepreviewservice.amazon.co.jp
 54.240.250.59	kuato.amazon.co.jp
 54.240.254.122	logistics.amazon.co.jp
 54.240.248.64	mt.amazon.co.jp
 54.240.251.157	music.amazon.co.jp
 52.94.212.221	music-xray-service.amazon.co.jp
 54.240.249.62	widgets.amazon.co.jp
-54.240.252.167	opf-sellercentral.amazon.co.jp
+54.240.250.177	opf-sellercentral.amazon.co.jp
 54.240.251.156	payments.amazon.co.jp
 54.240.250.198	prime.amazon.co.jp
 54.240.248.131	read.amazon.co.jp
@@ -179,7 +179,7 @@
 207.241.225.186	wwwb-sentry.us.archive.org
 207.241.225.186	web.archive.org
 207.241.224.6	mail.archive.org
-207.241.224.22	books-general.archive.org
+207.241.225.247	books-general.archive.org
 # Archive End
 
 # Armorgames Start
@@ -201,27 +201,27 @@
 # Bbc Start
 151.101.8.81	www.bbc.com
 151.101.40.81	fig.bbc.co.uk
-212.58.246.92	www.bbc.co.uk
+212.58.244.69	www.bbc.co.uk
 104.118.112.225	static.bbci.co.uk
 23.199.11.116	static.bbc.co.uk
 104.76.83.32	nav.files.bbci.co.uk
-23.50.99.110	ichef.bbci.co.uk
+23.42.122.193	ichef.bbci.co.uk
 23.73.186.251	m.files.bbci.co.uk
-172.227.98.43	feeds.bbci.co.uk
+104.124.234.244	feeds.bbci.co.uk
 23.13.157.61	mybbc.files.bbci.co.uk
 23.66.206.133	polling.bbc.co.uk
-23.33.70.13	search.files.bbci.co.uk
+104.72.213.225	search.files.bbci.co.uk
 95.101.92.111	a.files.bbci.co.uk
 95.101.15.42	gel.files.bbci.co.uk
 104.103.150.125	emp.bbc.com
 23.53.213.148	news.bbcimg.co.uk
 23.201.173.230	mybbc-analytics.files.bbci.co.uk
-212.58.246.212	ssl.bbc.co.uk
+212.58.244.114	ssl.bbc.co.uk
 54.72.23.188	push.api.bbci.co.uk
-34.251.9.18	search-suggest.api.bbci.co.uk
-34.253.116.138	ess.api.bbci.co.uk
-212.58.246.124	session.bbc.com
-212.58.249.134	account.bbc.com
+52.17.153.208	search-suggest.api.bbci.co.uk
+34.246.1.31	ess.api.bbci.co.uk
+212.58.249.134	session.bbc.com
+212.58.244.92	account.bbc.com
 212.58.244.78	open.live.bbc.co.uk
 # Bbc End
 
@@ -3331,13 +3331,7 @@
 # Startpage & Ixquick End
 
 # Steam Start
-223.119.217.234	steamcommunity.com
-173.223.87.13	help.steampowered.com
-23.37.147.226	store.steampowered.com
-23.4.240.26	steamcommunity-a.akamaihd.net
-184.28.218.74	steamuserimages-a.akamaihd.net
-184.25.205.16	steamcdn-a.akamaihd.net
-184.25.205.19	cdn.akamai.steamstatic.com
+104.71.136.93	steamcommunity.com
 # Steam End
 
 # Theinitium Start
@@ -3451,6 +3445,32 @@
 138.201.14.206	svn.torproject.org
 138.201.212.227	trac.torproject.org
 # Tor End
+
+# Twitch Start
+151.101.66.167	twitch.tv
+54.254.167.84	app.twitch.tv
+23.12.207.125	api.twitch.tv
+52.4.145.119	blog.twitch.tv
+23.12.207.125	cvp.twitch.tv
+54.187.84.86	countess.twitch.tv
+52.84.222.121	dev.twitch.tv
+151.101.110.167	gql.twitch.tv
+184.169.156.224	help.twitch.tv
+23.12.207.125	player.twitch.tv
+52.89.26.201	passport.twitch.tv
+35.161.182.231	spade.twitch.tv
+34.212.220.91	trowel.twitch.tv
+35.185.17.162	music.twitch.tv
+54.230.159.250	clips-media-assets2.twitch.tv
+54.230.159.146	vod-storyboards.twitch.tv
+34.214.98.191	client-event-reporter.twitch.tv
+54.68.186.105	pubsub-edge.twitch.tv
+50.112.132.198	irc-ws.chat.twitch.tv
+52.89.48.200	video-edge-aed56b.sjc02.hls.ttvnw.net
+35.163.203.219	video-edge-db8460.sjc02.hls.ttvnw.net
+54.149.124.198	video-edge-5fbf1c.sjc02.hls.ttvnw.net
+52.88.54.25	video-edge-87714e.sjc02.hls.ttvnw.net
+# Twitch End
 
 # Vimeo Start
 151.101.0.217	vimeo.com
