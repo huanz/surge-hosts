@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-09-20
+# Last updated: 2018-10-11
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -9,9 +9,6 @@
 
 # Localhost (DO NOT REMOVE) Start
 127.0.0.1	localhost
-::1	localhost
-::1	ip6-localhost
-::1	ip6-loopback
 # Localhost (DO NOT REMOVE) End
 
 # GoogleHosts Start
@@ -41,8 +38,6 @@
 104.223.56.187	104-223-56-187.googlehosts.org
 23.226.136.216	23-226-136-216.googlehosts.org
 23.226.136.216	ss-3.googlehosts.org
-64.32.8.146	64-32-8-146.googlehosts.org
-64.32.8.146	status.googlehosts.org
 # GoogleHosts End
 
 # Akamai Start
@@ -104,7 +99,7 @@
 216.58.215.54	market.android.com
 216.58.215.54	r.android.com
 216.58.223.214	android.com
-216.58.215.118	www.android.com
+216.58.204.221	www.android.com
 172.217.17.22	source.android.com
 172.217.16.246	developer.android.com
 # Android End
@@ -195,7 +190,7 @@
 # Arukas End
 
 # Bandwagonhost Start
-104.20.6.63	bandwagonhost.com
+104.20.7.63	bandwagonhost.com
 # Bandwagonhost End
 
 # Bbc Start
@@ -259,61 +254,60 @@
 
 # Conoha Start
 157.7.225.122	cp.conoha.jp
-103.3.190.48	www.conoha.jp
-157.7.225.117	app.conoha.jp
-157.7.225.120	manage.conoha.jp
+150.95.236.28	www.conoha.jp
+150.95.236.52	app.conoha.jp
+150.95.236.31	manage.conoha.jp
 # Conoha End
 
 # Dropbox Start
 162.125.248.2	db.tt
 162.125.248.1	www.dropbox.com
 162.125.248.1	www.dualstack.dropbox-dns.com
-162.125.248.1	api.dropbox.com
-162.125.248.1	api.dualstack.dropbox-dns.com
-162.125.248.1	api.dropboxapi.com
-162.125.32.135	api-d.dropbox.com
-162.125.32.13	api.v.dropbox.com
-162.125.32.13	api-notify.dropbox.com
-54.230.86.72	aem.dropbox.com
+162.125.5.7	api.dropbox.com
+162.125.5.7	api.dualstack.dropbox-dns.com
+162.125.5.7	api.dropboxapi.com
+162.125.33.7	api-d.dropbox.com
+162.125.34.7	api.v.dropbox.com
+162.125.34.7	api-notify.dropbox.com
+54.192.145.52	aem.dropbox.com
 162.125.82.8	api-content.dropbox.com
 162.125.82.5	api-content-photos.dropbox.com
 52.222.238.253	blogs.dropbox.com
-162.125.32.2	block.dropbox.com
+162.125.17.132	block.dropbox.com
 162.125.17.5	block.v.dropbox.com
 162.125.18.133	bolt.dropbox.com
-162.125.2.3	client.dropbox.com
-162.125.2.3	client-cf.dropbox.com
-162.125.32.12	client.v.dropbox.com
+162.125.65.3	client.dropbox.com
+162.125.65.3	client-cf.dropbox.com
+162.125.32.137	client.v.dropbox.com
 162.125.80.3	client-lb.dropbox.com
 162.125.80.3	client-web.dropbox.com
-162.125.32.5	d.dropbox.com
-162.125.32.5	d.v.dropbox.com
-162.125.2.6	dl.dropbox.com
-162.125.2.6	dl-web.dropbox.com
-162.125.80.6	dl-doc.dropbox.com
-34.197.94.108	dl-debug.dropbox.com
-52.85.12.7	forums.dropbox.com
-54.192.136.115	linux.dropbox.com
-162.125.32.9	m.dropbox.com
-52.85.12.227	marketing.dropbox.com
-162.125.17.131	notify.dropbox.com
-162.125.32.15	photos.dropbox.com
-162.125.80.5	photos-1.dropbox.com
-162.125.80.5	photos-2.dropbox.com
-162.125.80.5	photos-3.dropbox.com
-162.125.80.5	photos-4.dropbox.com
-162.125.80.5	photos-5.dropbox.com
-162.125.80.5	photos-6.dropbox.com
-162.125.80.5	photos-thumb.dropbox.com
+162.125.32.135	d.dropbox.com
+162.125.32.135	d.v.dropbox.com
+162.125.83.6	dl.dropbox.com
+162.125.83.6	dl-web.dropbox.com
+162.125.83.6	dl-doc.dropbox.com
+54.236.121.227	dl-debug.dropbox.com
+13.35.8.71	forums.dropbox.com
+13.35.99.72	linux.dropbox.com
+162.125.80.2	m.dropbox.com
+54.230.173.117	marketing.dropbox.com
+162.125.66.5	photos.dropbox.com
+162.125.83.5	photos-1.dropbox.com
+162.125.83.5	photos-2.dropbox.com
+162.125.83.5	photos-3.dropbox.com
+162.125.83.5	photos-4.dropbox.com
+162.125.83.5	photos-5.dropbox.com
+162.125.83.5	photos-6.dropbox.com
+162.125.83.5	photos-thumb.dropbox.com
 162.125.18.129	photos-thumb.x.dropbox.com
-162.125.2.3	paper.dropbox.com
-52.222.238.128	status.dropbox.com
-52.85.12.72	snapengage.dropbox.com
-162.125.2.6	dl.dropboxusercontent.com
-162.125.32.10	www.dropboxstatic.com
+18.208.123.8	paper.dropbox.com
+54.230.173.90	status.dropbox.com
+54.230.173.29	snapengage.dropbox.com
+162.125.7.6	dl.dropboxusercontent.com
+162.125.33.9	www.dropboxstatic.com
 104.16.100.29	cfl.dropboxstatic.com
-54.230.125.126	cf.dropboxstatic.com
-162.125.32.10	dbxlocal.dropboxstatic.com
+54.230.175.68	cf.dropboxstatic.com
+162.125.33.9	dbxlocal.dropboxstatic.com
 162.125.82.2	log.getdropbox.com
 # Dropbox End
 
@@ -924,6 +918,7 @@
 216.239.38.21	environment.google
 172.217.161.182	domains.google
 64.15.126.100	domains.google.com
+216.58.204.175	dns.google.com
 74.125.206.210	aboutme.google.com
 74.125.206.210	ads.google.com
 74.125.206.210	abc.xyz
@@ -966,7 +961,6 @@
 74.125.206.210	desktop3.google.com
 74.125.206.210	desktop5.google.com
 74.125.206.210	desktop6.google.com
-74.125.206.210	dns.google.com
 74.125.206.210	docs0.google.com
 74.125.206.210	docs1.google.com
 74.125.206.210	docs2.google.com
@@ -1019,7 +1013,6 @@
 74.125.206.210	maven.google.com
 74.125.206.210	material.google.com
 74.125.206.210	mapsengine.google.com
-74.125.206.210	myaccount.google.com
 74.125.206.210	myactivity.google.com
 74.125.206.210	notifications.google.com
 74.125.206.210	opensource.google.com
@@ -1226,7 +1219,8 @@
 # Google Service End
 
 # Google Service:Ncr Start
-74.125.206.210	accounts.google.com
+216.58.204.169	accounts.google.com
+216.58.204.171	myaccount.google.com
 108.177.103.163	assistant.google.com
 108.177.103.163	books.google.com
 108.177.103.163	blogsearch.google.com
@@ -1247,7 +1241,7 @@
 108.177.103.163	privacy.google.com
 108.177.103.163	translate.google.com
 108.177.103.163	toolbarqueries.google.com
-172.217.25.4	scholar.google.com
+216.58.194.223	scholar.google.com
 # Google Service:Ncr End
 
 # Google Service:China Hongkong Start
@@ -3450,10 +3444,12 @@
 151.101.66.167	twitch.tv
 54.254.167.84	app.twitch.tv
 23.12.207.125	api.twitch.tv
+54.200.101.68	badges.twitch.tv
 52.4.145.119	blog.twitch.tv
 23.12.207.125	cvp.twitch.tv
 54.187.84.86	countess.twitch.tv
 52.84.222.121	dev.twitch.tv
+52.39.89.40	discuss.dev.twitch.tv
 151.101.110.167	gql.twitch.tv
 184.169.156.224	help.twitch.tv
 23.12.207.125	player.twitch.tv
@@ -3461,6 +3457,7 @@
 35.161.182.231	spade.twitch.tv
 34.212.220.91	trowel.twitch.tv
 35.185.17.162	music.twitch.tv
+54.69.142.1	spade.sci.twitch.tv
 54.230.159.250	clips-media-assets2.twitch.tv
 54.230.159.146	vod-storyboards.twitch.tv
 34.214.98.191	client-event-reporter.twitch.tv
@@ -3470,6 +3467,7 @@
 35.163.203.219	video-edge-db8460.sjc02.hls.ttvnw.net
 54.149.124.198	video-edge-5fbf1c.sjc02.hls.ttvnw.net
 52.88.54.25	video-edge-87714e.sjc02.hls.ttvnw.net
+54.187.95.61	video-edge-f9215f.sjc02.hls.ttvnw.net
 # Twitch End
 
 # Vimeo Start
