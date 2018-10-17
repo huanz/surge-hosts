@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-10-11
+# Last updated: 2018-10-16
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -33,8 +33,8 @@
 103.105.48.234	tg-9.googlehosts.org
 23.226.136.24	23-226-136-24.googlehosts.org
 23.226.136.24	ss-1.googlehosts.org
-23.226.136.112	23-226-136-112.googlehosts.org
-23.226.136.112	ss-2.googlehosts.org
+23.226.136.132	23-226-136-132.googlehosts.org
+23.226.136.132	ss-2.googlehosts.org
 104.223.56.187	104-223-56-187.googlehosts.org
 23.226.136.216	23-226-136-216.googlehosts.org
 23.226.136.216	ss-3.googlehosts.org
@@ -98,10 +98,10 @@
 216.58.215.54	dev.android.com
 216.58.215.54	market.android.com
 216.58.215.54	r.android.com
-216.58.223.214	android.com
+108.177.127.136	android.com
 216.58.204.221	www.android.com
-172.217.17.22	source.android.com
-172.217.16.246	developer.android.com
+216.58.204.174	source.android.com
+108.177.127.100	developer.android.com
 # Android End
 
 # Apkpure Start
@@ -188,6 +188,10 @@
 # Arukas Start
 27.133.136.8	app.arukas.io
 # Arukas End
+
+# Avira Start
+54.93.111.68	search.avira.com
+# Avira End
 
 # Bandwagonhost Start
 104.20.7.63	bandwagonhost.com
@@ -329,15 +333,15 @@
 151.101.24.134	nytchinese.disqus.com
 151.101.24.64	glitter.services.disqus.com
 151.101.52.64	links.services.disqus.com
-173.192.82.196	realtime.services.disqus.com
-50.18.252.168	help.disqus.com
+169.44.99.100	realtime.services.disqus.com
+151.101.120.134	help.disqus.com
 151.101.52.134	content.disqus.com
 151.101.52.134	referrer.disqus.com
 151.101.40.134	docs.disqus.com
 151.101.40.134	apkpure.disqus.com
-96.7.54.196	about.disqus.com
-96.7.54.200	blog.disqus.com
-96.7.54.198	publishers.disqus.com
+104.17.135.180	about.disqus.com
+104.17.136.180	blog.disqus.com
+104.17.134.180	publishers.disqus.com
 104.16.80.166	c.disquscdn.com
 151.101.26.49	a.disquscdn.com
 # Disqus End
@@ -359,6 +363,10 @@
 104.20.171.49	m.discuss.com.hk
 104.20.170.49	tr.discuss.com.hk
 # Discuss.com.hk End
+
+# Dynu Start
+207.38.70.29	www.dynu.com
+# Dynu End
 
 # Facebook Start
 157.240.7.35	www.facebook.com
@@ -497,8 +505,8 @@
 172.217.168.37	m.gmail.com
 74.125.132.160	m.googlemail.com
 108.177.122.161	gmail.google.com
-172.217.168.197	mail.google.com
-172.217.168.5	inbox.google.com
+108.177.127.18	mail.google.com
+108.177.127.17	inbox.google.com
 172.217.168.7	chatenabled.mail.google.com
 172.217.168.71	filetransferenabled.mail.google.com
 172.217.168.39	isolated.mail.google.com
@@ -643,13 +651,11 @@
 # Google Code End
 
 # Google Country Start
-216.58.200.23	com.google
 216.58.200.23	google.ac
 216.58.200.23	google.ad
 216.58.200.23	google.ae
 216.58.200.23	google.af
 216.58.200.23	google.ag
-216.58.200.23	google.ai
 216.58.200.23	google.al
 216.58.200.23	google.am
 216.58.200.23	google.as
@@ -714,11 +720,9 @@
 216.58.200.23	google.ec
 216.58.200.23	google.ee
 216.58.200.23	google.es
-216.58.200.23	google.eg
 216.58.200.23	google.hk
 216.58.200.23	google.mx
 216.58.200.23	google.ng
-216.58.200.23	google.ni
 216.58.200.23	google.ph
 216.58.200.23	google.pk
 216.58.200.23	google.pl
@@ -730,7 +734,6 @@
 216.58.200.23	google.rs
 216.58.200.23	google.ru
 216.58.200.23	google.rw
-216.58.200.23	google.sa
 216.58.200.23	google.sc
 216.58.200.23	google.se
 216.58.200.23	google.sh
@@ -752,7 +755,6 @@
 216.58.200.23	google.to
 216.58.200.23	google.tt
 216.58.200.23	google.ua
-216.58.200.23	google.uy
 216.58.200.23	google.vg
 216.58.200.23	google.vn
 216.58.200.23	google.vu
@@ -771,7 +773,6 @@
 216.58.200.23	google.com.by
 216.58.200.23	google.com.bz
 216.58.200.23	google.com.co
-216.58.200.23	google.com.co.jp
 216.58.200.23	google.com.cu
 216.58.200.23	google.com.cy
 216.58.200.23	google.com.do
@@ -910,7 +911,7 @@
 216.58.203.14	www.google.com
 108.177.103.161	id.google.com
 74.125.204.100	clients5.google.com
-108.177.111.119	apis.google.com
+108.177.127.99	apis.google.com
 # Google Search Home End
 
 # Google Service Start
@@ -1127,17 +1128,17 @@
 74.125.206.210	safebrowsing-cache.google.com
 74.125.206.210	sandbox.google.com
 74.125.206.210	googleapis.sandbox.google.com
-74.125.206.210	sites.google.com
 74.125.206.210	surveys.google.com
 74.125.206.210	sketchup.google.com
 74.125.206.210	tagmanager.google.com
 74.125.206.210	talkgadget.google.com
+172.217.27.206	sites.google.com
 172.217.166.75	m.google.com
 172.217.166.75	mobile.l.google.com
 173.194.70.125	hangouts.google.com
 74.125.197.115	checkout.google.com
 64.15.126.80	drive.google.com
-64.233.168.162	ipv4.google.com
+108.177.127.133	ipv4.google.com
 108.177.125.189	0.client-channel.google.com
 108.177.125.189	1.client-channel.google.com
 108.177.125.189	2.client-channel.google.com
@@ -2743,7 +2744,7 @@
 # Hinet End
 
 # Heroku Start
-52.54.44.125	id.heroku.com
+34.200.95.135	id.heroku.com
 # Heroku End
 
 # HumbleBundle Start
@@ -2752,6 +2753,14 @@
 52.36.140.12	pubnub.com
 216.58.200.243	www.humblebundle.com
 # HumbleBundle End
+
+# Hkjc Start
+101.78.207.166	www.hkjc.com
+203.82.9.18	bet.hkjc.com
+101.78.207.157	common.hkjc.com
+203.86.162.153	search.hkjc.com
+101.78.207.158	football.hkjc.com
+# Hkjc End
 
 # imgur Start
 151.101.100.193	imgur.com
@@ -3054,6 +3063,11 @@
 23.211.98.191	obs.line-scdn.net
 2.17.56.25	profile.line-scdn.net
 # Line End
+
+# Lihkg Start
+104.24.15.103	lihkg.com
+104.24.16.103	x.lihkg.com
+# Lihkg End
 
 # MEGA Start
 31.216.148.12	mega.nz
@@ -3442,33 +3456,43 @@
 
 # Twitch Start
 151.101.66.167	twitch.tv
-54.254.167.84	app.twitch.tv
+54.254.165.93	app.twitch.tv
 23.12.207.125	api.twitch.tv
 54.200.101.68	badges.twitch.tv
 52.4.145.119	blog.twitch.tv
 23.12.207.125	cvp.twitch.tv
-54.187.84.86	countess.twitch.tv
+54.69.121.1	countess.twitch.tv
 52.84.222.121	dev.twitch.tv
 52.39.89.40	discuss.dev.twitch.tv
 151.101.110.167	gql.twitch.tv
-184.169.156.224	help.twitch.tv
+50.18.57.118	help.twitch.tv
 23.12.207.125	player.twitch.tv
-52.89.26.201	passport.twitch.tv
+35.160.111.213	passport.twitch.tv
 35.161.182.231	spade.twitch.tv
 34.212.220.91	trowel.twitch.tv
 35.185.17.162	music.twitch.tv
 54.69.142.1	spade.sci.twitch.tv
 54.230.159.250	clips-media-assets2.twitch.tv
 54.230.159.146	vod-storyboards.twitch.tv
-34.214.98.191	client-event-reporter.twitch.tv
+52.27.93.163	client-event-reporter.twitch.tv
 54.68.186.105	pubsub-edge.twitch.tv
 50.112.132.198	irc-ws.chat.twitch.tv
+52.42.180.194	video-edge-3d9f56.sjc02.hls.ttvnw.net
+54.149.124.198	video-edge-5fbf1c.sjc02.hls.ttvnw.net
+52.43.201.49	video-edge-5835af.sjc02.hls.ttvnw.net
+54.187.252.230	video-edge-6c67c0.sjc02.hls.ttvnw.net
+52.40.222.98	video-edge-75ad0a.sjc02.hls.ttvnw.net
+52.43.168.169	video-edge-8e57c7.sjc02.hls.ttvnw.net
+52.88.54.25	video-edge-87714e.sjc02.hls.ttvnw.net
 52.89.48.200	video-edge-aed56b.sjc02.hls.ttvnw.net
 35.163.203.219	video-edge-db8460.sjc02.hls.ttvnw.net
-54.149.124.198	video-edge-5fbf1c.sjc02.hls.ttvnw.net
-52.88.54.25	video-edge-87714e.sjc02.hls.ttvnw.net
+54.148.18.99	video-edge-e0871b.sjc02.hls.ttvnw.net
 54.187.95.61	video-edge-f9215f.sjc02.hls.ttvnw.net
 # Twitch End
+
+# Twitter Start
+117.18.237.70	pbs.twimg.com
+# Twitter End
 
 # Vimeo Start
 151.101.0.217	vimeo.com
@@ -3584,6 +3608,7 @@
 208.71.45.11	hk.search.yahoo.com
 27.123.200.67	tw.search.yahoo.com
 106.10.218.137	search.yahoo.com
+182.22.25.124	search.yahoo.co.jp
 # Yahoo End
 
 # Youtube Start
