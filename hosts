@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-11-02
+# Last updated: 2018-11-07
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -94,16 +94,14 @@
 # Amazon End
 
 # Android Start
-216.58.215.54	a.android.com
-216.58.215.54	b.android.com
-216.58.215.54	m.android.com
-216.58.215.54	connectivitycheck.android.com
-216.58.215.54	d.android.com
-216.58.215.54	dev.android.com
-216.58.215.54	market.android.com
-216.58.215.54	r.android.com
+172.217.30.157	a.android.com
+172.217.30.157	connectivitycheck.android.com
+172.217.30.157	d.android.com
+172.217.30.157	dev.android.com
+172.217.30.157	market.android.com
+172.217.30.157	r.android.com
 108.177.127.136	android.com
-216.58.204.221	www.android.com
+172.217.30.153	www.android.com
 216.58.204.174	source.android.com
 108.177.127.100	developer.android.com
 # Android End
@@ -526,8 +524,9 @@
 # Goodreads End
 
 # Google Apis Start
-172.217.168.202	www.googleapis.com
+216.58.204.202	www.googleapis.com
 172.217.168.202	ajax.googleapis.com
+108.177.127.201	fonts.googleapis.com
 172.217.168.202	googleapis.com
 172.217.168.202	android.googleapis.com
 172.217.168.202	appinvite-pa.googleapis.com
@@ -869,7 +868,7 @@
 216.58.200.24	www.google.com.gi
 216.58.200.24	www.google.com.gr
 216.58.200.24	www.google.com.gt
-172.217.17.35	www.google.com.hk
+172.217.30.158	www.google.com.hk
 216.58.200.24	www.google.com.iq
 216.58.200.24	www.google.com.jm
 216.58.200.24	www.google.com.jo
@@ -930,6 +929,7 @@
 64.15.126.100	domains.google.com
 216.58.204.175	dns.google.com
 172.217.20.110	developers.google.com
+172.217.27.219	g.co
 74.125.206.210	aboutme.google.com
 74.125.206.210	ads.google.com
 74.125.206.210	abc.xyz
@@ -2365,8 +2365,8 @@
 # Google GoLang End
 
 # Google Service:Google Play Start
-172.217.160.110	play.google.com
-74.125.204.100	android.clients.google.com
+172.217.30.184	play.google.com
+172.217.30.155	android.clients.google.com
 108.177.121.201	play.googleapis.com
 203.208.39.99	alt7-mtalk.google.com
 # Google Service:Google Play End
@@ -2421,6 +2421,8 @@
 216.239.38.21	material.io
 216.239.38.21	www.autodraw.com
 172.217.4.179	tools.android.com
+172.217.4.179	b.android.com
+172.217.4.179	m.android.com
 # Google:ghs End
 
 # Google:Made the code for girls Start Start
@@ -2591,10 +2593,10 @@
 172.217.168.193	lh0.googleusercontent.com
 172.217.168.193	lh1.googleusercontent.com
 172.217.168.193	lh2.googleusercontent.com
-172.217.168.193	lh3.googleusercontent.com
-172.217.168.193	lh4.googleusercontent.com
-172.217.168.193	lh5.googleusercontent.com
-172.217.168.193	lh6.googleusercontent.com
+108.177.127.133	lh3.googleusercontent.com
+108.177.127.133	lh4.googleusercontent.com
+108.177.127.133	lh5.googleusercontent.com
+108.177.127.133	lh6.googleusercontent.com
 172.217.168.193	mail-attachment.googleusercontent.com
 172.217.168.193	music-onebox.googleusercontent.com
 172.217.168.193	music.googleusercontent.com
@@ -2716,10 +2718,10 @@
 108.177.119.132	gm2.ggpht.com
 108.177.119.132	gm3.ggpht.com
 108.177.119.132	gm4.ggpht.com
-108.177.119.132	lh3.ggpht.com
-108.177.119.132	lh4.ggpht.com
-108.177.119.132	lh5.ggpht.com
-108.177.119.132	lh6.ggpht.com
+108.177.127.132	lh3.ggpht.com
+108.177.127.132	lh4.ggpht.com
+108.177.127.132	lh5.ggpht.com
+108.177.127.132	lh6.ggpht.com
 108.177.119.132	nt0.ggpht.com
 108.177.119.132	nt1.ggpht.com
 108.177.119.132	nt2.ggpht.com
