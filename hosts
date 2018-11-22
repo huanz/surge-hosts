@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-11-11
+# Last updated: 2018-11-20
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -42,6 +42,7 @@
 23.226.136.216	23-226-136-216.googlehosts.org
 23.226.136.216	ss-3.googlehosts.org
 155.94.137.77	155-94-137-77.googlehosts.org
+185.22.152.42	185-22-152-42.googlehosts.org
 # GoogleHosts End
 
 # Akamai Start
@@ -487,6 +488,10 @@
 192.0.66.2	threatexchange.fb.com
 157.240.11.18	video.xx.fbcdn.net
 # Facebook End
+
+# Fcdm Start
+103.233.83.89	www.fcdm.cc
+# Fcdm End
 
 # FlipBoard Start
 52.44.186.59	beacon.flipboard.com
@@ -1255,7 +1260,7 @@
 # Google Service:Ncr End
 
 # Google Service:China Hongkong Start
-108.177.120.94	accounts.google.com.hk
+172.217.30.184	accounts.google.com.hk
 108.177.120.94	assistant.google.com.hk
 108.177.120.94	books.google.com.hk
 108.177.120.94	blogsearch.google.com.hk
