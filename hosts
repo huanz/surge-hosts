@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-12-05
+# Last updated: 2018-12-17
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -37,8 +37,8 @@
 104.129.16.244	104-129-16-244.googlehosts.org
 23.226.136.132	23-226-136-132.googlehosts.org
 104.223.60.17	104-223-60-17.googlehosts.org
-104.223.60.17	ss-2.googlehosts.org
 66.154.108.62	66-154-108-62.googlehosts.org
+66.154.108.62	ss-2.googlehosts.org
 23.226.136.216	23-226-136-216.googlehosts.org
 23.226.136.216	ss-3.googlehosts.org
 155.94.137.77	155-94-137-77.googlehosts.org
@@ -494,8 +494,8 @@
 
 # Github Start
 192.30.253.118	gist.github.com
-192.30.253.112	github.com
-192.30.253.112	www.github.com
+192.30.255.111	github.com
+192.30.255.110	www.github.com
 # Github End
 
 # Gmail Start
@@ -650,7 +650,7 @@
 173.194.198.82	skia.googlesource.com
 173.194.198.82	gcr.io
 173.194.198.82	www.gcr.io
-173.194.76.82	chromium.googlesource.com
+108.177.127.82	chromium.googlesource.com
 108.177.127.82	gerrit.googlesource.com
 108.177.127.82	android-review.googlesource.com
 108.177.127.82	android.googlesource.com
@@ -3081,7 +3081,8 @@
 # Lihkg End
 
 # MEGA Start
-31.216.148.12	mega.nz
+31.216.148.10	mega.nz
+117.18.237.188	g.cdn1.mega.co.nz
 # MEGA End
 
 # Medium Start
