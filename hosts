@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-01-20
+# Last updated: 2019-01-24
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -48,9 +48,12 @@
 185.22.152.42	185-22-152-42.googlehosts.org
 185.22.152.42	ss-3.googlehosts.org
 167.88.168.251	167-88-168-251.googlehosts.org
-167.88.168.251	ss-4.googlehosts.org
+167.88.163.163	167-88-163-163.googlehosts.org
+167.88.163.163	ss-4.googlehosts.org
 103.124.106.174	103-124-106-174.googlehosts.org
 103.124.106.174	proxy.googlehosts.org
+45.59.113.169	45-59-113-169.googlehosts.org
+45.59.113.169	netlog-viewer.googlehosts.org
 # GoogleHosts End
 
 # Akamai Start
@@ -62,9 +65,9 @@
 54.231.249.17	s3-ap-southeast-2.amazonaws.com
 # Amazon AWS End
 
-# Amazon Start
+# Amazon Japan Start
 52.119.164.121	amazon.co.jp
-104.127.195.232	www.amazon.co.jp
+23.13.186.208	www.amazon.co.jp
 54.239.96.187	aftlite-portal-nrt.amazon.co.jp
 52.94.210.248	alexa.amazon.co.jp
 54.240.251.149	api.amazon.co.jp
@@ -79,7 +82,7 @@
 54.240.248.163	dropship.amazon.co.jp
 54.240.254.58	cs-ext.amazon.co.jp
 54.240.252.151	endeavour.amazon.co.jp
-54.148.215.218	fls-fe.amazon.co.jp
+35.166.79.161	fls-fe.amazon.co.jp
 54.240.250.189	kdp.amazon.co.jp
 176.32.100.154	kindle-images.amazon.co.jp
 54.240.250.180	kindlepreviewservice.amazon.co.jp
@@ -88,13 +91,13 @@
 54.240.248.64	mt.amazon.co.jp
 54.240.251.157	music.amazon.co.jp
 52.94.212.221	music-xray-service.amazon.co.jp
-54.240.249.62	widgets.amazon.co.jp
+52.119.164.28	widgets.amazon.co.jp
 54.240.250.177	opf-sellercentral.amazon.co.jp
 54.240.251.156	payments.amazon.co.jp
 54.240.250.198	prime.amazon.co.jp
 54.240.248.131	read.amazon.co.jp
 52.94.210.139	shm.amazon.co.jp
-# Amazon End
+# Amazon Japan End
 
 # Android Start
 172.217.30.157	a.android.com
@@ -103,10 +106,10 @@
 172.217.30.157	dev.android.com
 172.217.30.157	market.android.com
 172.217.30.157	r.android.com
-108.177.127.136	android.com
+172.217.8.250	android.com
 172.217.30.153	www.android.com
-216.58.204.174	source.android.com
-108.177.127.100	developer.android.com
+172.217.8.252	source.android.com
+172.217.8.249	developer.android.com
 # Android End
 
 # Apkpure Start
@@ -150,7 +153,6 @@
 172.217.168.209	beyondthemap.withgoogle.com
 172.217.168.209	analyticsacademy.withgoogle.com
 172.217.168.209	spellup.withgoogle.com
-172.217.204.151	netlog-viewer.appspot.com
 # Appspot End
 
 # Appspotpreview Start
@@ -169,6 +171,7 @@
 172.217.161.180	betaspike.appspot.com
 172.217.161.180	hstspreload.appspot.com
 172.217.161.180	lfe-alpo-gm.appspot.com
+172.217.8.244	netlog-viewer.appspot.com
 # Appspotpreview End
 
 # Archive Start
@@ -183,20 +186,12 @@
 207.241.225.247	books-general.archive.org
 # Archive End
 
-# Armorgames Start
-192.229.173.251	agi.armorgames.com
-192.229.173.251	armatars.armorgames.com
-192.229.173.251	cache.armorgames.com
-192.229.173.251	gamemedia.armorgames.com
-192.229.173.251	quests.armorgames.com
-# Armorgames End
-
 # Arukas Start
 27.133.136.8	app.arukas.io
 # Arukas End
 
 # Avira Start
-54.93.111.68	search.avira.com
+52.58.235.13	search.avira.com
 # Avira End
 
 # Bandwagonhost Start
@@ -205,9 +200,9 @@
 
 # Bbc Start
 151.101.8.81	www.bbc.com
-151.101.40.81	fig.bbc.co.uk
+212.58.244.115	fig.bbc.co.uk
 212.58.244.69	www.bbc.co.uk
-104.118.112.225	static.bbci.co.uk
+23.59.2.139	static.bbci.co.uk
 23.199.11.116	static.bbc.co.uk
 104.76.83.32	nav.files.bbci.co.uk
 23.42.122.193	ichef.bbci.co.uk
@@ -216,30 +211,27 @@
 23.13.157.61	mybbc.files.bbci.co.uk
 23.66.206.133	polling.bbc.co.uk
 104.72.213.225	search.files.bbci.co.uk
-95.101.92.111	a.files.bbci.co.uk
+184.27.16.168	a.files.bbci.co.uk
 95.101.15.42	gel.files.bbci.co.uk
 104.103.150.125	emp.bbc.com
 23.53.213.148	news.bbcimg.co.uk
 23.201.173.230	mybbc-analytics.files.bbci.co.uk
 212.58.244.114	ssl.bbc.co.uk
-54.72.23.188	push.api.bbci.co.uk
-52.17.153.208	search-suggest.api.bbci.co.uk
-34.246.1.31	ess.api.bbci.co.uk
+13.33.213.226	push.api.bbci.co.uk
+52.50.202.133	search-suggest.api.bbci.co.uk
+34.240.0.40	ess.api.bbci.co.uk
 212.58.249.134	session.bbc.com
 212.58.244.92	account.bbc.com
 212.58.244.78	open.live.bbc.co.uk
 # Bbc End
 
 # Box Start
-107.152.25.196	box.com
 107.152.24.198	app.box.com
-107.152.24.197	account.box.com
-107.152.24.197	upload.box.com
 107.152.24.197	m.box.com
 # Box End
 
 # Buzzfeed Start
-151.101.1.181	img.buzzfeed.com
+151.101.129.181	img.buzzfeed.com
 # Buzzfeed End
 
 # cd4o Start
@@ -254,12 +246,13 @@
 # Change.org End
 
 # Cloudfront Start
-52.84.167.78	d3c33hcgiwev3.cloudfront.net
-52.84.167.78	d3njjcbhbojbot.cloudfront.net
+52.85.85.246	d3njjcbhbojbot.cloudfront.net
+52.85.83.12	d3c33hcgiwev3.cloudfront.net
 # Cloudfront End
 
 # Culturalspot Start
-172.217.31.96	embed.culturalspot.org
+172.217.14.56	embed.culturalspot.org
+172.217.14.96	globetoglobehamlet.culturalspot.org
 # Culturalspot End
 
 # Conoha Start
@@ -284,10 +277,10 @@
 162.125.33.7	api-d.dropbox.com
 162.125.34.7	api.v.dropbox.com
 162.125.34.7	api-notify.dropbox.com
-54.192.145.52	aem.dropbox.com
+99.84.239.58	aem.dropbox.com
 162.125.82.8	api-content.dropbox.com
 162.125.82.5	api-content-photos.dropbox.com
-52.222.238.253	blogs.dropbox.com
+13.35.8.95	blogs.dropbox.com
 162.125.17.132	block.dropbox.com
 162.125.17.5	block.v.dropbox.com
 162.125.18.133	bolt.dropbox.com
@@ -315,7 +308,7 @@
 162.125.83.5	photos-6.dropbox.com
 162.125.83.5	photos-thumb.dropbox.com
 162.125.18.129	photos-thumb.x.dropbox.com
-18.208.123.8	paper.dropbox.com
+54.153.81.237	paper.dropbox.com
 54.230.173.90	status.dropbox.com
 54.230.173.29	snapengage.dropbox.com
 162.125.7.6	dl.dropboxusercontent.com
@@ -365,7 +358,7 @@
 104.16.10.231	status.discordapp.com
 104.16.250.144	images-ext-1.discordapp.net
 104.16.250.144	dl.discordapp.net
-104.16.251.144	images-ext-2.discordapp.net
+104.16.250.144	images-ext-2.discordapp.net
 104.16.10.231	cdn.discordapp.com
 # Discord End
 
@@ -666,8 +659,8 @@
 173.194.198.82	www.gcr.io
 108.177.127.82	chromium.googlesource.com
 108.177.127.82	gerrit.googlesource.com
-108.177.127.82	android-review.googlesource.com
-108.177.127.82	android.googlesource.com
+172.217.194.82	android-review.googlesource.com
+172.217.194.82	android.googlesource.com
 # Google Code End
 
 # Google Country Start
