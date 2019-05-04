@@ -1,6 +1,6 @@
-# Copyright (c) 2017-2018, googlehosts members.
+# Copyright (c) 2017-2019, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-04-07
+# Last updated: 2019-04-28
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -25,8 +25,10 @@
 107.174.203.60	tg-5.googlehosts.org
 45.124.64.82	45-124-64-82.googlehosts.org
 45.124.64.82	tg-6.googlehosts.org
-120.132.20.219	120-132-20-219.googlehosts.org
-120.132.20.219	tg-7.googlehosts.org
+117.50.61.150	117-50-61-150.googlehosts.org
+117.50.61.150	tg-7.googlehosts.org
+106.75.2.132	106-75-2-132.googlehosts.org
+106.75.2.132	tg-7-b.googlehosts.org
 185.122.58.249	185-122-58-249.googlehosts.org
 185.122.58.249	tg-8.googlehosts.org
 103.105.48.234	103-105-48-234.googlehosts.org
@@ -123,6 +125,7 @@
 # Apkmirror End
 
 # Appspot Start
+# Pending fix
 172.217.168.209	www.appspot.com
 172.217.168.209	appspot.com
 172.217.168.209	events.withgoogle.com
@@ -154,9 +157,11 @@
 172.217.168.209	beyondthemap.withgoogle.com
 172.217.168.209	analyticsacademy.withgoogle.com
 172.217.168.209	spellup.withgoogle.com
+172.217.27.148	chrome-infra-packages.appspot.com
 # Appspot End
 
 # Appspotpreview Start
+# Pending fix
 172.217.161.180	author-dot-betaspike.appspot.com
 172.217.161.180	jmoore-dot-android-experiments.appspot.com
 172.217.161.180	mission-author-dot-betaspike.appspot.com
@@ -177,13 +182,12 @@
 # Appspotpreview End
 
 # Archive Start
-207.241.225.95	archive.org
-207.241.225.95	www.archive.org
+207.241.224.4	archive.org
+207.241.224.4	www.archive.org
 207.241.225.95	analytics.archive.org
-207.241.225.95	ia802704.us.archive.org
-207.241.225.186	web-beta.archive.org
-207.241.225.186	wwwb-sentry.us.archive.org
-207.241.225.186	web.archive.org
+207.241.233.214	web-beta.archive.org
+207.241.233.214	wwwb-sentry.us.archive.org
+207.241.233.214	web.archive.org
 207.241.224.6	mail.archive.org
 207.241.225.247	books-general.archive.org
 # Archive End
@@ -193,7 +197,7 @@
 # Arukas End
 
 # Avira Start
-52.58.235.13	search.avira.com
+52.59.33.68	search.avira.com
 # Avira End
 
 # Bandwagonhost Start
@@ -209,7 +213,7 @@
 104.76.83.32	nav.files.bbci.co.uk
 23.42.122.193	ichef.bbci.co.uk
 23.73.186.251	m.files.bbci.co.uk
-104.124.234.244	feeds.bbci.co.uk
+125.56.212.236	feeds.bbci.co.uk
 23.13.157.61	mybbc.files.bbci.co.uk
 23.66.206.133	polling.bbc.co.uk
 104.72.213.225	search.files.bbci.co.uk
@@ -220,8 +224,8 @@
 23.201.173.230	mybbc-analytics.files.bbci.co.uk
 212.58.244.114	ssl.bbc.co.uk
 13.33.213.226	push.api.bbci.co.uk
-52.50.202.133	search-suggest.api.bbci.co.uk
-34.240.0.40	ess.api.bbci.co.uk
+52.31.189.25	search-suggest.api.bbci.co.uk
+34.245.252.9	ess.api.bbci.co.uk
 212.58.249.134	session.bbc.com
 212.58.244.92	account.bbc.com
 212.58.244.78	open.live.bbc.co.uk
@@ -233,12 +237,8 @@
 # Box End
 
 # Buzzfeed Start
-151.101.129.181	img.buzzfeed.com
+151.101.2.114	img.buzzfeed.com
 # Buzzfeed End
-
-# cd4o Start
-68.232.45.253	www.cd4o.com
-# cd4o End
 
 # Change.org Start
 104.16.5.13	www.change.org
@@ -248,13 +248,14 @@
 # Change.org End
 
 # Cloudfront Start
-52.85.85.246	d3njjcbhbojbot.cloudfront.net
+13.33.25.77	d3njjcbhbojbot.cloudfront.net
 52.85.83.12	d3c33hcgiwev3.cloudfront.net
 # Cloudfront End
 
 # Culturalspot Start
-172.217.14.56	embed.culturalspot.org
-172.217.14.96	globetoglobehamlet.culturalspot.org
+# Pending fix
+216.58.200.238	embed.culturalspot.org
+216.58.200.238	globetoglobehamlet.culturalspot.org
 # Culturalspot End
 
 # Conoha Start
@@ -269,7 +270,32 @@
 63.141.239.58	library.ctext.org
 # Ctext End
 
+# DeviantArt Start
+52.85.220.219	deviantart.com
+52.85.220.244	www.deviantart.com
+52.85.154.135	amazing-animal-art.deviantart.com
+54.230.231.64	bugidifino.deviantart.com
+52.85.154.83	bunny-no.deviantart.com
+52.85.154.133	chipmunkrulz.deviantart.com
+54.230.231.59	forum.deviantart.com
+54.192.163.36	fifi9322.deviantart.com
+54.192.163.44	groups.deviantart.com
+54.192.163.47	imstarving.deviantart.com
+54.192.163.36	isis-moon.deviantart.com
+52.85.154.83	shop.deviantart.com
+52.32.58.1	deviantart.net
+99.84.104.122	st.deviantart.net
+99.84.104.23	a.deviantart.net
+99.84.104.59	e.deviantart.net
+99.84.104.59	i.deviantart.net
+52.84.150.14	pre00.deviantart.net
+99.84.254.116	orig00.deviantart.net
+99.84.254.32	t00.deviantart.net
+13.33.47.221	film00.deviantart.net
+# DeviantArt End
+
 # Dropbox Start
+# Pending fix
 162.125.248.2	db.tt
 162.125.248.1	www.dropbox.com
 162.125.248.1	www.dualstack.dropbox-dns.com
@@ -501,8 +527,8 @@
 # Facebook End
 
 # FlipBoard Start
-52.44.186.59	beacon.flipboard.com
-34.201.185.200	fbprod.flipboard.com
+13.33.208.8	beacon.flipboard.com
+13.33.208.8	fbprod.flipboard.com
 # FlipBoard End
 
 # Github Start
@@ -531,8 +557,8 @@
 # Gmx End
 
 # Goodreads Start
-176.32.103.89	www.goodreads.com
-176.32.102.212	ads.goodreads.com
+54.239.26.220	www.goodreads.com
+205.251.242.64	ads.goodreads.com
 # Goodreads End
 
 # Google Apis Start
@@ -2764,10 +2790,11 @@
 
 # Hinet Start
 211.20.148.228	hichannel.hinet.net
+202.39.143.235	radio-hichannel.cdn.hinet.net
 # Hinet End
 
 # Heroku Start
-34.200.95.135	id.heroku.com
+52.200.255.123	id.heroku.com
 # Heroku End
 
 # HKGalden Start
@@ -2786,10 +2813,9 @@
 # HKGolden End
 
 # HumbleBundle Start
-54.250.252.63	humble.pubnub.com
+54.249.82.168	humble.pubnub.com
 104.20.34.236	humblebundle.com
 52.36.140.12	pubnub.com
-216.58.200.243	www.humblebundle.com
 # HumbleBundle End
 
 # Hkjc Start
@@ -2801,23 +2827,24 @@
 # Hkjc End
 
 # imgur Start
-151.101.100.193	imgur.com
-151.101.100.193	m.imgur.com
-151.101.100.193	api.imgur.com
-151.101.100.193	www.imgur.com
-151.101.100.193	store.imgur.com
-151.101.100.193	s.imgur.com
-151.101.100.193	p.imgur.com
-151.101.100.193	i.imgur.com
+151.101.40.193	imgur.com
+151.101.40.193	m.imgur.com
+151.101.40.193	api.imgur.com
+151.101.40.193	www.imgur.com
+151.101.40.193	store.imgur.com
+151.101.40.193	s.imgur.com
+151.101.40.193	p.imgur.com
+151.101.40.193	i.imgur.com
+101.78.207.158	i.stack.imgur.com
 # imgur End
 
 # Ingress Start
-54.193.15.78	appload.ingest.crittercism.com
-54.193.15.78	api.crittercism.com
+52.9.109.157	appload.ingest.crittercism.com
+54.241.32.12	api.crittercism.com
 54.193.253.0	txn.ingest.crittercism.com
-169.44.145.200	bootstrap.upsight-api.com
-169.44.145.200	single.upsight-api.com
-169.44.145.200	batch.upsight-api.com
+169.44.145.204	bootstrap.upsight-api.com
+169.44.145.204	single.upsight-api.com
+169.44.145.204	batch.upsight-api.com
 # Ingress End
 
 # Instagram Start
@@ -2962,7 +2989,7 @@
 52.72.26.162	developers.issuu.com
 52.72.26.162	page.issuu.com
 66.6.32.22	blog.issuu.com
-54.80.162.85	pingback.issuu.com
+35.241.35.151	pingback.issuu.com
 151.101.65.63	photo.issuu.com
 151.101.65.63	image.issuu.com
 151.101.65.63	content.issuu.com
@@ -2970,7 +2997,7 @@
 151.101.65.63	static.issuu.com
 151.101.65.63	skin.issuu.com
 52.1.172.141	api.issuu.com
-34.205.198.51	help.issuu.com
+104.16.53.111	help.issuu.com
 # issuu End
 
 # Kik Start
@@ -2978,7 +3005,7 @@
 # Kik End
 
 # Kobo Start
-128.127.159.1	magazines-adf.kobo.com
+84.39.136.9	magazines-adf.kobo.com
 157.55.176.209	social.kobobooks.com
 191.236.35.232	storedownloads.kobo.com
 191.238.229.33	discovery.kobobooks.com
@@ -3003,48 +3030,48 @@
 23.227.38.64	pt.kobobooks.com
 23.227.38.64	uk.kobobooks.com
 23.227.38.64	us.kobobooks.com
-23.222.170.74	akimages.kobobooks.com
-23.222.170.74	api.kobobooks.com
-23.222.170.74	esmx.kobobooks.com
-23.222.170.74	esmxsecure.kobobooks.com
-23.222.170.74	merch.kobobooks.com
-23.222.170.74	mobile.kobobooks.com
-23.222.170.74	mobilepartner.kobobooks.com
-23.222.170.74	mobilestage.kobobooks.com
-23.222.170.74	partner.kobobooks.com
-23.222.170.74	ptbr.kobobooks.com
-23.222.170.74	ptbrsecure.kobobooks.com
-23.222.170.74	ratingsapi.kobobooks.com
-23.222.170.74	read.kobobooks.com
-23.222.170.74	secure.kobobooks.com
-23.222.170.74	services.kobobooks.com
-23.222.170.74	store.kobobooks.com
-23.222.170.74	tr.kobobooks.com
-23.222.170.74	webstore.kobobooks.com
-23.222.170.74	webstore2.kobobooks.com
-23.222.170.74	writinglife.kobobooks.com
-23.222.170.74	www.kobobooks.com
-23.222.171.40	assets.kobo.com
-23.222.171.40	de.kobo.com
-23.222.171.40	es.kobo.com
-23.222.171.40	fr.kobo.com
-23.222.171.40	it.kobo.com
-23.222.171.40	ja.kobo.com
-23.222.171.40	nl.kobo.com
-23.222.171.40	pt.kobo.com
-23.222.171.40	ptbr.kobo.com
-23.222.171.40	read.kobo.com
-23.222.171.40	rum.kobo.com
-23.222.171.40	stage.kobo.com
-23.222.171.40	storeapi.kobo.com
-23.222.171.40	tw.kobo.com
+23.46.136.67	akimages.kobobooks.com
+23.46.136.67	api.kobobooks.com
+23.46.136.67	esmx.kobobooks.com
+23.46.136.67	esmxsecure.kobobooks.com
+23.46.136.67	merch.kobobooks.com
+23.46.136.67	mobile.kobobooks.com
+23.46.136.67	mobilepartner.kobobooks.com
+23.46.136.67	mobilestage.kobobooks.com
+23.46.136.67	partner.kobobooks.com
+23.46.136.67	ptbr.kobobooks.com
+23.46.136.67	ptbrsecure.kobobooks.com
+23.46.136.67	ratingsapi.kobobooks.com
+23.46.136.67	read.kobobooks.com
+23.46.136.67	secure.kobobooks.com
+23.46.136.67	services.kobobooks.com
+23.46.136.67	store.kobobooks.com
+23.46.136.67	tr.kobobooks.com
+23.46.136.67	webstore.kobobooks.com
+23.46.136.67	webstore2.kobobooks.com
+23.46.136.67	writinglife.kobobooks.com
+23.46.136.67	www.kobobooks.com
+23.34.51.249	assets.kobo.com
+23.34.51.249	de.kobo.com
+23.34.51.249	es.kobo.com
+23.34.51.249	fr.kobo.com
+23.34.51.249	it.kobo.com
+23.34.51.249	ja.kobo.com
+23.34.51.249	nl.kobo.com
+23.34.51.249	pt.kobo.com
+23.34.51.249	ptbr.kobo.com
+23.34.51.249	read.kobo.com
+23.34.51.249	rum.kobo.com
+23.34.51.249	stage.kobo.com
+23.34.51.249	storeapi.kobo.com
+23.34.51.249	tw.kobo.com
 23.66.137.9	www.kobo.com
 40.114.86.114	sorry.kobo.com
 75.98.196.99	media.kobobooks.com
-96.6.122.224	contentdownloads.kobobooks.com
-96.6.122.224	get.kobobooks.com
-96.6.122.224	ecimages.kobobooks.com
-96.6.122.224	ecmimages.kobobooks.com
+184.51.198.112	contentdownloads.kobobooks.com
+184.51.198.112	get.kobobooks.com
+184.51.198.112	ecimages.kobobooks.com
+184.51.198.112	ecmimages.kobobooks.com
 89.187.65.68	insiders.kobo.com
 # Kobo End
 
@@ -3301,6 +3328,15 @@
 # Quora Start
 192.229.189.142	www.quora.com
 # Quora End
+
+# Rakuten Start
+133.237.50.6	rd.rakuten.co.jp
+133.237.61.71	esearch.rakuten.co.jp
+23.40.72.233	www.rakuten.co.jp
+40.115.251.146	globalexpress.rakuten.co.jp
+96.7.133.108	books.rakuten.co.jp
+96.7.133.108	search.rakuten.co.jp
+# Rakuten End
 
 # RawGit Start
 198.232.125.81	cdn.rawgit.com
@@ -3640,6 +3676,7 @@
 # WikiLeaks Start
 95.211.113.131	wikileaks.org
 95.211.113.131	www.wikileaks.org
+141.105.65.113	file.wikileaks.org
 # WikiLeaks End
 
 # Wikinews Start
