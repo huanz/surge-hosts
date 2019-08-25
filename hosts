@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2019, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-07-21
+# Last updated: 2019-08-20
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -12,9 +12,6 @@
 # Localhost (DO NOT REMOVE) End
 
 # GoogleHosts Start
-23.95.9.4	23-95-9-4.googlehosts.org
-23.95.9.4	tg-1.googlehosts.org
-204.44.101.36	204-44-101-36.googlehosts.org
 185.200.34.198	185-200-34-198.googlehosts.org
 185.200.34.198	tg-2.googlehosts.org
 107.174.205.58	107-174-205-58.googlehosts.org
@@ -23,43 +20,25 @@
 185.200.34.209	tg-4.googlehosts.org
 107.174.203.60	107-174-203-60.googlehosts.org
 107.174.203.60	tg-5.googlehosts.org
-45.124.64.82	45-124-64-82.googlehosts.org
-45.124.64.82	tg-6.googlehosts.org
 117.50.61.150	117-50-61-150.googlehosts.org
 117.50.61.150	tg-7.googlehosts.org
 106.75.2.132	106-75-2-132.googlehosts.org
 106.75.2.132	tg-7-b.googlehosts.org
-185.122.58.249	185-122-58-249.googlehosts.org
-185.122.58.249	tg-8.googlehosts.org
 103.105.48.234	103-105-48-234.googlehosts.org
 103.105.48.234	tg-9.googlehosts.org
-103.68.223.109	103-68-223-109.googlehosts.org
-103.68.223.109	tg-10.googlehosts.org
-23.226.136.24	23-226-136-24.googlehosts.org
-23.226.136.24	ss-1.googlehosts.org
-23.226.136.132	23-226-136-132.googlehosts.org
-23.226.136.132	ss-2.googlehosts.org
-66.154.108.62	66-154-108-62.googlehosts.org
-23.226.136.216	23-226-136-216.googlehosts.org
-23.226.136.216	ss-3.googlehosts.org
-155.94.137.77	155-94-137-77.googlehosts.org
+45.89.228.109	45-89-228-109.googlehosts.org
+45.89.228.109	tg-10.googlehosts.org
 185.22.152.42	185-22-152-42.googlehosts.org
 185.22.152.42	ss-3.googlehosts.org
-167.88.168.251	167-88-168-251.googlehosts.org
-167.88.163.163	167-88-163-163.googlehosts.org
-167.88.163.163	ss-4.googlehosts.org
-23.95.54.162	23-95-54-162.googlehosts.org
 103.124.106.174	103-124-106-174.googlehosts.org
 103.124.106.174	proxy.googlehosts.org
-45.59.113.167	45-59-113-167.googlehosts.org
-45.59.113.167	status.googlehosts.org
-45.59.113.168	45-59-113-168.googlehosts.org
-45.59.113.168	www.googlehosts.org
-45.59.113.169	45-59-113-169.googlehosts.org
-45.59.113.169	netlog-viewer.googlehosts.org
-45.59.113.172	45-59-113-172.googlehosts.org
-45.59.113.172	main-ssh.googlehosts.org
 # GoogleHosts End
+
+# AbeBooks Start
+199.255.34.38	data.abebooks.com
+52.87.120.250	www.abebooks.com
+99.84.58.39	pictures.abebooks.com
+# AbeBooks End
 
 # Akamai Start
 23.32.241.9	a248.e.akamai.net
@@ -194,6 +173,12 @@
 207.241.225.247	books-general.archive.org
 # Archive End
 
+# ARTE Start
+212.95.74.30	api.arte.tv
+212.95.74.37	www.arte.tv
+23.50.102.235	static-cdn.arte.tv
+# ARTE End
+
 # Arukas Start
 27.133.136.8	app.arukas.io
 # Arukas End
@@ -241,14 +226,41 @@
 54.192.75.182	mir-cdn-cf.behance.net
 # Behance End
 
+# BigGo Start
+61.222.241.167	img.biggo.com.tw
+61.222.241.168	biggo.com.tw
+# BigGo End
+
 # Box Start
 107.152.24.198	app.box.com
 107.152.24.197	m.box.com
 # Box End
 
+# Bussiness Insider Start
+151.101.1.171	static2.businessinsider.com
+151.101.1.171	static5.businessinsider.com
+151.101.193.171	www.businessinsider.com
+151.101.229.171	amp.businessinsider.com
+151.101.229.171	geoip.businessinsider.com
+151.101.229.171	static6.businessinsider.com
+151.101.73.171	static1.businessinsider.com
+151.101.73.171	static3.businessinsider.com
+151.101.73.171	static4.businessinsider.com
+151.101.88.64	analytics.businessinsider.com
+# Bussiness Insider End
+
 # Buzzfeed Start
 151.101.2.114	img.buzzfeed.com
 # Buzzfeed End
+
+# CD Universe Start
+110.232.178.118	c6.cduniverse.ws
+110.232.178.118	c7.cduniverse.ws
+110.232.178.118	c8.cduniverse.ws
+110.232.178.118	c9.cduniverse.ws
+110.232.178.118	www.cduniverse.com
+72.248.115.70	cduniverse.ws
+# CD Universe End
 
 # Change.org Start
 104.16.5.13	www.change.org
@@ -259,7 +271,7 @@
 
 # Cloudfront Start
 13.33.25.77	d3njjcbhbojbot.cloudfront.net
-52.85.83.12	d3c33hcgiwev3.cloudfront.net
+99.84.138.226	d3c33hcgiwev3.cloudfront.net
 # Cloudfront End
 
 # Clyp Start
@@ -269,6 +281,12 @@
 13.33.231.37	soundwave.clyp.it
 13.33.231.37	static.clyp.it
 # Clyp End
+
+# CNA Start
+210.242.210.65	img5.cna.com.tw
+211.72.255.204	www.cna.com.tw
+72.21.81.200	img4.cna.com.tw
+# CNA End
 
 # Culturalspot Start
 # Pending fix
@@ -287,6 +305,32 @@
 63.141.239.58	ctext.org
 63.141.239.58	library.ctext.org
 # Ctext End
+
+# DailyView Start
+52.230.12.205	dailyview.tw
+# DailyView End
+
+# Doubi Start
+104.24.116.224	doubibackup.com
+104.24.126.191	doubmirror.cf
+104.27.137.174	softsmirror.cf
+# Doubi End
+
+# Kadokawa Start
+183.177.40.106	kmh.kadokawa.co.jp
+183.177.40.130	kadokawa-mg.kadokawa.co.jp
+183.177.40.130	kadokawa.co.jp
+183.177.40.130	kadokawagakugei.kadokawa.co.jp
+183.177.40.130	kadokawashoten.kadokawa.co.jp
+183.177.40.130	mediafactory.kadokawa.co.jp
+183.177.40.130	www.kadokawa.co.jp
+183.177.40.228	asciimw.kadokawa.co.jp
+183.177.42.87	ir.kadokawa.co.jp
+183.177.44.38	license.kadokawa.co.jp
+202.213.45.132	www.chara-ani.com
+54.230.193.207	mediaguide.kadokawa.co.jp
+99.84.181.106	store.kadokawa.co.jp
+# Kadokawa End
 
 # Kakao:Daum Start
 103.24.8.9	ruliweb.daum.net
@@ -1140,6 +1184,15 @@
 13.33.47.221	film00.deviantart.net
 # DeviantArt End
 
+# DMHY Start
+104.25.27.31	bbs.dmhy.org
+104.25.27.31	dl.dmhy.org
+104.25.27.31	dmhy.org
+104.25.27.31	share.dmhy.org
+104.25.27.31	u2.dmhy.org
+104.25.27.31	www.dmhy.org
+# DMHY End
+
 # Dropbox Start
 # Pending fix
 162.125.248.2	db.tt
@@ -1253,6 +1306,10 @@
 # Dynu Start
 207.38.70.29	www.dynu.com
 # Dynu End
+
+# Euronews Start
+8.252.15.252	static.euronews.com
+# Euronews End
 
 # Facebook Start
 157.240.7.35	www.facebook.com
@@ -1372,10 +1429,23 @@
 157.240.11.18	video.xx.fbcdn.net
 # Facebook End
 
+# Fastly Start
+151.101.110.79	freetls.fastly.net
+151.101.230.79	tampermonkey.freetls.fastly.net
+# Fastly End
+
+# Feedly Start
+104.20.60.241	cloud.feedly.com
+# Feedly End
+
 # FlipBoard Start
 13.33.208.8	beacon.flipboard.com
 13.33.208.8	fbprod.flipboard.com
 # FlipBoard End
+
+# Foreign Policy Start
+192.0.79.32	foreignpolicy.com
+# Foreign Policy End
 
 # Github Start
 192.30.253.118	gist.github.com
@@ -1523,27 +1593,28 @@
 # Google Blogger End
 
 # Google Code Start
-173.194.198.82	www.googlesource.com
-173.194.198.82	googlesource.com
-173.194.198.82	code.googlesource.com
-173.194.198.82	fuchsia.googlesource.com
-173.194.198.82	gerrit-review.googlesource.com
-173.194.198.82	kernel.googlesource.com
-173.194.198.82	uploads.code.google.com
-173.194.198.82	gwt.googlesource.com
-173.194.198.82	gcr.io
-173.194.198.82	www.gcr.io
-172.217.194.82	chromium.googlesource.com
 108.177.127.82	gerrit.googlesource.com
-172.217.194.82	quiche.googlesource.com
+108.177.127.82	go.googlesource.com
+172.217.194.82	android-review.googlesource.com
+172.217.194.82	android.googlesource.com
 172.217.194.82	boringssl.googlesource.com
+172.217.194.82	chromium.googlesource.com
 172.217.194.82	dawn.googlesource.com
 172.217.194.82	pdfium.googlesource.com
+172.217.194.82	quiche.googlesource.com
 172.217.194.82	skia.googlesource.com
 172.217.194.82	swiftshader.googlesource.com
 172.217.194.82	webrtc.googlesource.com
-172.217.194.82	android-review.googlesource.com
-172.217.194.82	android.googlesource.com
+173.194.198.82	code.googlesource.com
+173.194.198.82	fuchsia.googlesource.com
+173.194.198.82	gcr.io
+173.194.198.82	gerrit-review.googlesource.com
+173.194.198.82	googlesource.com
+173.194.198.82	gwt.googlesource.com
+173.194.198.82	kernel.googlesource.com
+173.194.198.82	uploads.code.google.com
+173.194.198.82	www.gcr.io
+173.194.198.82	www.googlesource.com
 # Google Code End
 
 # Google Country Start
@@ -3645,7 +3716,7 @@
 # Hinet End
 
 # Heroku Start
-52.200.255.123	id.heroku.com
+34.192.228.6	id.heroku.com
 # Heroku End
 
 # HKGalden Start
@@ -3773,7 +3844,7 @@
 157.240.1.172	scontent-lht6-1.cdninstagram.com
 31.13.83.52	scontent-a-mad.cdninstagram.com
 31.13.83.52	scontent-b-mad.cdninstagram.com
-31.13.83.52	scontent-mad1-1.cdninstagram.comc
+31.13.83.52	scontent-mad1-1.cdninstagram.com
 31.13.75.174	scontent-a-mrs.cdninstagram.com
 31.13.75.174	scontent-b-mrs.cdninstagram.com
 31.13.75.174	scontent-mrs1-1.cdninstagram.com
@@ -3862,6 +3933,16 @@
 # Kik Start
 104.20.171.40	www.kik.com
 # Kik End
+
+# Kinokuniya Start
+124.146.171.177	faq.kinokuniya.co.jp
+124.36.142.42	mirai.kinokuniya.co.jp
+176.32.73.17	malaysia.kinokuniya.com
+176.32.73.17	singapore.kinokuniya.com
+176.32.73.17	thailand.kinokuniya.com
+176.32.73.17	uae.kinokuniya.com
+203.216.212.234	www.kinokuniya.co.jp
+# Kinokuniya End
 
 # Kobo Start
 84.39.136.9	magazines-adf.kobo.com
@@ -4036,10 +4117,11 @@
 104.19.140.58	i.lihkg.com
 # Lihkg End
 
-# MEGA Start
-31.216.148.10	mega.nz
-117.18.237.188	g.cdn1.mega.co.nz
-# MEGA End
+# Matters.news Start
+13.32.52.37	assets.matters.news
+54.192.151.121	matters.news
+54.254.167.73	server.matters.news
+# Matters.news End
 
 # Medium Start
 104.16.120.127	medium.com
@@ -4049,6 +4131,11 @@
 104.16.120.145	cdn-images-2.medium.com
 104.16.121.145	glyph.medium.com
 # Medium End
+
+# MEGA Start
+31.216.148.10	mega.nz
+117.18.237.188	g.cdn1.mega.co.nz
+# MEGA End
 
 # Nytimes Start
 34.225.58.16	messaging-sub.api.nytimes.com
@@ -4094,6 +4181,32 @@
 # Pepitastore Start
 68.232.44.109	ips.pepitastore.com
 # Pepitastore End
+
+# Periscope Start
+13.124.246.138	pscp.tv
+13.124.203.13	www.pscp.tv
+52.39.74.21	channels.pscp.tv
+54.200.114.148	proxsee.pscp.tv
+54.192.73.58	assets.pscp.tv
+54.192.73.58	prod-profile.pscp.tv
+54.192.73.58	prod-thumbnail.pscp.tv
+151.101.2.164	prod-video-ap-northeast-1.pscp.tv
+151.101.2.164	prod-video-ap-southeast-1.pscp.tv
+151.101.66.164	prod-video-ap-southeast-2.pscp.tv
+151.101.66.164	prod-video-eu-central-1.pscp.tv
+151.101.130.164	prod-video-us-east-1.pscp.tv
+151.101.194.164	prod-video-sa-east-1.pscp.tv
+151.101.194.164	prod-video-us-west-2.pscp.tv
+151.101.78.164	prod-video-us-west-1.pscp.tv
+151.101.78.164	prod-video-eu-west-1.pscp.tv
+18.194.108.2	prod-chatman-ancillary-eu-central-1.pscp.tv
+34.233.63.45	prod-chatman-ancillary-us-east-1.pscp.tv
+35.160.28.174	prod-chatman-ancillary-us-west-2.pscp.tv
+# Periscope End
+
+# Pincong Start
+104.18.54.73	pincong.rocks
+# Pincong End
 
 # Pinterest Start
 151.101.128.84	pinterest.com
@@ -4182,28 +4295,6 @@
 210.140.131.184	pay.pixiv.net
 # Pixiv End
 
-# Periscope Start
-13.124.246.138	pscp.tv
-13.124.203.13	www.pscp.tv
-52.39.74.21	channels.pscp.tv
-54.200.114.148	proxsee.pscp.tv
-54.192.73.58	assets.pscp.tv
-54.192.73.58	prod-profile.pscp.tv
-54.192.73.58	prod-thumbnail.pscp.tv
-151.101.2.164	prod-video-ap-northeast-1.pscp.tv
-151.101.2.164	prod-video-ap-southeast-1.pscp.tv
-151.101.66.164	prod-video-ap-southeast-2.pscp.tv
-151.101.66.164	prod-video-eu-central-1.pscp.tv
-151.101.130.164	prod-video-us-east-1.pscp.tv
-151.101.194.164	prod-video-sa-east-1.pscp.tv
-151.101.194.164	prod-video-us-west-2.pscp.tv
-151.101.78.164	prod-video-us-west-1.pscp.tv
-151.101.78.164	prod-video-eu-west-1.pscp.tv
-18.194.108.2	prod-chatman-ancillary-eu-central-1.pscp.tv
-34.233.63.45	prod-chatman-ancillary-us-east-1.pscp.tv
-35.160.28.174	prod-chatman-ancillary-us-west-2.pscp.tv
-# Periscope End
-
 # Potplayer Start
 211.231.108.181	potplayer.daum.net
 # Potplayer End
@@ -4223,7 +4314,37 @@
 140.112.172.1	ptt.cc
 # Ptt End
 
+# Pubu Start
+175.41.144.51	gtbook.pubu.com.tw
+175.41.144.51	www.pubu.com.tw
+54.230.108.227	res1.pubu.tw
+99.84.143.35	res2.pubu.tw
+99.84.143.46	static.pubu.tw
+99.84.143.51	res3.pubu.tw
+99.84.59.53	res4.pubu.tw
+# Pubu End
+
 # Quora Start
+104.16.52.111	help.quora.com
+151.101.73.2	blog.quora.com
+151.101.73.2	bn.quora.com
+151.101.73.2	da.quora.com
+151.101.73.2	de.quora.com
+151.101.73.2	en-us.quora.com
+151.101.73.2	es.quora.com
+151.101.73.2	fi.quora.com
+151.101.73.2	fr.quora.com
+151.101.73.2	hi.quora.com
+151.101.73.2	id.quora.com
+151.101.73.2	it.quora.com
+151.101.73.2	jp.quora.com
+151.101.73.2	mn.quora.com
+151.101.73.2	nl.quora.com
+151.101.73.2	no.quora.com
+151.101.73.2	pt.quora.com
+151.101.73.2	qsf.fs.quoracdn.net
+151.101.73.2	sv.quora.com
+151.101.73.2	ta.quora.com
 192.229.189.142	www.quora.com
 # Quora End
 
@@ -4237,7 +4358,8 @@
 # Rakuten End
 
 # RawGit Start
-198.232.125.81	cdn.rawgit.com
+104.27.188.178	rawgit.com
+151.139.237.11	cdn.rawgit.com
 # RawGit End
 
 # Reuters Start
@@ -4277,9 +4399,34 @@
 54.82.227.39	new-bench.resilio.com
 # Resilio Sync End
 
+# rixCloud Start
+13.107.246.10	rixcloud.com
+151.101.1.195	rixcloud.us
+# rixCloud End
+
+# SCMP Start
+104.16.215.232	www.scmp.com
+# SCMP End
+
 # Shadowsocks Start
 104.28.18.85	shadowsocks.org
 # Shadowsocks End
+
+# Slideshare Start
+144.2.3.20	www.slideshare.net
+144.2.3.20	de.slideshare.net
+144.2.3.20	es.slideshare.net
+144.2.3.20	fr.slideshare.net
+144.2.3.20	pt.slideshare.net
+108.174.10.14	engineering.slideshare.net
+108.174.10.14	blog.slideshare.net
+108.174.10.19	slideshare.net
+# Slideshare End
+
+# Smartdnsproxy Start
+45.64.64.96	www.smartdnsproxy.com
+54.215.198.167	support.smartdnsproxy.com
+# Smartdnsproxy End
 
 # Soundcloud Start
 68.232.44.127	soundcloud.com
@@ -4303,22 +4450,6 @@
 72.21.91.96	va.sndcdn.com
 # Soundcloud End
 
-# Slideshare Start
-144.2.3.20	www.slideshare.net
-144.2.3.20	de.slideshare.net
-144.2.3.20	es.slideshare.net
-144.2.3.20	fr.slideshare.net
-144.2.3.20	pt.slideshare.net
-108.174.10.14	engineering.slideshare.net
-108.174.10.14	blog.slideshare.net
-108.174.10.19	slideshare.net
-# Slideshare End
-
-# Smartdnsproxy Start
-45.64.64.96	www.smartdnsproxy.com
-54.215.198.167	support.smartdnsproxy.com
-# Smartdnsproxy End
-
 # Startpage & Ixquick Start
 216.218.239.62	startpage.com
 216.218.239.22	www.startpage.com
@@ -4332,11 +4463,31 @@
 104.71.136.93	steamcommunity.com
 # Steam End
 
+# SupChina Start
+104.27.131.29	supchina.com
+# SupChina End
+
+# SWI Start
+23.10.10.243	www.swissinfo.ch
+# SWI End
+
+# The Economist Start
+199.83.128.108	www.economist.com
+# The Economist End
+
 # Theinitium Start
 52.76.148.61	stigma.theinitium.com
 52.221.46.214	theinitium.com
 52.221.46.214	api.theinitium.com
 # Theinitium End
+
+# The Nation Start
+192.229.179.32	www.thenation.com
+# The Nation End
+
+# TheTVDB Start
+104.16.230.14	www.thetvdb.com
+# TheTVDB End
 
 # TopickHK Start
 118.143.30.216	topick.hket.com
@@ -4410,9 +4561,6 @@
 # Telegram End
 
 # Tor Start
-38.229.72.17	torproject.org
-154.35.175.245	www.torproject.org
-78.47.38.226	dist.torproject.org
 138.201.14.197	atlas.torproject.org
 138.201.14.197	bugs.torproject.org
 138.201.14.197	cloud.torproject.org
@@ -4428,63 +4576,69 @@
 138.201.14.197	stem.torproject.org
 138.201.14.197	tb-manual.torproject.org
 138.201.14.197	wiki.torproject.org
-94.130.28.200	archive.torproject.org
-82.195.75.101	media.torproject.org
-23.185.0.2	blog.torproject.org
-78.47.38.229	bridges.torproject.org
+138.201.14.197	www.torproject.org
+138.201.14.206	svn.torproject.org
 138.201.14.212	check.torproject.org
-195.201.54.247	collector.torproject.org
-195.201.54.247	exonerator.torproject.org
-94.130.28.196	db.torproject.org
-138.201.212.231	donate.torproject.org
+138.201.212.227	trac.torproject.org
 138.201.212.228	git.torproject.org
 138.201.212.228	gitweb.torproject.org
+138.201.212.230	rt.torproject.org
+138.201.212.231	donate.torproject.org
+154.35.132.148	onionoo.torproject.org
 161.47.6.182	labs.torproject.org
+195.201.54.244	people.torproject.org
+195.201.54.247	collector.torproject.org
+195.201.54.247	exonerator.torproject.org
+23.185.0.2	blog.torproject.org
+37.218.242.173	explorer.ooni.torproject.org
+38.229.72.17	torproject.org
+78.47.38.229	bridges.torproject.org
+78.47.38.231	storm.torproject.org
+82.195.75.101	dist.torproject.org
+82.195.75.101	media.torproject.org
+94.130.28.196	db.torproject.org
+94.130.28.200	archive.torproject.org
 94.130.28.202	lists.torproject.org
 94.130.28.202	metrics.torproject.org
-154.35.132.148	onionoo.torproject.org
-37.218.242.173	explorer.ooni.torproject.org
-195.201.54.244	people.torproject.org
-138.201.212.230	rt.torproject.org
-78.47.38.231	storm.torproject.org
-138.201.14.206	svn.torproject.org
-138.201.212.227	trac.torproject.org
 # Tor End
 
 # Twitch Start
-151.101.66.167	twitch.tv
-151.101.230.167	www.twitch.tv
-54.84.222.78	app.twitch.tv
 104.94.41.138	api.twitch.tv
-52.40.25.185	badges.twitch.tv
-52.4.145.119	blog.twitch.tv
-52.26.110.179	client-event-reporter.twitch.tv
-23.12.207.125	cvp.twitch.tv
-34.216.28.142	countess.twitch.tv
-52.84.47.22	dev.twitch.tv
-52.39.89.40	discuss.dev.twitch.tv
-54.192.151.87	extension-files.twitch.tv
 151.101.110.167	gql.twitch.tv
+151.101.230.167	www.twitch.tv
+151.101.66.167	twitch.tv
 184.169.164.174	help.twitch.tv
-23.77.13.84	player.twitch.tv
-54.71.196.178	passport.twitch.tv
-35.161.182.231	spade.twitch.tv
-34.212.220.91	trowel.twitch.tv
-35.185.17.162	music.twitch.tv
-54.69.142.1	spade.sci.twitch.tv
-54.192.151.22	clips-media-assets2.twitch.tv
+23.12.207.125	cvp.twitch.tv
 23.160.0.254	usher.ttvnw.net
-54.192.151.7	vod-storyboards.twitch.tv
-52.24.180.27	pubsub-edge.twitch.tv
+23.77.13.84	player.twitch.tv
+34.212.220.91	trowel.twitch.tv
+34.216.28.142	countess.twitch.tv
+35.161.182.231	spade.twitch.tv
+35.163.32.174	video-edge-867df2.sjc02.hls.ttvnw.net
 35.164.18.6	irc-ws.chat.twitch.tv
-52.223.241.18	video-weaver.sjc02.hls.ttvnw.net
-54.200.235.249	video-edge-6c210a.sjc02.hls.ttvnw.net
-52.24.56.73	video-edge-91c358.sjc02.hls.ttvnw.net
-54.191.74.73	video-edge-98de7c.sjc02.hls.ttvnw.net
-52.223.253.59	video-edge-a37110.sjc02.abs.hls.ttvnw.net
-52.41.6.153	video-edge-a4da6d.sjc02.hls.ttvnw.net
 35.165.41.164	video-edge-af973f.sjc02.hls.ttvnw.net
+35.185.17.162	music.twitch.tv
+52.223.227.246	video-edge-7e96a0.sea01.abs.hls.ttvnw.net
+52.223.228.119	video-edge-7e9938.sea01.abs.hls.ttvnw.net
+52.223.241.18	video-weaver.sjc02.hls.ttvnw.net
 52.223.252.212	video-edge-7ea270.sjc02.abs.hls.ttvnw.net
+52.223.253.59	video-edge-a37110.sjc02.abs.hls.ttvnw.net
+52.24.180.27	pubsub-edge.twitch.tv
+52.24.56.73	video-edge-91c358.sjc02.hls.ttvnw.net
+52.26.110.179	client-event-reporter.twitch.tv
+52.39.89.40	discuss.dev.twitch.tv
+52.4.145.119	blog.twitch.tv
+52.40.25.185	badges.twitch.tv
+52.41.6.153	video-edge-a4da6d.sjc02.hls.ttvnw.net
+52.84.47.22	dev.twitch.tv
+54.191.74.73	video-edge-98de7c.sjc02.hls.ttvnw.net
+54.192.151.22	clips-media-assets2.twitch.tv
+54.192.151.7	vod-storyboards.twitch.tv
+54.192.151.87	extension-files.twitch.tv
+54.200.235.249	video-edge-6c210a.sjc02.hls.ttvnw.net
+54.69.142.1	spade.sci.twitch.tv
+54.71.196.178	passport.twitch.tv
+54.84.222.78	app.twitch.tv
 # Twitch End
 
 # Twitter Start
@@ -4492,6 +4646,14 @@
 117.18.237.70	pbs.twimg.com
 117.18.237.70	ton.twimg.com
 # Twitter End
+
+# Uncyclopedia Start
+104.28.18.4	uncyclopedia.tw
+# Uncyclopedia End
+
+# Up Media Start
+192.124.249.65	www.upmedia.mg
+# Up Media End
 
 # Vimeo Start
 151.101.0.217	vimeo.com
@@ -16691,5 +16853,17 @@
 173.194.51.88	r19---sn-oguesnle.xn--ngstr-lra8j.com
 173.194.51.89	r20---sn-oguesnle.xn--ngstr-lra8j.com
 # Google XN End
+
+# GreatFire Start
+104.25.179.28	freewechat.com
+104.25.239.102	freeweibo.com
+104.25.53.117	cc.greatfire.org
+104.25.53.117	en.greatfire.org
+104.25.53.117	freebrowser.org
+104.25.53.117	startpage.freebrowser.org
+104.25.53.117	zh.greatfire.org
+104.25.54.117	greatfire.org
+104.28.9.217	pao-pao.net
+# GreatFire End
 
 # Modified Hosts End
